@@ -40,6 +40,8 @@ In this project, you can choose to complete the project provided for you, or def
 5. Select `EKS - Cluster` 
 6. Create the Role
 
+#### Generate An AWS Key Pair For The Worker Nodes
+
 #### Create Kubernetes cluster on AWS
 1. Go to [https://console.aws.amazon.com/eks/](https://console.aws.amazon.com/eks/)
 2. Click `Create cluster`
@@ -85,7 +87,7 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywxNT
-Q2NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4
-ODc0XX0=
+eyJoaXN0b3J5IjpbMjc0MjQ1NjMsLTU5ODc2NzE2OCwtMTk4NT
+g0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgwODc4
+NCwyMDE1MTU4ODc0XX0=
 -->
