@@ -57,7 +57,7 @@ Follow the instructions on [https://docs.aws.amazon.com/cli/latest/userguide/ins
  8. Save the resulting PEM file in a safe location
 
 #### Create Kubernetes cluster on AWS 
-**** This Could take upto 30 minuts****
+****This Could take up to 30 minutes****
 1. Go to [https://console.aws.amazon.com/eks/](https://console.aws.amazon.com/eks/)
 2. Click `Create cluster`
 3. Name the cluster, leave all as default
@@ -68,9 +68,6 @@ Follow the instructions on [https://docs.aws.amazon.com/cli/latest/userguide/ins
 8. Configure logging Optional
 9. Click Next
 10. Click Create
-11.  
-
-
 
 ## II Database
 
@@ -102,7 +99,7 @@ Follow the instructions on [https://docs.aws.amazon.com/cli/latest/userguide/ins
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NjE5NjA0MywtNTk4NzY3MTY4LC0xOT
-g1ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4
-Nzg0LDIwMTUxNTg4NzRdfQ==
+eyJoaXN0b3J5IjpbMjkzODQ1MzkwLC01OTg3NjcxNjgsLTE5OD
+U4NDA0MTMsMTU0NjU3NjM5OCwxOTc2MjA2NjQxLDEyODU4MDg3
+ODQsMjAxNTE1ODg3NF19
 -->
