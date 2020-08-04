@@ -33,6 +33,9 @@ In this project, you can choose to complete the project provided for you, or def
 
 #### Create IAM Role for Kubernetes control plane to manage AWS resources on your behalf
 
+1. Go to [https://console.aws.amazon.com/iam/](https://console.aws.amazon.com/iam/)
+2. Click on Roles
+3. Click Create Role
 
 
 
@@ -72,6 +75,6 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3MzIxNjkyLDEyODU4MDg3ODQsMjAxNT
-E1ODg3NF19
+eyJoaXN0b3J5IjpbLTE4MDkwMjkzNTAsMTI4NTgwODc4NCwyMD
+E1MTU4ODc0XX0=
 -->
