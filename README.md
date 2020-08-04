@@ -40,6 +40,13 @@ In this project, you can choose to complete the project provided for you, or def
 5. Select `EKS - Cluster` 
 6. Create the Role
 
+#### IAM user:***
+ 1. Create a new IAM user in your AWS account
+ 2. Give it `AdministratorAccess`, From `Attach existing policies directly` Tab
+ 3. Take note of the access key and secret 
+
+#### Install AWS CLI
+
 #### Generate An AWS Key Pair For The Worker Nodes
 
 #### Create Kubernetes cluster on AWS
@@ -87,7 +94,7 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0MjQ1NjMsLTU5ODc2NzE2OCwtMTk4NT
+eyJoaXN0b3J5IjpbODcxMTU1ODksLTU5ODc2NzE2OCwtMTk4NT
 g0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgwODc4
 NCwyMDE1MTU4ODc0XX0=
 -->
