@@ -20,7 +20,9 @@ In this project, you can choose to complete the project provided for you, or def
 ### Installing
 1. Go to [AWS Marketplace](https://aws.amazon.com/marketplace)
 2. Search for Apache Airflow Scheduler Container Solution
-3. 
+3. Click Continue to Subscribe
+4. wait for subscription to be activate
+5. Click ****Continue to Configuration
 
 ## II Database
 
@@ -52,5 +54,5 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwNjM3MzQ1LDIwMTUxNTg4NzRdfQ==
+eyJoaXN0b3J5IjpbMjE1ODc3ODk4LDIwMTUxNTg4NzRdfQ==
 -->
