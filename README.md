@@ -17,10 +17,19 @@ Data Engineer Nanodegree:
 
 ### Installing
 
-## II
+## II Database
+
+###  Schema Design
+
+### ELT Pipeline
+
+### Project Datasets
+
+### Fact Table
+
 
 
 ## V. Conclusion
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjYzMDc4XX0=
+eyJoaXN0b3J5IjpbMTkyMDkwMjI3M119
 -->
