@@ -40,13 +40,15 @@ In this project, you can choose to complete the project provided for you, or def
 5. Select `EKS - Cluster` 
 6. Create the Role
 
-#### Create a 
-
 #### Create Kubernetes cluster on AWS
 1. Go to [https://console.aws.amazon.com/eks/](https://console.aws.amazon.com/eks/)
 2. Click `Create cluster`
 3. Name the cluster, leave all as default
 4. Select `EKS - Cluster` Role
+5. Click Next
+6. Select Defaults for `Networking`
+7. Under Cluster endpoint access select Public
+8. Configure logging
 
 
 
@@ -80,6 +82,7 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODU4NDA0MTMsMTU0NjU3NjM5OCwxOT
-c2MjA2NjQxLDEyODU4MDg3ODQsMjAxNTE1ODg3NF19
+eyJoaXN0b3J5IjpbLTE2NDYwNjE3MywtMTk4NTg0MDQxMywxNT
+Q2NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4
+ODc0XX0=
 -->
