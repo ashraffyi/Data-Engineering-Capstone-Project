@@ -28,8 +28,12 @@ Data Engineer Nanodegree:
 ### Fact Table
 
 
+### Dimension Tables
 
-## V. Conclusion
+
+## III. Conclusion
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDkwMjI3M119
+eyJoaXN0b3J5IjpbLTYxMjA2MDA1NF19
 -->
