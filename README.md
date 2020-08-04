@@ -48,7 +48,10 @@ In this project, you can choose to complete the project provided for you, or def
 5. Click Next
 6. Select Defaults for `Networking`
 7. Under Cluster endpoint access select Public
-8. Configure logging
+8. Configure logging Optional
+9. Click Next
+10. Click Create
+11.  
 
 
 
@@ -82,7 +85,7 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDYwNjE3MywtMTk4NTg0MDQxMywxNT
+eyJoaXN0b3J5IjpbLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywxNT
 Q2NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4
 ODc0XX0=
 -->
