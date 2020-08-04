@@ -24,7 +24,9 @@ In this project, you can choose to complete the project provided for you, or def
 4. wait for subscription to be activate
 5. Click `Continue to Configuration`
 6. Under `Delivery Method` select `Apache Airflow Scheduler`
-7. Under so
+7. Under `Software Version` select `1.10.10-3 (Jun 08, 2020)`
+8. Click `Continue to Launch`
+9. 
 
 ## II Database
 
@@ -56,5 +58,5 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTIyMzY0NywyMDE1MTU4ODc0XX0=
+eyJoaXN0b3J5IjpbMzAzMDY2MDgzLDIwMTUxNTg4NzRdfQ==
 -->
