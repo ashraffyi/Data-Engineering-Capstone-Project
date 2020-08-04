@@ -34,6 +34,18 @@ Data Engineer Nanodegree:
 ## III. Conclusion
 
 
+
+
+
+## Addressing other scenarios
+
+### Data Increased by 100x:
+
+
+### The pipelines would be run on a daily basis by 7 am every day:
+
+
+### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjA2MDA1NF19
+eyJoaXN0b3J5IjpbLTE5NTc2ODY0M119
 -->
