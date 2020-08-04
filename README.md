@@ -31,11 +31,16 @@ In this project, you can choose to complete the project provided for you, or def
 9. Click `View container image details` under `Container Images`
 10. On the product fulfillment page, copy the URL to the AWS Marketplace registry. This URL also contains the container name and tag. You will need these details in the next step.
 
+#### Create IAM Role for Kubernetes control plane to manage AWS resources on your behalf
 
-11. Go to [https://console.aws.amazon.com/eks/](https://console.aws.amazon.com/eks/)
-12. . Click `Create cluster`
-13. Name the cluster, leave all as default
-14. Click 
+
+
+
+#### Create Kubernetes cluster on AWS
+1. Go to [https://console.aws.amazon.com/eks/](https://console.aws.amazon.com/eks/)
+2. Click `Create cluster`
+3. Name the cluster, leave all as default
+4. Click 
 
 ## II Database
 
@@ -67,6 +72,6 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Njc4NDA1NywxMjg1ODA4Nzg0LDIwMT
-UxNTg4NzRdfQ==
+eyJoaXN0b3J5IjpbOTY3MzIxNjkyLDEyODU4MDg3ODQsMjAxNT
+E1ODg3NF19
 -->
