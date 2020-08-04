@@ -28,7 +28,9 @@ In this project, you can choose to complete the project provided for you, or def
 8. Click `Continue to Launch`
 9. Click `View container image details` under `Container Images`
 10. On the product fulfillment page, copy the URL to the AWS Marketplace registry. This URL also contains the container name and tag. You will need these details in the next step.
-11. g 
+11. Go to [https://console.aws.amazon.com/eks/](https://console.aws.amazon.com/eks/)
+12. Click `Create cluster`
+13. Name the cluster, leave all as default.
 
 ## II Database
 
@@ -60,6 +62,6 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3MDU5NjQ3LDEyODU4MDg3ODQsMjAxNT
-E1ODg3NF19
+eyJoaXN0b3J5IjpbLTEzNzYwNzA2OTAsMTI4NTgwODc4NCwyMD
+E1MTU4ODc0XX0=
 -->
