@@ -17,6 +17,8 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### Prerequisites
 
+Source: [https://docs.bitnami.com/aws/get-started-eks/](https://docs.bitnami.com/aws/get-started-eks/)
+
 #### Subscribe to Airflow Container
 1. Go to [AWS Marketplace](https://aws.amazon.com/marketplace)
 2. Search for Apache Airflow Scheduler Container Solution
@@ -165,7 +167,7 @@ see [https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-ssh-tunnel.html]
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3MDgxNjM1LC01OTg3NjcxNjgsLTE5OD
-U4NDA0MTMsMTU0NjU3NjM5OCwxOTc2MjA2NjQxLDEyODU4MDg3
-ODQsMjAxNTE1ODg3NF19
+eyJoaXN0b3J5IjpbMTk4MDU2MTQ0NSwtNTk4NzY3MTY4LC0xOT
+g1ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4
+Nzg0LDIwMTUxNTg4NzRdfQ==
 -->
