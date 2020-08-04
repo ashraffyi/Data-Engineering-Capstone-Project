@@ -18,6 +18,8 @@ In this project, you can choose to complete the project provided for you, or def
 ### Prerequisites
 
 ### Installing
+
+#### Subscribe to Airflow Container
 1. Go to [AWS Marketplace](https://aws.amazon.com/marketplace)
 2. Search for Apache Airflow Scheduler Container Solution
 3. Click Continue to `Subscribe`
@@ -28,9 +30,12 @@ In this project, you can choose to complete the project provided for you, or def
 8. Click `Continue to Launch`
 9. Click `View container image details` under `Container Images`
 10. On the product fulfillment page, copy the URL to the AWS Marketplace registry. This URL also contains the container name and tag. You will need these details in the next step.
+
+
 11. Go to [https://console.aws.amazon.com/eks/](https://console.aws.amazon.com/eks/)
-12. Click `Create cluster`
-13. Name the cluster, leave all as default.
+12. . Click `Create cluster`
+13. Name the cluster, leave all as default
+14. Click 
 
 ## II Database
 
@@ -62,6 +67,6 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzYwNzA2OTAsMTI4NTgwODc4NCwyMD
-E1MTU4ODc0XX0=
+eyJoaXN0b3J5IjpbMTA5Njc4NDA1NywxMjg1ODA4Nzg0LDIwMT
+UxNTg4NzRdfQ==
 -->
