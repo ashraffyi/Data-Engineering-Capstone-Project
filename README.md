@@ -27,7 +27,8 @@ In this project, you can choose to complete the project provided for you, or def
 7. Under `Software Version` select `1.10.10-3 (Jun 08, 2020)`
 8. Click `Continue to Launch`
 9. Click `View container image details` under `Container Images`
-10. On the product fulfillment page, copy the URL to the AWS Marketplace registry. This URL also contains the container name and tag. You will need these details in the next step. 
+10. On the product fulfillment page, copy the URL to the AWS Marketplace registry. This URL also contains the container name and tag. You will need these details in the next step.
+11. g 
 
 ## II Database
 
@@ -59,5 +60,6 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTgwODc4NCwyMDE1MTU4ODc0XX0=
+eyJoaXN0b3J5IjpbMjk3MDU5NjQ3LDEyODU4MDg3ODQsMjAxNT
+E1ODg3NF19
 -->
