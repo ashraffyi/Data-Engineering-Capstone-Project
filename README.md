@@ -46,7 +46,7 @@ In this project, you can choose to complete the project provided for you, or def
 #### Install AWS CLI and Configure
 1. Follow the instructions on [https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html)
 2. Run `aws configure`
-3. 
+3. Past access key and secret 
 
 #### Generate An AWS Key Pair For The Worker Nodes
  1. create an Amazon EC2 key pair:
@@ -81,6 +81,59 @@ In this project, you can choose to complete the project provided for you, or def
  7. From the next drop-down(source) select my IP
  8. Click Save rules
 
+***putty SSH Tunnel:***
+ 1.  Double-click  `putty.exe`  to start PuTTY. You can also launch PuTTY from the Windows programs list.    
+ 3.  If necessary, in the  **Category**  list, choose  **Session**.
+ 4.  In the  **Host Name**  field, type  `hadoop@``MasterPublicDNS`. For example:  `hadoop@``ec2-###-##-##-###.compute-1.amazonaws.com`.
+ 5.  In the  **Category**  list, expand  **Connection > SSH**, and then choose  **Auth**.
+ 6.  For  **Private key file for authentication**, choose  **Browse**  and select the  `.ppk`  file that you generated.
+ 7.  In the  **Category**  list, expand  **Connection > SSH**, and then choose  **Tunnels**.
+ 8.  In the  **Source port**  field, type  `8157`  (an unused local port).
+ 9.  Leave the  **Destination**  field blank.
+10.  Select the  **Dynamic**  and  **Auto**  options.
+11.  Choose  **Add**  and  **Open**.
+12.  Choose  **Yes**  to dismiss the PuTTY security alert.
+see [https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-ssh-tunnel.html](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-ssh-tunnel.html)
+
+- Configure FoxyProxy for Google Chrome
+ 1.  See  [https://chrome.google.com/webstore/search/foxy%20proxy](https://chrome.google.com/webstore/search/foxy%20proxy)  and follow the links and instructions to add FoxyProxy to Chrome.
+    
+ 2.  Using a text editor, create a file named  `foxyproxy-settings.xml`  with the following contents:
+
+ ```xml
+ <?xml version="1.0" encoding="UTF-8"?>
+<foxyproxy>
+   <proxies>
+      <proxy name="emr-socks-proxy" id="2322596116" notes="" fromSubscription="false" enabled="true" mode="manual" selectedTabIndex="2" lastresort="false" animatedIcons="true" includeInCycle="true" color="#0055E5" proxyDNS="true" noInternalIPs="false" autoconfMode="pac" clearCacheBeforeUse="false" disableCache="false" clearCookiesBeforeUse="false" rejectCookies="false">
+         <matches>
+            <match enabled="true" name="*ec2*.amazonaws.com*" pattern="*ec2*.amazonaws.com*" isRegEx="false" isBlackList="false" isMultiLine="false" caseSensitive="false" fromSubscription="false" />
+            <match enabled="true" name="*ec2*.compute*" pattern="*ec2*.compute*" isRegEx="false" isBlackList="false" isMultiLine="false" caseSensitive="false" fromSubscription="false" />
+            <match enabled="true" name="10.*" pattern="http://10.*" isRegEx="false" isBlackList="false" isMultiLine="false" caseSensitive="false" fromSubscription="false" />
+            <match enabled="true" name="*10*.amazonaws.com*" pattern="*10*.amazonaws.com*" isRegEx="false" isBlackList="false" isMultiLine="false" caseSensitive="false" fromSubscription="false" />
+            <match enabled="true" name="*10*.compute*" pattern="*10*.compute*" isRegEx="false" isBlackList="false" isMultiLine="false" caseSensitive="false" fromSubscription="false" /> 
+            <match enabled="true" name="*.compute.internal*" pattern="*.compute.internal*" isRegEx="false" isBlackList="false" isMultiLine="false" caseSensitive="false" fromSubscription="false"/>
+            <match enabled="true" name="*.ec2.internal* " pattern="*.ec2.internal*" isRegEx="false" isBlackList="false" isMultiLine="false" caseSensitive="false" fromSubscription="false"/>	  
+	   </matches>
+         <manualconf host="localhost" port="8157" socksversion="5" isSocks="true" username="" password="" domain="" />
+      </proxy>
+   </proxies>
+</foxyproxy>
+
+ ```
+    
+ 3.  Manage extensions in Chrome (go to  **chrome://extensions**).
+    
+ 4.  Choose  **Options**  for FoxyProxy Standard.
+    
+ 5.  On the  **FoxyProxy**  page, choose  **Import/Export**.
+    
+ 6.  On the  **Import/Export**  page, choose  **Choose File**, browse to the location of the  `foxyproxy-settings.xml`  file you created, select the file, and choose  **Open**.
+    
+ 7.  Choose  **Replace**  when prompted to overwrite the existing settings.
+    
+ 8.  For  **Proxy mode**, choose  **Use proxies based on their predefined patterns and priorities**.
+ see [https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-connect-master-node-proxy.html](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-connect-master-node-proxy.html)
+
 
 ## II Database
 
@@ -112,7 +165,7 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzA2ODU4MiwtNTk4NzY3MTY4LC0xOT
-g1ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4
-Nzg0LDIwMTUxNTg4NzRdfQ==
+eyJoaXN0b3J5IjpbNTA3MDgxNjM1LC01OTg3NjcxNjgsLTE5OD
+U4NDA0MTMsMTU0NjU3NjM5OCwxOTc2MjA2NjQxLDEyODU4MDg3
+ODQsMjAxNTE1ODg3NF19
 -->
