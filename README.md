@@ -46,8 +46,17 @@ In this project, you can choose to complete the project provided for you, or def
  3. Take note of the access key and secret 
 
 #### Install AWS CLI
+Follow the instructions on [https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html)
 
 #### Generate An AWS Key Pair For The Worker Nodes
+ 1. create an Amazon EC2 key pair:
+ 2. Go to the Amazon EC2 console
+ 3. In the Navigation pane, click Key Pairs
+ 4. On the Key Pairs page, click Create Key Pair
+ 5. In the Create Key Pair dialog box, enter a name for your key pair, such as, mykeypair
+ 6. Make sure that you select ppk under File format
+ 7. Click Create
+ 8. Save the resulting PEM file in a safe location
 
 #### Create Kubernetes cluster on AWS
 1. Go to [https://console.aws.amazon.com/eks/](https://console.aws.amazon.com/eks/)
@@ -94,7 +103,7 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcxMTU1ODksLTU5ODc2NzE2OCwtMTk4NT
-g0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgwODc4
-NCwyMDE1MTU4ODc0XX0=
+eyJoaXN0b3J5IjpbLTc5ODc4ODk0MiwtNTk4NzY3MTY4LC0xOT
+g1ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4
+Nzg0LDIwMTUxNTg4NzRdfQ==
 -->
