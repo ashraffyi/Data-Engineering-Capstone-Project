@@ -69,6 +69,17 @@ Follow the instructions on [https://docs.aws.amazon.com/cli/latest/userguide/ins
 9. Click Next
 10. Click Create
 
+#### Update ElasticMapReduce-master security group to accept SSH:
+ 1. Go to EC2
+ 2. Under Network & Security select Security Group
+ 3. Select Security group ID with the name ElasticMapReduce-master
+ 4. Click edit Edit inbound rules
+ 5. Click Add rule
+ 6. From the first(Type) Drop-down select SSH
+ 7. From the next drop-down(source) select my IP
+ 8. Click Save rules
+
+
 ## II Database
 
 ###  Schema Design
@@ -99,7 +110,7 @@ Follow the instructions on [https://docs.aws.amazon.com/cli/latest/userguide/ins
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzODQ1MzkwLC01OTg3NjcxNjgsLTE5OD
-U4NDA0MTMsMTU0NjU3NjM5OCwxOTc2MjA2NjQxLDEyODU4MDg3
-ODQsMjAxNTE1ODg3NF19
+eyJoaXN0b3J5IjpbLTMwMjI0ODEzMSwtNTk4NzY3MTY4LC0xOT
+g1ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4
+Nzg0LDIwMTUxNTg4NzRdfQ==
 -->
