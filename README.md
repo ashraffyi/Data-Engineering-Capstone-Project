@@ -43,8 +43,10 @@ In this project, you can choose to complete the project provided for you, or def
  2. Give it `AdministratorAccess`, From `Attach existing policies directly` Tab
  3. Take note of the access key and secret 
 
-#### Install AWS CLI
-Follow the instructions on [https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html)
+#### Install AWS CLI and Configure
+1. Follow the instructions on [https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html)
+2. Run `aws configure`
+3. 
 
 #### Generate An AWS Key Pair For The Worker Nodes
  1. create an Amazon EC2 key pair:
@@ -69,7 +71,7 @@ Follow the instructions on [https://docs.aws.amazon.com/cli/latest/userguide/ins
 9. Click Next
 10. Click Create
 
-#### Update ElasticMapReduce-master security group to accept SSH:
+#### Update eks-cluster-sg-udacityDataEng1-349815526 security group to accept SSH:
  1. Go to EC2
  2. Under Network & Security select Security Group
  3. Select Security group ID with the name ElasticMapReduce-master
@@ -110,7 +112,7 @@ Follow the instructions on [https://docs.aws.amazon.com/cli/latest/userguide/ins
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMjI0ODEzMSwtNTk4NzY3MTY4LC0xOT
+eyJoaXN0b3J5IjpbMTEyMzA2ODU4MiwtNTk4NzY3MTY4LC0xOT
 g1ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4
 Nzg0LDIwMTUxNTg4NzRdfQ==
 -->
