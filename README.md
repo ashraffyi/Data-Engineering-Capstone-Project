@@ -17,8 +17,6 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### Prerequisites
 
-### Installing
-
 #### Subscribe to Airflow Container
 1. Go to [AWS Marketplace](https://aws.amazon.com/marketplace)
 2. Search for Apache Airflow Scheduler Container Solution
@@ -40,7 +38,7 @@ In this project, you can choose to complete the project provided for you, or def
 5. Select `EKS - Cluster` 
 6. Create the Role
 
-#### IAM user:***
+#### IAM user:
  1. Create a new IAM user in your AWS account
  2. Give it `AdministratorAccess`, From `Attach existing policies directly` Tab
  3. Take note of the access key and secret 
@@ -58,7 +56,8 @@ Follow the instructions on [https://docs.aws.amazon.com/cli/latest/userguide/ins
  7. Click Create
  8. Save the resulting PEM file in a safe location
 
-#### Create Kubernetes cluster on AWS
+#### Create Kubernetes cluster on AWS 
+**** This Could take upto 30 minuts****
 1. Go to [https://console.aws.amazon.com/eks/](https://console.aws.amazon.com/eks/)
 2. Click `Create cluster`
 3. Name the cluster, leave all as default
@@ -103,7 +102,7 @@ Follow the instructions on [https://docs.aws.amazon.com/cli/latest/userguide/ins
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODc4ODk0MiwtNTk4NzY3MTY4LC0xOT
+eyJoaXN0b3J5IjpbLTQ3NjE5NjA0MywtNTk4NzY3MTY4LC0xOT
 g1ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4
 Nzg0LDIwMTUxNTg4NzRdfQ==
 -->
