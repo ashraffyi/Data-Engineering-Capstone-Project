@@ -36,6 +36,8 @@ In this project, you can choose to complete the project provided for you, or def
 1. Go to [https://console.aws.amazon.com/iam/](https://console.aws.amazon.com/iam/)
 2. Click on Roles
 3. Click Create Role
+4. Under `Choose a use case` select EKS
+5.  
 
 
 
@@ -75,6 +77,6 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDkwMjkzNTAsMTI4NTgwODc4NCwyMD
-E1MTU4ODc0XX0=
+eyJoaXN0b3J5IjpbMTk3NjIwNjY0MSwxMjg1ODA4Nzg0LDIwMT
+UxNTg4NzRdfQ==
 -->
