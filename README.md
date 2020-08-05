@@ -120,7 +120,8 @@ Once you've entered these values, select  **Save**.
 Getting redshift connection settings:
 1. Go to AWS CloudFormation console
 2. click on redshift click on outputs
-	- 
+	here you'll find all the settings for redshift
+	- ClusterName = Host
 
 3. To go to the Airflow UI
 4. Click on the **Admin** tab and select **Connections**.
@@ -166,10 +167,10 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODQwNzA3MiwtMTYxOTE0MjE1OCwtMT
-M0NzcxNjI1NCwxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3
-NzA3LC00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLTU0MzA4ODg0NC
-w0NzkxMDgzNDMsMTk4MDU2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1
-ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4Nz
-g0LDIwMTUxNTg4NzRdfQ==
+eyJoaXN0b3J5IjpbLTE5MDMzNDY5ODQsLTE2MTkxNDIxNTgsLT
+EzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYy
+NzcwNywtNDA0MjM2OTkwLC0xNTMzODY2MTM1LC01NDMwODg4ND
+QsNDc5MTA4MzQzLDE5ODA1NjE0NDUsLTU5ODc2NzE2OCwtMTk4
+NTg0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgwOD
+c4NCwyMDE1MTU4ODc0XX0=
 -->
