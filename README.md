@@ -121,9 +121,6 @@ Getting redshift connection settings:
 1. Go to AWS CloudFormation console
 2. click on redshift click on outputs
 	here you'll find all the settings for redshift
-	- ClusterEndpoint = Host:Port
-	- 
-
 3. To go to the Airflow UI
 4. Click on the **Admin** tab and select **Connections**.
 5. Under **Connections**, select **Create**.
@@ -137,6 +134,8 @@ Getting redshift connection settings:
 	-   **Port**: Enter  `5439`.
 
 Once you've entered these values, select  **Save**.
+
+### IMPORTANT: Don't forget to shutdown every thing
 
 ## II Database
 
@@ -168,10 +167,10 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjE4MjM2MywtMTYxOTE0MjE1OCwtMT
-M0NzcxNjI1NCwxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3
-NzA3LC00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLTU0MzA4ODg0NC
-w0NzkxMDgzNDMsMTk4MDU2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1
-ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4Nz
-g0LDIwMTUxNTg4NzRdfQ==
+eyJoaXN0b3J5IjpbMTI1NDk5NjgsMTAwNjE4MjM2MywtMTYxOT
+E0MjE1OCwtMTM0NzcxNjI1NCwxNzUzOTMyNDQzLC0xODkwMDAw
+NjE0LDQzNjI3NzA3LC00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLT
+U0MzA4ODg0NCw0NzkxMDgzNDMsMTk4MDU2MTQ0NSwtNTk4NzY3
+MTY4LC0xOTg1ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MS
+wxMjg1ODA4Nzg0LDIwMTUxNTg4NzRdfQ==
 -->
