@@ -10,7 +10,9 @@ Data Engineer Nanodegree:
 ### Project Overview
 In my last udacity In this project Capstone Project for Machine Learning Engineer Nanodegree. I worked with the Johns Hopkins University (JHU) COVID-19 cases, deaths and recoveries for all affected countries. In that project I didn't get to desgine the ETL procress. So In this project I will be using COVID-19 Johns Hopkins University (JHU) data set. [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject)
 
-My Eventual goal is to design an end-to-end machine learning workflows for predicting expected cases of covid-19 using the following AWS’s tools
+My Eventual goal is to design an end-to-end machine learning workflows for predicting expected cases of covid-19 using the following AWS’s tools:
+ - [AWS CloudFormation]([https://aws.amazon.com/cloudformation/](https://aws.amazon.com/cloudformation/)): allows you to use programming languages or a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts. This gives you a single source of truth for your AWS and third party resources.
+ - 
 
 On 31 December, 2019, the World Health Organization (WHO) was informed of an outbreak of “pneumonia of unknown cause” detected in Wuhan City, Hubei Province, China. Initially identified as coronavirus disease 2019, it quickly came to be known widely as COVID-19 and has resulted in an ongoing global pandemic. As of 20 June, 2020, more than 8.74 million cases have been reported across 188 countries and territories, resulting in more than 462,000 deaths. More than 4.31 million people have recovered.[^1]
 
@@ -174,11 +176,11 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzk3ODUxOCwxNjk3OTU0Njg3LC0yNT
-A2MjE1ODMsMjA4OTQxNjc0NiwtMTg2Mzk3NDk4NywxMDA2MTgy
-MzYzLC0xNjE5MTQyMTU4LC0xMzQ3NzE2MjU0LDE3NTM5MzI0ND
-MsLTE4OTAwMDA2MTQsNDM2Mjc3MDcsLTQwNDIzNjk5MCwtMTUz
-Mzg2NjEzNSwtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgwNTYxND
-Q1LC01OTg3NjcxNjgsLTE5ODU4NDA0MTMsMTU0NjU3NjM5OCwx
-OTc2MjA2NjQxXX0=
+eyJoaXN0b3J5IjpbODY1NjA1NTIyLDE2OTc5NTQ2ODcsLTI1MD
+YyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIz
+NjMsLTE2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0My
+wtMTg5MDAwMDYxNCw0MzYyNzcwNywtNDA0MjM2OTkwLC0xNTMz
+ODY2MTM1LC01NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0ND
+UsLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LDE5
+NzYyMDY2NDFdfQ==
 -->
