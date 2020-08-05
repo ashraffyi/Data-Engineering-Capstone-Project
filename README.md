@@ -99,6 +99,9 @@ On Raspberry Pi
 5. go to terminal and run the following command from your home dir 'make deploy stack-name=airflow'
 6. if you get an error code 255 make sure that your aws config under .aws which is in your home folder only have the following line 
 ```
+	[default]
+	region = us-west-2
+```
 
 
 ## II Database
@@ -131,10 +134,10 @@ On Raspberry Pi
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDg4MDU1NSwtMTM0NzcxNjI1NCwxNz
-UzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC00MDQyMzY5
-OTAsLTE1MzM4NjYxMzUsLTU0MzA4ODg0NCw0NzkxMDgzNDMsMT
-k4MDU2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1ODQwNDEzLDE1NDY1
-NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4Nzg0LDIwMTUxNTg4Nz
-RdfQ==
+eyJoaXN0b3J5IjpbLTE2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMT
+c1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYyNzcwNywtNDA0MjM2
+OTkwLC0xNTMzODY2MTM1LC01NDMwODg4NDQsNDc5MTA4MzQzLD
+E5ODA1NjE0NDUsLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywxNTQ2
+NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4OD
+c0XX0=
 -->
