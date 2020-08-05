@@ -92,8 +92,9 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 
 #### Uploading Dags
 On Raspberry Pi
-1. Clone git repo [turbine](https://github.com/villasv/aws-airflow-stack) by running `git clone https://github.com/villasv/aws-airflow-stack.git`
-2. 
+1. Create a airflow folder in your home directory you can just use 
+2. Clone git repo [turbine](https://github.com/villasv/aws-airflow-stack) by running `git clone https://github.com/villasv/aws-airflow-stack.git`
+3. 
 
 
 ## II Database
@@ -126,9 +127,9 @@ On Raspberry Pi
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAwMDA2MTQsNDM2Mjc3MDcsLTQwND
-IzNjk5MCwtMTUzMzg2NjEzNSwtNTQzMDg4ODQ0LDQ3OTEwODM0
-MywxOTgwNTYxNDQ1LC01OTg3NjcxNjgsLTE5ODU4NDA0MTMsMT
-U0NjU3NjM5OCwxOTc2MjA2NjQxLDEyODU4MDg3ODQsMjAxNTE1
-ODg3NF19
+eyJoaXN0b3J5IjpbLTE4OTAwMjI4NiwtMTg5MDAwMDYxNCw0Mz
+YyNzcwNywtNDA0MjM2OTkwLC0xNTMzODY2MTM1LC01NDMwODg4
+NDQsNDc5MTA4MzQzLDE5ODA1NjE0NDUsLTU5ODc2NzE2OCwtMT
+k4NTg0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgw
+ODc4NCwyMDE1MTU4ODc0XX0=
 -->
