@@ -66,8 +66,8 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 	- I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND
 7. Click `Create stack`
 
-#### Update Airflow security group to accept HTTP and :
- 1. Go to EC2
+#### Update Airflow security group to accept HTTP:
+ 1. Go to EC2 Dashboard
  2. Click Running instances
  3. Find 
  4. Select it the Instance with the name `turbine-webserver`
@@ -80,6 +80,13 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
  11. In the port Range type 8080
  12. From the next drop-down(source) select my IP
  13. Click Save rules
+
+#### Accessing Airflow:
+1. Go to EC2 Dashboard
+2.  Click Running instances
+3. Find 
+4. Select it the Instance with the name `turbine-webserver`
+5. 
 
 ## II Database
 
@@ -111,8 +118,8 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI4NzY5NzEsLTQwNDIzNjk5MCwtMT
-UzMzg2NjEzNSwtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgwNTYx
-NDQ1LC01OTg3NjcxNjgsLTE5ODU4NDA0MTMsMTU0NjU3NjM5OC
-wxOTc2MjA2NjQxLDEyODU4MDg3ODQsMjAxNTE1ODg3NF19
+eyJoaXN0b3J5IjpbLTk4NzM5MzQ5MiwtNDA0MjM2OTkwLC0xNT
+MzODY2MTM1LC01NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0
+NDUsLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LD
+E5NzYyMDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4ODc0XX0=
 -->
