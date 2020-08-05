@@ -15,7 +15,7 @@ In my last udacity Capstone Project for Machine Learning Engineer Nanodegree. I 
 The following datasets will be used:
 1. [Global Coronavirus (COVID-19) Data (Corona Data Scraper)](https://aws.amazon.com/marketplace/pp/Global-Coronavirus-COVID-19-Data-Corona-Data-Scrap/prodview-vtnf3vvvheqzw)
 
-My Eventual goal is to design an end-to-end machine learning workflows for predicting expected cases of covid-19 using the following AWS’s tools, however in this project I will only tackel the ETL procress. The following tools will be used to perform the ETL:
+This project I will tackel the ETL procress using the following tools:
  - [AWS CloudFormation](https://aws.amazon.com/cloudformation/): allows you to use programming languages or a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts. This gives you a single source of truth for your AWS and third party resources.
  - [Apache Airflow](https://airflow.apache.org/): Platform created by the community to programmatically author, schedule and monitor workflows.
  - [Amazon Redshift](https://aws.amazon.com/redshift/): The most popular and fastest cloud data warehouse
@@ -189,11 +189,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTM1OTQxMSwxNDUwNjg2Mjg4LDE2OT
-c5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0
-OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNTgsLTEzNDc3MTYyNT
-QsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYyNzcwNywtNDA0
-MjM2OTkwLC0xNTMzODY2MTM1LC01NDMwODg4NDQsNDc5MTA4Mz
-QzLDE5ODA1NjE0NDUsLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywx
-NTQ2NTc2Mzk4XX0=
+eyJoaXN0b3J5IjpbMTE2Nzg0MTg1LDE0NTA2ODYyODgsMTY5Nz
+k1NDY4NywtMjUwNjIxNTgzLDIwODk0MTY3NDYsLTE4NjM5NzQ5
+ODcsMTAwNjE4MjM2MywtMTYxOTE0MjE1OCwtMTM0NzcxNjI1NC
+wxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC00MDQy
+MzY5OTAsLTE1MzM4NjYxMzUsLTU0MzA4ODg0NCw0NzkxMDgzND
+MsMTk4MDU2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1ODQwNDEzLDE1
+NDY1NzYzOThdfQ==
 -->
