@@ -66,10 +66,7 @@ This procress could take up
 
 ##### Setup Airflow
 ```
-The stack resources take around 15 minutes to create, 
-while the airflow installation and bootstrap another 
-3 to 5 minutes. After that you can already access 
-the Airflow UI and deploy your own Airflow DAGs.
+The stack resources take around 15 minutes to create, while the airflow installation and bootstrap another 3 to 5 minutes. After that you can already access the Airflow UI and deploy your own Airflow DAGs.
 ```
 1. Go to [Turbine git repo](https://github.com/villasv/aws-airflow-stack)
 2. Scroll down until you see 'Deploy the stack` and click Launch stack
@@ -112,7 +109,7 @@ the Airflow UI and deploy your own Airflow DAGs.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzA5MjY2MywtNDA0MjM2OTkwLC0xNT
+eyJoaXN0b3J5IjpbMjAxMTI3ODAwNywtNDA0MjM2OTkwLC0xNT
 MzODY2MTM1LC01NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0
 NDUsLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LD
 E5NzYyMDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4ODc0XX0=
