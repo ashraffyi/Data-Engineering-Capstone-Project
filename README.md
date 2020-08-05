@@ -10,12 +10,11 @@ Data Engineer Nanodegree:
 ### Project Overview
 In my last udacity In this project Capstone Project for Machine Learning Engineer Nanodegree. I worked with the Johns Hopkins University (JHU) COVID-19 cases, deaths and recoveries for all affected countries. In that project I didn't get to desgine the ETL procress. So In this project I will be using COVID-19 Johns Hopkins University (JHU) data set. [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject)
 
-My Eventual goal is to design an end-to-end machine learning workflows for predicting expected cases of covid-19 using the following AWS’s tools, however in this project I will only tackel the ETL procress. The following AWS tools will be used to :
+My Eventual goal is to design an end-to-end machine learning workflows for predicting expected cases of covid-19 using the following AWS’s tools, however in this project I will only tackel the ETL procress. The following tools will be used to perform the ETL:
  - [AWS CloudFormation](https://aws.amazon.com/cloudformation/): allows you to use programming languages or a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts. This gives you a single source of truth for your AWS and third party resources.
  - [Apache Airflow](https://airflow.apache.org/): Platform created by the community to programmatically author, schedule and monitor workflows.
  - [Amazon Redshift](https://aws.amazon.com/redshift/): The most popular and fastest cloud data warehouse
- - [Amazon SageMaker](https://aws.amazon.com/sagemaker/): is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly. SageMaker removes the heavy lifting from each step of the machine learning process to make it easier to develop high quality models.
- - [AWS Data Exchange]
+ - [AWS Data Exchange](https://aws.amazon.com/data-exchange/): makes it easy to find, subscribe to, and use third-party data in the cloud. Qualified data providers include category-leading brands such as Reuters, who curate data from over 2.2 million unique news stories per year in multiple languages; Change Healthcare, who process and anonymize more than 14 billion healthcare transactions and $1 trillion in claims annually; Dun & Bradstreet, who maintain a database of more than 330 million global business records; and Foursquare, whose location data is derived from 220 million unique consumers and includes more than 60 million global commercial venues
 
 In this project I will only look at getting the data from 
 
@@ -181,11 +180,11 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTgwMDAyMDUsMTQ1MDY4NjI4OCwxNj
-k3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0NiwtMTg2Mzk3
-NDk4NywxMDA2MTgyMzYzLC0xNjE5MTQyMTU4LC0xMzQ3NzE2Mj
-U0LDE3NTM5MzI0NDMsLTE4OTAwMDA2MTQsNDM2Mjc3MDcsLTQw
-NDIzNjk5MCwtMTUzMzg2NjEzNSwtNTQzMDg4ODQ0LDQ3OTEwOD
-M0MywxOTgwNTYxNDQ1LC01OTg3NjcxNjgsLTE5ODU4NDA0MTMs
-MTU0NjU3NjM5OF19
+eyJoaXN0b3J5IjpbMTgzMTkyNTUyMSwxNDUwNjg2Mjg4LDE2OT
+c5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0
+OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNTgsLTEzNDc3MTYyNT
+QsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYyNzcwNywtNDA0
+MjM2OTkwLC0xNTMzODY2MTM1LC01NDMwODg4NDQsNDc5MTA4Mz
+QzLDE5ODA1NjE0NDUsLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywx
+NTQ2NTc2Mzk4XX0=
 -->
