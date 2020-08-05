@@ -135,7 +135,11 @@ Getting redshift connection settings:
 
 Once you've entered these values, select  **Save**.
 
-### IMPORTANT: Don't forget to shutdown every thing
+### IMPORTANT: Don't forget to shutdown everything. This is very simple
+1. Go to AWS CloudFormation console 
+2. Select stacks
+3. Select `redshift` click `Delete`
+4. Select `
 
 ## II Database
 
@@ -167,10 +171,10 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDk5NjgsMTAwNjE4MjM2MywtMTYxOT
-E0MjE1OCwtMTM0NzcxNjI1NCwxNzUzOTMyNDQzLC0xODkwMDAw
-NjE0LDQzNjI3NzA3LC00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLT
-U0MzA4ODg0NCw0NzkxMDgzNDMsMTk4MDU2MTQ0NSwtNTk4NzY3
-MTY4LC0xOTg1ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MS
-wxMjg1ODA4Nzg0LDIwMTUxNTg4NzRdfQ==
+eyJoaXN0b3J5IjpbLTU1MzY1ODc4LDEwMDYxODIzNjMsLTE2MT
+kxNDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5MDAw
+MDYxNCw0MzYyNzcwNywtNDA0MjM2OTkwLC0xNTMzODY2MTM1LC
+01NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0NDUsLTU5ODc2
+NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2ND
+EsMTI4NTgwODc4NCwyMDE1MTU4ODc0XX0=
 -->
