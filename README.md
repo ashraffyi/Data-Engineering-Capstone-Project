@@ -29,7 +29,7 @@ In this project, you can choose to complete the project provided for you, or def
 3. Run `aws configure`
 4. Past access key and secret 
 
-#### Generate An AWS Key Pair For The Worker Nodes
+#### Generate An AWS Key Pair for Airflow
  1. create an Amazon EC2 key pair:
  2. Go to the Amazon EC2 console
  3. In the Navigation pane, click Key Pairs
@@ -38,19 +38,6 @@ In this project, you can choose to complete the project provided for you, or def
  6. Make sure that you select ppk under File format
  7. Click Create
  8. Save the resulting PEM file in a safe location
-
-#### Create Kubernetes cluster on AWS 
-****This Could take up to 30 minutes****
-1. Go to [https://console.aws.amazon.com/eks/](https://console.aws.amazon.com/eks/)
-2. Click `Create cluster`
-3. Name the cluster, leave all as default
-4. Select `EKS - Cluster` Role
-5. Click Next
-6. Select Defaults for `Networking`
-7. Under Cluster endpoint access select Public
-8. Configure logging Optional
-9. Click Next
-10. Click Create
 
 #### Update eks-cluster-sg-udacityDataEng1-349815526 security group to accept SSH:
  1. Go to EC2
@@ -146,7 +133,8 @@ see [https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-ssh-tunnel.html]
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5MTA4MzQzLDE5ODA1NjE0NDUsLTU5OD
-c2NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2
-NDEsMTI4NTgwODc4NCwyMDE1MTU4ODc0XX0=
+eyJoaXN0b3J5IjpbLTE4NTE1NzgyODIsNDc5MTA4MzQzLDE5OD
+A1NjE0NDUsLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2
+Mzk4LDE5NzYyMDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4ODc0XX
+0=
 -->
