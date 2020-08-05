@@ -8,7 +8,7 @@ Data Engineer Nanodegree:
 ## I. Definition
 
 ### Project Overview
-In my last udacity In this project Capstone Project for Machine Learning Engineer Nanodegree. I worked with the Johns Hopkins University (JHU) COVID-19 cases, deaths and recoveries for all affected countries. In that project I didn't get to desgine the ETL procress for the data I used so In this project I 
+In my last udacity In this project Capstone Project for Machine Learning Engineer Nanodegree. I worked with the Johns Hopkins University (JHU) COVID-19 cases, deaths and recoveries for all affected countries. In that project I didn't get to desgine the ETL procress. So In this project I will be using COVID-19 Johns Hopkins University (JHU) data set. 
 
 
 we are going to work with US immigraton data from the year 1994. We have facts such as visa types, transport modes, landing ports, us state codes, country codes. Apart from the sas7bdat formatted immigration data we have us airport information and us demographics data. We are going to parse SAS descriptor files for all the dimensions and sas7bdat files for all the facts. The tools we are going to use here are Apache Spark, Apache Airflow, Amazon Redshift, Amazon S3.
@@ -170,7 +170,7 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjAyMDI3NywtMjUwNjIxNTgzLDIwOD
+eyJoaXN0b3J5IjpbMTgxNDY4Nzg0MCwtMjUwNjIxNTgzLDIwOD
 k0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4MjM2MywtMTYxOTE0
 MjE1OCwtMTM0NzcxNjI1NCwxNzUzOTMyNDQzLC0xODkwMDAwNj
 E0LDQzNjI3NzA3LC00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLTU0
