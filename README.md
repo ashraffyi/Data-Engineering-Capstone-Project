@@ -102,7 +102,10 @@ On Raspberry Pi
 	[default]
 	region = us-west-2
 ```
-
+#### Add Airflow Connections
+use Airflow's UI to configure your AWS credentials and connection to Redshift.
+1. To go to the Airflow UI
+2. Click on the **Admin** tab and select **Connections**.
 
 ## II Database
 
@@ -134,10 +137,10 @@ On Raspberry Pi
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMT
-c1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYyNzcwNywtNDA0MjM2
-OTkwLC0xNTMzODY2MTM1LC01NDMwODg4NDQsNDc5MTA4MzQzLD
-E5ODA1NjE0NDUsLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywxNTQ2
-NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4OD
-c0XX0=
+eyJoaXN0b3J5IjpbLTc3NjU5NjIzLC0xNjE5MTQyMTU4LC0xMz
+Q3NzE2MjU0LDE3NTM5MzI0NDMsLTE4OTAwMDA2MTQsNDM2Mjc3
+MDcsLTQwNDIzNjk5MCwtMTUzMzg2NjEzNSwtNTQzMDg4ODQ0LD
+Q3OTEwODM0MywxOTgwNTYxNDQ1LC01OTg3NjcxNjgsLTE5ODU4
+NDA0MTMsMTU0NjU3NjM5OCwxOTc2MjA2NjQxLDEyODU4MDg3OD
+QsMjAxNTE1ODg3NF19
 -->
