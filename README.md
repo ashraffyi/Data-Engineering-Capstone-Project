@@ -97,6 +97,7 @@ On Raspberry Pi
 3. Copy airflow content form git repo to your airflow folder
 4. Copy makefile to home folder
 5. go to terminal and run the following command from your home dir 'make deploy stack-name=airflow'
+6. if you get an error code 255 make sure that 
 
 
 ## II Database
@@ -129,9 +130,10 @@ On Raspberry Pi
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMT
-g5MDAwMDYxNCw0MzYyNzcwNywtNDA0MjM2OTkwLC0xNTMzODY2
-MTM1LC01NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0NDUsLT
-U5ODc2NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LDE5NzYy
-MDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4ODc0XX0=
+eyJoaXN0b3J5IjpbLTMyMzMyNTEwMCwtMTM0NzcxNjI1NCwxNz
+UzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC00MDQyMzY5
+OTAsLTE1MzM4NjYxMzUsLTU0MzA4ODg0NCw0NzkxMDgzNDMsMT
+k4MDU2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1ODQwNDEzLDE1NDY1
+NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4Nzg0LDIwMTUxNTg4Nz
+RdfQ==
 -->
