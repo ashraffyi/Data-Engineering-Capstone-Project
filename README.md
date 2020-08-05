@@ -137,7 +137,8 @@ Once you've entered these values, select  **Save**.
 2. Select stacks
 3. Select `redshift` click `Delete`
 4. Select `airflow` click `Delete`
-5. The stack will shutdown everything correctly, Do not delete Nested stacks or delete es2, s3 buckets independently. It will take up to 15 to 20 minuts to deleate. If you don't have any CloudFormation then everything deleted correctly. 
+5. The stack will shutdown everything correctly, Do not delete Nested stacks or delete es2, s3 buckets independently. It will take up to 15 to 20 minutes to deleate. If you don't have any CloudFormation then everything deleted correctly. 
+6. Sometimes you will get an error `DELETE_FAILED` in this case you will have to go into `Events` and check which one failed and delete that manually 
 
 ## II Database
 
@@ -169,10 +170,11 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjM5NzQ5ODcsMTAwNjE4MjM2MywtMT
-YxOTE0MjE1OCwtMTM0NzcxNjI1NCwxNzUzOTMyNDQzLC0xODkw
-MDAwNjE0LDQzNjI3NzA3LC00MDQyMzY5OTAsLTE1MzM4NjYxMz
-UsLTU0MzA4ODg0NCw0NzkxMDgzNDMsMTk4MDU2MTQ0NSwtNTk4
-NzY3MTY4LC0xOTg1ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNj
-Y0MSwxMjg1ODA4Nzg0LDIwMTUxNTg4NzRdfQ==
+eyJoaXN0b3J5IjpbLTIxMTAzODU0NjgsLTE4NjM5NzQ5ODcsMT
+AwNjE4MjM2MywtMTYxOTE0MjE1OCwtMTM0NzcxNjI1NCwxNzUz
+OTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC00MDQyMzY5OT
+AsLTE1MzM4NjYxMzUsLTU0MzA4ODg0NCw0NzkxMDgzNDMsMTk4
+MDU2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1ODQwNDEzLDE1NDY1Nz
+YzOTgsMTk3NjIwNjY0MSwxMjg1ODA4Nzg0LDIwMTUxNTg4NzRd
+fQ==
 -->
