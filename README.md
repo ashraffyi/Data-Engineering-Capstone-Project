@@ -90,6 +90,11 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 6. open a browser window
 7. past the link and add `:8080`
 
+#### Uploading Dags
+On Raspberry Pi
+1. Clone git repo [turbine](https://github.com/villasv/aws-airflow-stack) by running `git clone https://github.com/villasv/aws-airflow-stack.git
+
+
 ## II Database
 
 ###  Schema Design
@@ -120,8 +125,9 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2Mjc3MDcsLTQwNDIzNjk5MCwtMTUzMz
-g2NjEzNSwtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgwNTYxNDQ1
-LC01OTg3NjcxNjgsLTE5ODU4NDA0MTMsMTU0NjU3NjM5OCwxOT
-c2MjA2NjQxLDEyODU4MDg3ODQsMjAxNTE1ODg3NF19
+eyJoaXN0b3J5IjpbLTc2OTMyMDMwOCw0MzYyNzcwNywtNDA0Mj
+M2OTkwLC0xNTMzODY2MTM1LC01NDMwODg4NDQsNDc5MTA4MzQz
+LDE5ODA1NjE0NDUsLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywxNT
+Q2NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4
+ODc0XX0=
 -->
