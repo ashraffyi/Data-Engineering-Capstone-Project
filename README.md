@@ -63,7 +63,9 @@ In this project, you can choose to complete the project provided for you, or def
 7. On Review page click `Create stack`
 
 ##### Setup Airflow
-1. Go to [# Turbine git ](https://github.com/villasv/aws-airflow-stack)
+1. Go to [Turbine git repo](https://github.com/villasv/aws-airflow-stack)
+2. Scroll down until you see 'Deploy the stack` and click Launch stack
+3. 
 
 ## II Database
 
@@ -95,8 +97,8 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwMDAzNTksLTQwNDIzNjk5MCwtMTUzMz
-g2NjEzNSwtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgwNTYxNDQ1
-LC01OTg3NjcxNjgsLTE5ODU4NDA0MTMsMTU0NjU3NjM5OCwxOT
-c2MjA2NjQxLDEyODU4MDg3ODQsMjAxNTE1ODg3NF19
+eyJoaXN0b3J5IjpbLTE4OTQwMjM4MjEsLTQwNDIzNjk5MCwtMT
+UzMzg2NjEzNSwtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgwNTYx
+NDQ1LC01OTg3NjcxNjgsLTE5ODU4NDA0MTMsMTU0NjU3NjM5OC
+wxOTc2MjA2NjQxLDEyODU4MDg3ODQsMjAxNTE1ODg3NF19
 -->
