@@ -23,9 +23,9 @@ In this project, you can choose to complete the project provided for you, or def
  3. Take note of the access key and secret 
 
 #### Install AWS CLI and Configure
- - Follow the instructions on 
-. [Installing the AWS CLI version 2 on Windows](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html)
-2. 
+ 1. Follow the instructions on 
+	 - [Installing the AWS CLI version 2 on Windows](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html)
+	 - [Configure the AWS CLI on a Raspberry Pi](https://ownthe.cloud/posts/configure-aws-cli-on-raspberry-pi/)
 3. Run `aws configure`
 4. Past access key and secret 
 
@@ -146,7 +146,7 @@ see [https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-ssh-tunnel.html]
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTIyNzgwNCwxOTgwNTYxNDQ1LC01OT
-g3NjcxNjgsLTE5ODU4NDA0MTMsMTU0NjU3NjM5OCwxOTc2MjA2
-NjQxLDEyODU4MDg3ODQsMjAxNTE1ODg3NF19
+eyJoaXN0b3J5IjpbNDc5MTA4MzQzLDE5ODA1NjE0NDUsLTU5OD
+c2NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2
+NDEsMTI4NTgwODc4NCwyMDE1MTU4ODc0XX0=
 -->
