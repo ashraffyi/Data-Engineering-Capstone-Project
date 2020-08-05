@@ -13,6 +13,7 @@ In my last udacity In this project Capstone Project for Machine Learning Enginee
 My Eventual goal is to design an end-to-end machine learning workflows for predicting expected cases of covid-19 using the following AWS’s tools:
  - [AWS CloudFormation](https://aws.amazon.com/cloudformation/): allows you to use programming languages or a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts. This gives you a single source of truth for your AWS and third party resources.
  - [Apache Airflow](https://airflow.apache.org/): Platform created by the community to programmatically author, schedule and monitor workflows.
+ - [Amazon Redshift](https://aws.amazon.com/redshift/): The most popular and fastest cloud data warehouse
  - 
 
 On 31 December, 2019, the World Health Organization (WHO) was informed of an outbreak of “pneumonia of unknown cause” detected in Wuhan City, Hubei Province, China. Initially identified as coronavirus disease 2019, it quickly came to be known widely as COVID-19 and has resulted in an ongoing global pandemic. As of 20 June, 2020, more than 8.74 million cases have been reported across 188 countries and territories, resulting in more than 462,000 deaths. More than 4.31 million people have recovered.[^1]
@@ -177,7 +178,7 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDMzMzczNCwxNjk3OTU0Njg3LC0yNT
+eyJoaXN0b3J5IjpbMTkwNjA5OTExMSwxNjk3OTU0Njg3LC0yNT
 A2MjE1ODMsMjA4OTQxNjc0NiwtMTg2Mzk3NDk4NywxMDA2MTgy
 MzYzLC0xNjE5MTQyMTU4LC0xMzQ3NzE2MjU0LDE3NTM5MzI0ND
 MsLTE4OTAwMDA2MTQsNDM2Mjc3MDcsLTQwNDIzNjk5MCwtMTUz
