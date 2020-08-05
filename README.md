@@ -121,7 +121,8 @@ Getting redshift connection settings:
 1. Go to AWS CloudFormation console
 2. click on redshift click on outputs
 	here you'll find all the settings for redshift
-	- ClusterName = Host
+	- ClusterEndpoint = Host:Port
+	- 
 
 3. To go to the Airflow UI
 4. Click on the **Admin** tab and select **Connections**.
@@ -129,7 +130,7 @@ Getting redshift connection settings:
 6. On the create connection page, enter the following values:
 	-   **Conn Id**: Enter  `redshift`.
 	-   **Conn Type**: Enter  `Postgres`.
-	-   **Host**: Enter the endpoint of your Redshift cluster, excluding the port at the end. You can find this by selecting your cluster in the  **Clusters**  page of the Amazon Redshift console. See where this is located in the screenshot below. IMPORTANT: Make sure to  **NOT**  include the port at the end of the Redshift endpoint string.
+	-   **Host**: Enter the endpoint of your Redshift cluster, excluding the port at the end. **IMPORTANT: Make sure to  NOT**  include the port at the end of the Redshift endpoint string.
 	-   **Schema**: Enter  `dev`. This is the Redshift database you want to connect to.
 	-   **Login**: Enter  `awsuser`.
 	-   **Password**: Enter the password you created when launching your Redshift cluster.
@@ -167,10 +168,10 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDMzNDY5ODQsLTE2MTkxNDIxNTgsLT
-EzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYy
-NzcwNywtNDA0MjM2OTkwLC0xNTMzODY2MTM1LC01NDMwODg4ND
-QsNDc5MTA4MzQzLDE5ODA1NjE0NDUsLTU5ODc2NzE2OCwtMTk4
-NTg0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgwOD
-c4NCwyMDE1MTU4ODc0XX0=
+eyJoaXN0b3J5IjpbMTAwNjE4MjM2MywtMTYxOTE0MjE1OCwtMT
+M0NzcxNjI1NCwxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3
+NzA3LC00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLTU0MzA4ODg0NC
+w0NzkxMDgzNDMsMTk4MDU2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1
+ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4Nz
+g0LDIwMTUxNTg4NzRdfQ==
 -->
