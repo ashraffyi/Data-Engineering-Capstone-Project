@@ -67,7 +67,11 @@ In this project, you can choose to complete the project provided for you, or def
 2. Scroll down until you see 'Deploy the stack` and click Launch stack
 3. On the Create stack page click `Next`
 4. Name your stack airflow and click `Next`. You don't need to change anything on this page
-5. 
+5. Don't fill any thing on `Configure stack options` and Click `Next`
+6. On Review page Scroll down to `Capabilities` and check both 
+	- I acknowledge that AWS CloudFormation might create IAM resources with custom names.
+	- I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND
+7. Click 
 
 ## II Database
 
@@ -99,8 +103,8 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzUzOTA4OCwtNDA0MjM2OTkwLC0xNT
-MzODY2MTM1LC01NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0
-NDUsLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LD
-E5NzYyMDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4ODc0XX0=
+eyJoaXN0b3J5IjpbMjcyNTY4NzEwLC00MDQyMzY5OTAsLTE1Mz
+M4NjYxMzUsLTU0MzA4ODg0NCw0NzkxMDgzNDMsMTk4MDU2MTQ0
+NSwtNTk4NzY3MTY4LC0xOTg1ODQwNDEzLDE1NDY1NzYzOTgsMT
+k3NjIwNjY0MSwxMjg1ODA4Nzg0LDIwMTUxNTg4NzRdfQ==
 -->
