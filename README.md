@@ -86,7 +86,9 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 2.  Click Running instances
 3. Find 
 4. Select it the Instance with the name `turbine-webserver`
-5. 
+5. copy the `Public DNS (IPv4)`
+6. open a browser window
+7. past the link and add `:8080`
 
 ## II Database
 
@@ -118,8 +120,8 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NzM5MzQ5MiwtNDA0MjM2OTkwLC0xNT
-MzODY2MTM1LC01NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0
-NDUsLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LD
-E5NzYyMDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4ODc0XX0=
+eyJoaXN0b3J5IjpbNDM2Mjc3MDcsLTQwNDIzNjk5MCwtMTUzMz
+g2NjEzNSwtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgwNTYxNDQ1
+LC01OTg3NjcxNjgsLTE5ODU4NDA0MTMsMTU0NjU3NjM5OCwxOT
+c2MjA2NjQxLDEyODU4MDg3ODQsMjAxNTE1ODg3NF19
 -->
