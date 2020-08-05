@@ -142,17 +142,10 @@ Once you've entered these values, select  **Save**.
 
 ## II Database
 
-###  Schema Design
-
-### ELT Pipeline
-
-### Project Datasets
-
-### Fact Table
-
-
-### Dimension Tables
-
+### Step 1: Scope the Project and Gather Data
+### Step 2: Explore and Assess the Data
+### Step 3: Define the Data Model
+### Step 4: Run ETL to Model the Data
 
 ## III. Conclusion
 
@@ -170,11 +163,11 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTQxNjc0NiwtMTg2Mzk3NDk4NywxMD
-A2MTgyMzYzLC0xNjE5MTQyMTU4LC0xMzQ3NzE2MjU0LDE3NTM5
-MzI0NDMsLTE4OTAwMDA2MTQsNDM2Mjc3MDcsLTQwNDIzNjk5MC
-wtMTUzMzg2NjEzNSwtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgw
-NTYxNDQ1LC01OTg3NjcxNjgsLTE5ODU4NDA0MTMsMTU0NjU3Nj
-M5OCwxOTc2MjA2NjQxLDEyODU4MDg3ODQsMjAxNTE1ODg3NF19
-
+eyJoaXN0b3J5IjpbNjQ3MDU5MzI3LDIwODk0MTY3NDYsLTE4Nj
+M5NzQ5ODcsMTAwNjE4MjM2MywtMTYxOTE0MjE1OCwtMTM0Nzcx
+NjI1NCwxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC
+00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLTU0MzA4ODg0NCw0Nzkx
+MDgzNDMsMTk4MDU2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1ODQwND
+EzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4Nzg0LDIw
+MTUxNTg4NzRdfQ==
 -->
