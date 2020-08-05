@@ -8,9 +8,11 @@ Data Engineer Nanodegree:
 ## I. Definition
 
 ### Project Overview
-The purpose of the data engineering capstone project is to give a chance to combine what you've learned throughout the program. This project will be an important part of your portfolio that will help you achieve your data engineering-related career goals.
+In this project we are going to work with US immigraton data from the year 1994. We have facts such as visa types, transport modes, landing ports, us state codes, country codes. Apart from the sas7bdat formatted immigration data we have us airport information and us demographics data. We are going to parse SAS descriptor files for all the dimensions and sas7bdat files for all the facts. The tools we are going to use here are Apache Spark, Apache Airflow, Amazon Redshift, Amazon S3.
 
-In this project, you can choose to complete the project provided for you, or define the scope and data for a project of your own design. Either way, you'll be expected to go through the same steps outlined below.
+We will be reading, parsing and cleaning the data from local file systems, Amazon S3 and transferring data to redshift tables in AWS. We will be orchestrating the flow of data through Apache Airflow DAGs.
+
+Finally we will be using some SQL queries to extract some valuable stats and graphs from the data itself.
 
 ### Prerequisites
 
@@ -165,11 +167,11 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC0xOD
-YzOTc0OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNTgsLTEzNDc3
-MTYyNTQsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYyNzcwNy
-wtNDA0MjM2OTkwLC0xNTMzODY2MTM1LC01NDMwODg4NDQsNDc5
-MTA4MzQzLDE5ODA1NjE0NDUsLTU5ODc2NzE2OCwtMTk4NTg0MD
-QxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgwODc4NCwy
-MDE1MTU4ODc0XX0=
+eyJoaXN0b3J5IjpbLTE5NjUxNTQ2MTAsLTI1MDYyMTU4MywyMD
+g5NDE2NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIzNjMsLTE2MTkx
+NDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5MDAwMD
+YxNCw0MzYyNzcwNywtNDA0MjM2OTkwLC0xNTMzODY2MTM1LC01
+NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0NDUsLTU5ODc2Nz
+E2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2NDEs
+MTI4NTgwODc4NF19
 -->
