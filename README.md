@@ -10,7 +10,7 @@ Data Engineer Nanodegree:
 ### Project Overview
 In my last udacity In this project Capstone Project for Machine Learning Engineer Nanodegree. I worked with the Johns Hopkins University (JHU) COVID-19 cases, deaths and recoveries for all affected countries. In that project I didn't get to desgine the ETL procress. So In this project I will be using COVID-19 Johns Hopkins University (JHU) data set. [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject)
 
-My 
+My Eventual goal is to design an end-to-end machine learning workflows for predicting expected cases of covid-19 using the following AWS’s tools
 
 On 31 December, 2019, the World Health Organization (WHO) was informed of an outbreak of “pneumonia of unknown cause” detected in Wuhan City, Hubei Province, China. Initially identified as coronavirus disease 2019, it quickly came to be known widely as COVID-19 and has resulted in an ongoing global pandemic. As of 20 June, 2020, more than 8.74 million cases have been reported across 188 countries and territories, resulting in more than 462,000 deaths. More than 4.31 million people have recovered.[^1]
 
@@ -174,11 +174,11 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5Nzk1NDY4NywtMjUwNjIxNTgzLDIwOD
-k0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4MjM2MywtMTYxOTE0
-MjE1OCwtMTM0NzcxNjI1NCwxNzUzOTMyNDQzLC0xODkwMDAwNj
-E0LDQzNjI3NzA3LC00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLTU0
-MzA4ODg0NCw0NzkxMDgzNDMsMTk4MDU2MTQ0NSwtNTk4NzY3MT
-Y4LC0xOTg1ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwx
-Mjg1ODA4Nzg0XX0=
+eyJoaXN0b3J5IjpbMTcyMzk3ODUxOCwxNjk3OTU0Njg3LC0yNT
+A2MjE1ODMsMjA4OTQxNjc0NiwtMTg2Mzk3NDk4NywxMDA2MTgy
+MzYzLC0xNjE5MTQyMTU4LC0xMzQ3NzE2MjU0LDE3NTM5MzI0ND
+MsLTE4OTAwMDA2MTQsNDM2Mjc3MDcsLTQwNDIzNjk5MCwtMTUz
+Mzg2NjEzNSwtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgwNTYxND
+Q1LC01OTg3NjcxNjgsLTE5ODU4NDA0MTMsMTU0NjU3NjM5OCwx
+OTc2MjA2NjQxXX0=
 -->
