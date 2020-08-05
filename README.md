@@ -66,7 +66,7 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 	- I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND
 7. Click `Create stack`
 
-#### Update eks-cluster-sg-udacityDataEng1-349815526 security group to accept SSH:
+#### Update Airflow security group to accept SSH, HTTP and :
  1. Go to EC2
  2. Click Running instances
  3. Find 
@@ -109,7 +109,7 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTYxMDk2MSwtNDA0MjM2OTkwLC0xNT
+eyJoaXN0b3J5IjpbMjA4NzEwNDM0NCwtNDA0MjM2OTkwLC0xNT
 MzODY2MTM1LC01NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0
 NDUsLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LD
 E5NzYyMDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4ODc0XX0=
