@@ -41,14 +41,16 @@ In this project, you can choose to complete the project provided for you, or def
 
 #### Update eks-cluster-sg-udacityDataEng1-349815526 security group to accept SSH:
  1. Go to EC2
- 2. 
- 3. Under Network & Security select Security Group
- 4. Select Security group ID with the name ElasticMapReduce-master
- 5. Click edit Edit inbound rules
- 6. Click Add rule
- 7. From the first(Type) Drop-down select SSH
- 8. From the next drop-down(source) select my IP
- 9. Click Save rules
+ 2. Click Running instances
+ 3. Find 
+ 4. Select it
+ 6. Under Network & Security select Security Group
+ 7. Select Security group ID with the name ElasticMapReduce-master
+ 8. Click edit Edit inbound rules
+ 9. Click Add rule
+ 10. From the first(Type) Drop-down select SSH
+ 11. From the next drop-down(source) select my IP
+ 12. Click Save rules
 
 
 ## II Database
@@ -81,7 +83,7 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwODY3MzY2OCw0NzkxMDgzNDMsMTk4MD
+eyJoaXN0b3J5IjpbLTU0MzA4ODg0NCw0NzkxMDgzNDMsMTk4MD
 U2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1ODQwNDEzLDE1NDY1NzYz
 OTgsMTk3NjIwNjY0MSwxMjg1ODA4Nzg0LDIwMTUxNTg4NzRdfQ
 ==
