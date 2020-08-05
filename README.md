@@ -12,9 +12,6 @@ The purpose of the data engineering capstone project is to give a chance to comb
 
 In this project, you can choose to complete the project provided for you, or define the scope and data for a project of your own design. Either way, you'll be expected to go through the same steps outlined below.
 
-### Problem Statement
-
-
 ### Prerequisites
 
 #### IAM user:
@@ -140,7 +137,7 @@ Once you've entered these values, select  **Save**.
 2. Select stacks
 3. Select `redshift` click `Delete`
 4. Select `airflow` click `Delete`
-5. The stack will shutdown everything correctly, Do not delete Nested stacks or delete es2, s3 buckets 
+5. The stack will shutdown everything correctly, Do not delete Nested stacks or delete es2, s3 buckets independently. It will take up to 15 to 20 minuts to deleate. If you d
 
 ## II Database
 
@@ -172,7 +169,7 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTA2Njg1MSwxMDA2MTgyMzYzLC0xNj
+eyJoaXN0b3J5IjpbMTI0NzQ2ODMyMSwxMDA2MTgyMzYzLC0xNj
 E5MTQyMTU4LC0xMzQ3NzE2MjU0LDE3NTM5MzI0NDMsLTE4OTAw
 MDA2MTQsNDM2Mjc3MDcsLTQwNDIzNjk5MCwtMTUzMzg2NjEzNS
 wtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgwNTYxNDQ1LC01OTg3
