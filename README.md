@@ -95,6 +95,7 @@ On Raspberry Pi
 1. Create a airflow folder in your home directory you can just use 
 2. In terminal Clone git repo [turbine](https://github.com/villasv/aws-airflow-stack) by running `git clone https://github.com/villasv/aws-airflow-stack.git`
 3. Copy airflow content form git repo to your airflow folder
+4. Copy makefile to home folder
 
 
 ## II Database
@@ -127,9 +128,9 @@ On Raspberry Pi
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODg1NjM2NywxNzUzOTMyNDQzLC0xOD
-kwMDAwNjE0LDQzNjI3NzA3LC00MDQyMzY5OTAsLTE1MzM4NjYx
-MzUsLTU0MzA4ODg0NCw0NzkxMDgzNDMsMTk4MDU2MTQ0NSwtNT
-k4NzY3MTY4LC0xOTg1ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIw
-NjY0MSwxMjg1ODA4Nzg0LDIwMTUxNTg4NzRdfQ==
+eyJoaXN0b3J5IjpbMjg0OTI4ODc4LDE3NTM5MzI0NDMsLTE4OT
+AwMDA2MTQsNDM2Mjc3MDcsLTQwNDIzNjk5MCwtMTUzMzg2NjEz
+NSwtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgwNTYxNDQ1LC01OT
+g3NjcxNjgsLTE5ODU4NDA0MTMsMTU0NjU3NjM5OCwxOTc2MjA2
+NjQxLDEyODU4MDg3ODQsMjAxNTE1ODg3NF19
 -->
