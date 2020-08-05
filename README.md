@@ -47,9 +47,10 @@ This procress could take up
 2. Go to AWS Cloud Formation page
 3. Click Create stack
 4. Click upload file and choose [Data-Engineering-Capstone-Project-Redshift.yaml](https://github.com/sahussain/Data-Engineering-Capstone-Project/blob/master/Infrastructure/Data-Engineering-Capstone-Project-Redshift.yaml "Data-Engineering-Capstone-Project-Redshift.yaml")
-5. Fill in the `Parameters` and click `Next`
-6. Don't fill any thing on `Configure stack options` and Click `Next`
-7. On Review page click `Create stack`
+5. Fill in the stack name as `redshift`
+6. Fill in the `Parameters` and click `Next`
+7. Don't fill any thing on `Configure stack options` and Click `Next`
+8. On Review page click `Create stack`
 
 ##### Setup Airflow
 ```
@@ -118,7 +119,8 @@ Once you've entered these values, select  **Save**.
 #### Add AWS redshift to Airflow Connections
 Getting redshift connection settings:
 1. Go to AWS CloudFormation console
-2. click on redshift
+2. click on redshift click on outputs
+	- 
 
 3. To go to the Airflow UI
 4. Click on the **Admin** tab and select **Connections**.
@@ -164,10 +166,10 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3Njg5MTg1LC0xNjE5MTQyMTU4LC0xMz
-Q3NzE2MjU0LDE3NTM5MzI0NDMsLTE4OTAwMDA2MTQsNDM2Mjc3
-MDcsLTQwNDIzNjk5MCwtMTUzMzg2NjEzNSwtNTQzMDg4ODQ0LD
-Q3OTEwODM0MywxOTgwNTYxNDQ1LC01OTg3NjcxNjgsLTE5ODU4
-NDA0MTMsMTU0NjU3NjM5OCwxOTc2MjA2NjQxLDEyODU4MDg3OD
-QsMjAxNTE1ODg3NF19
+eyJoaXN0b3J5IjpbMjExODQwNzA3MiwtMTYxOTE0MjE1OCwtMT
+M0NzcxNjI1NCwxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3
+NzA3LC00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLTU0MzA4ODg0NC
+w0NzkxMDgzNDMsMTk4MDU2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1
+ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4Nz
+g0LDIwMTUxNTg4NzRdfQ==
 -->
