@@ -102,10 +102,21 @@ On Raspberry Pi
 	[default]
 	region = us-west-2
 ```
-#### Add Airflow Connections
+#### Add AWS credentials to Airflow Connections
 use Airflow's UI to configure your AWS credentials and connection to Redshift.
 1. To go to the Airflow UI
 2. Click on the **Admin** tab and select **Connections**.
+3. Under **Connections**, select **Create**.
+4. On the create connection page, enter the following values:
+	-   **Conn Id**: Enter  `aws_credentials`.
+	-   **Conn Type**: Enter  `Amazon Web Services`.
+	-   **Login**: Enter your  **Access key ID**  from the IAM User credentials you downloaded earlier.
+	-   **Password**: Enter your  **Secret access key**  from the IAM User credentials you downloaded earlier.
+
+Once you've entered these values, select  **Save and Add Another**.
+
+#### Add AWS redshift to Airflow Connections
+
 
 ## II Database
 
@@ -137,10 +148,10 @@ use Airflow's UI to configure your AWS credentials and connection to Redshift.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjU5NjIzLC0xNjE5MTQyMTU4LC0xMz
-Q3NzE2MjU0LDE3NTM5MzI0NDMsLTE4OTAwMDA2MTQsNDM2Mjc3
-MDcsLTQwNDIzNjk5MCwtMTUzMzg2NjEzNSwtNTQzMDg4ODQ0LD
-Q3OTEwODM0MywxOTgwNTYxNDQ1LC01OTg3NjcxNjgsLTE5ODU4
-NDA0MTMsMTU0NjU3NjM5OCwxOTc2MjA2NjQxLDEyODU4MDg3OD
-QsMjAxNTE1ODg3NF19
+eyJoaXN0b3J5IjpbLTE5MDIxODE0NDEsLTE2MTkxNDIxNTgsLT
+EzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYy
+NzcwNywtNDA0MjM2OTkwLC0xNTMzODY2MTM1LC01NDMwODg4ND
+QsNDc5MTA4MzQzLDE5ODA1NjE0NDUsLTU5ODc2NzE2OCwtMTk4
+NTg0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgwOD
+c4NCwyMDE1MTU4ODc0XX0=
 -->
