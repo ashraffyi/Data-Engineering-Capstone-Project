@@ -56,7 +56,9 @@ In this project, you can choose to complete the project provided for you, or def
 1. Download [Data-Engineering-Capstone-Project-Redshift.yaml](https://github.com/sahussain/Data-Engineering-Capstone-Project/blob/master/Infrastructure/Data-Engineering-Capstone-Project-Redshift.yaml "Data-Engineering-Capstone-Project-Redshift.yaml")
 2. Go to AWS Cloud Formation page
 3. Click Create stack
-4. 
+4. Click upload file and choose [Data-Engineering-Capstone-Project-Redshift.yaml](https://github.com/sahussain/Data-Engineering-Capstone-Project/blob/master/Infrastructure/Data-Engineering-Capstone-Project-Redshift.yaml "Data-Engineering-Capstone-Project-Redshift.yaml")
+5. Fill in the Parameters and click next
+6. 
 
 ## II Database
 
@@ -88,8 +90,8 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjQ5NzY4MCwtNDA0MjM2OTkwLC0xNT
-MzODY2MTM1LC01NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0
-NDUsLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LD
-E5NzYyMDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4ODc0XX0=
+eyJoaXN0b3J5IjpbMzA2NTUzOTE1LC00MDQyMzY5OTAsLTE1Mz
+M4NjYxMzUsLTU0MzA4ODg0NCw0NzkxMDgzNDMsMTk4MDU2MTQ0
+NSwtNTk4NzY3MTY4LC0xOTg1ODQwNDEzLDE1NDY1NzYzOTgsMT
+k3NjIwNjY0MSwxMjg1ODA4Nzg0LDIwMTUxNTg4NzRdfQ==
 -->
