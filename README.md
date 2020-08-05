@@ -52,6 +52,7 @@ In this project, you can choose to complete the project provided for you, or def
  11. From the next drop-down(source) select my IP
  12. Click Save rules
 
+#### Set up the infrastructure
 
 ## II Database
 
@@ -83,8 +84,8 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzA4ODg0NCw0NzkxMDgzNDMsMTk4MD
-U2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1ODQwNDEzLDE1NDY1NzYz
-OTgsMTk3NjIwNjY0MSwxMjg1ODA4Nzg0LDIwMTUxNTg4NzRdfQ
-==
+eyJoaXN0b3J5IjpbLTE1MzM4NjYxMzUsLTU0MzA4ODg0NCw0Nz
+kxMDgzNDMsMTk4MDU2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1ODQw
+NDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4Nzg0LD
+IwMTUxNTg4NzRdfQ==
 -->
