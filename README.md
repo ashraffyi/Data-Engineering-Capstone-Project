@@ -139,7 +139,8 @@ Once you've entered these values, select  **Save**.
 1. Go to AWS CloudFormation console 
 2. Select stacks
 3. Select `redshift` click `Delete`
-4. Select `
+4. Select `airflow` click `Delete`
+5. The stack will shutdown everything correctly, Do not delete Nested stacks or delete es2, s3 buckets 
 
 ## II Database
 
@@ -171,10 +172,10 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzY1ODc4LDEwMDYxODIzNjMsLTE2MT
-kxNDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5MDAw
-MDYxNCw0MzYyNzcwNywtNDA0MjM2OTkwLC0xNTMzODY2MTM1LC
-01NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0NDUsLTU5ODc2
-NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2ND
-EsMTI4NTgwODc4NCwyMDE1MTU4ODc0XX0=
+eyJoaXN0b3J5IjpbMTc1NTA2Njg1MSwxMDA2MTgyMzYzLC0xNj
+E5MTQyMTU4LC0xMzQ3NzE2MjU0LDE3NTM5MzI0NDMsLTE4OTAw
+MDA2MTQsNDM2Mjc3MDcsLTQwNDIzNjk5MCwtMTUzMzg2NjEzNS
+wtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgwNTYxNDQ1LC01OTg3
+NjcxNjgsLTE5ODU4NDA0MTMsMTU0NjU3NjM5OCwxOTc2MjA2Nj
+QxLDEyODU4MDg3ODQsMjAxNTE1ODg3NF19
 -->
