@@ -10,7 +10,7 @@ Data Engineer Nanodegree:
 ### Project Overview
 On 31 December, 2019, the World Health Organization (WHO) was informed of an outbreak of “pneumonia of unknown cause” detected in Wuhan City, Hubei Province, China. Initially identified as coronavirus disease 2019, it quickly came to be known widely as COVID-19 and has resulted in an ongoing global pandemic. As of 5 Augest, 2020, more than 18.95 million cases have been reported across 188 countries and territories, resulting in more than 0.7 million deaths. More than 12.14 million people have recovered.[^1]
 
-In my last udacity In this project Capstone Project for Machine Learning Engineer Nanodegree. I worked with the Johns Hopkins University (JHU) COVID-19 cases, deaths and recoveries for all affected countries. In that project I didn't get to desgine the ETL procress. So In this project I will be using COVID-19 Johns Hopkins University (JHU) data set. [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject)
+In my last udacity Capstone Project for Machine Learning Engineer Nanodegree. I worked with the Johns Hopkins University (JHU) COVID-19 cases, deaths and recoveries for all affected countries. In that project I didn't get a chance to desgine the ETL procress. So In this project I will be using COVID-19 Johns Hopkins University (JHU) data set. [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject). The data set 
 
 My Eventual goal is to design an end-to-end machine learning workflows for predicting expected cases of covid-19 using the following AWS’s tools, however in this project I will only tackel the ETL procress. The following tools will be used to perform the ETL:
  - [AWS CloudFormation](https://aws.amazon.com/cloudformation/): allows you to use programming languages or a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts. This gives you a single source of truth for your AWS and third party resources.
@@ -186,7 +186,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5NDc5ODI1LDE0NTA2ODYyODgsMTY5Nz
+eyJoaXN0b3J5IjpbOTkxNjI0NTU5LDE0NTA2ODYyODgsMTY5Nz
 k1NDY4NywtMjUwNjIxNTgzLDIwODk0MTY3NDYsLTE4NjM5NzQ5
 ODcsMTAwNjE4MjM2MywtMTYxOTE0MjE1OCwtMTM0NzcxNjI1NC
 wxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC00MDQy
