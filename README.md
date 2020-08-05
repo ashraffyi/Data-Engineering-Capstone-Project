@@ -90,23 +90,10 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 6. open a browser window
 7. past the link and add `:8080`
 
-#### Use FileZilla to transfer files to Master-node (https://docs.aws.amazon.com/transfer/latest/userguide/getting-started-use-the-service.html#filezilla):
-    1.  Open the FileZilla client.
-    2.  Choose  **File**, and then choose  **Site Manager**.
-    3.  In the  **Site Manager**  dialog box, choose  **New site**.
-    4.  On the  **General**  tab, for  **Protocol**, choose a protocol:  **SFTP**   
-    5.  For  **Host name**, enter your Master public DNS of your EMR Cluster.    
-    6.  For  **Port number**, enter 22:
-    7.  If SFTP is selected, for  **Logon Type**, choose  **Key file**.
-        - For  **Key file**, choose EC2 Key Pair
-    8.  For  **User**, enter the hadoop
-    9.  Choose  **Connect**.
-    10.  Perform your file transfer.
-
 #### Uploading Dags
 On Raspberry Pi
 1. Create a airflow folder in your home directory you can just use 
-2. Clone git repo [turbine](https://github.com/villasv/aws-airflow-stack) by running `git clone https://github.com/villasv/aws-airflow-stack.git`
+2. In terminal Clone git repo [turbine](https://github.com/villasv/aws-airflow-stack) by running `git clone https://github.com/villasv/aws-airflow-stack.git`
 3. 
 
 
@@ -140,7 +127,7 @@ On Raspberry Pi
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzQzNTIwMCwtMTg5MDAwMDYxNCw0Mz
+eyJoaXN0b3J5IjpbMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0Mz
 YyNzcwNywtNDA0MjM2OTkwLC0xNTMzODY2MTM1LC01NDMwODg4
 NDQsNDc5MTA4MzQzLDE5ODA1NjE0NDUsLTU5ODc2NzE2OCwtMT
 k4NTg0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgw
