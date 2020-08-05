@@ -1,0 +1,371 @@
+AWSTemplateFormatVersion: 2010-09-09
+Parameters:
+  DatabaseName:
+    Description: The name of the first database to be created when the cluster is created
+    Type: String
+    Default: dev
+    AllowedPattern: '([a-z]|[0-9])+'
+  ClusterType:
+    Description: The type of cluster
+    Type: String
+    Default: single-node
+    AllowedValues:
+      - single-node
+      - multi-node
+  NumberOfNodes:
+    Description: >-
+      The number of compute nodes in the cluster. For multi-node clusters, the
+      NumberOfNodes parameter must be greater than 1
+    Type: Number
+    Default: '1'
+  NodeType:
+    Description: The type of node to be provisioned
+    Type: String
+    Default: ra3.4xlarge
+    AllowedValues:
+      - ra3.4xlarge
+      - ra3.16xlarge
+      - dc2.large
+      - dc2.8xlarge
+      - ds2.xlarge
+      - ds2.8xlarge
+  MasterUsername:
+    Description: >-
+      The user name that is associated with the master user account for the
+      cluster that is being created
+    Type: String
+    Default: defaultuser
+    AllowedPattern: '([a-z])([a-z]|[0-9])*'
+  MasterUserPassword:
+    Description: >-
+      The password that is associated with the master user account for the
+      cluster that is being created.
+    Type: String
+    NoEcho: 'true'
+  InboundTraffic:
+    Description: Allow inbound traffic to the cluster from this CIDR range.
+    Type: String
+    MinLength: '9'
+    MaxLength: '18'
+    Default: 0.0.0.0/0
+    AllowedPattern: '(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})/(\d{1,2})'
+    ConstraintDescription: must be a valid CIDR range of the form x.x.x.x/x.
+  PortNumber:
+    Description: The port number on which the cluster accepts incoming connections.
+    Type: Number
+    Default: '5439'
+  S3BucketName:
+    Description: REQUIRED - A new S3 Bucket name. This bucket will be used for staging data
+    Type: String
+    AllowedPattern: '^[0-9a-zA-Z]+([0-9a-zA-Z-]*[0-9a-zA-Z])*$'
+Conditions:
+  IsMultiNodeCluster:
+    'Fn::Equals':
+      - Ref: ClusterType
+      - multi-node
+Resources:
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
+    DeletionPolicy: Delete
+    Properties:
+      AccessControl: BucketOwnerFullControl
+      BucketName: !Ref S3BucketName
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 19977a31-0652-45b8-88c4-6016db4abb0d
+  RedshiftCluster:
+    Type: 'AWS::Redshift::Cluster'
+    DependsOn: AttachGateway
+    Properties:
+      ClusterType:
+        Ref: ClusterType
+      NumberOfNodes:
+        'Fn::If':
+          - IsMultiNodeCluster
+          - Ref: NumberOfNodes
+          - Ref: 'AWS::NoValue'
+      NodeType:
+        Ref: NodeType
+      DBName:
+        Ref: DatabaseName
+      MasterUsername:
+        Ref: MasterUsername
+      MasterUserPassword:
+        Ref: MasterUserPassword
+      ClusterParameterGroupName:
+        Ref: RedshiftClusterParameterGroup
+      VpcSecurityGroupIds:
+        - Ref: SecurityGroup
+      ClusterSubnetGroupName:
+        Ref: RedshiftClusterSubnetGroup
+      PubliclyAccessible: 'true'
+      Port:
+        Ref: PortNumber
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 0384765d-8bd9-458e-93ec-3b37c3665724
+  RedshiftClusterParameterGroup:
+    Type: 'AWS::Redshift::ClusterParameterGroup'
+    Properties:
+      Description: Cluster parameter group
+      ParameterGroupFamily: redshift-1.0
+      Parameters:
+        - ParameterName: enable_user_activity_logging
+          ParameterValue: 'true'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: e70003fe-4812-4757-939e-a6c409377b59
+  RedshiftClusterSubnetGroup:
+    Type: 'AWS::Redshift::ClusterSubnetGroup'
+    Properties:
+      Description: Cluster subnet group
+      SubnetIds:
+        - Ref: PublicSubnet
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: c32119e1-85ca-4d6f-90ad-df2cab994a99
+  VPC:
+    Type: 'AWS::EC2::VPC'
+    Properties:
+      CidrBlock: 10.0.0.0/16
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 82298cc7-3ae6-4afb-af5c-036600c2d5d2
+  PublicSubnet:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      CidrBlock: 10.0.0.0/24
+      VpcId:
+        Ref: VPC
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: db9a0a5f-4679-44ec-9835-5191521b94f4
+  SecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: Security group
+      SecurityGroupIngress:
+        - CidrIp:
+            Ref: InboundTraffic
+          FromPort:
+            Ref: PortNumber
+          ToPort:
+            Ref: PortNumber
+          IpProtocol: tcp
+      VpcId:
+        Ref: VPC
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 6ffba5a5-4d41-4959-872a-497ea0f90192
+  myInternetGateway:
+    Type: 'AWS::EC2::InternetGateway'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: f5f48a19-459d-4749-a26b-340d54dc884e
+  AttachGateway:
+    Type: 'AWS::EC2::VPCGatewayAttachment'
+    Properties:
+      VpcId:
+        Ref: VPC
+      InternetGatewayId:
+        Ref: myInternetGateway
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: e67c3904-0d88-402e-ac0d-bfe8d661733d
+  PublicRouteTable:
+    Type: 'AWS::EC2::RouteTable'
+    Properties:
+      VpcId:
+        Ref: VPC
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 1a2e68c9-0d25-4505-9c3d-b617754de922
+  PublicRoute:
+    Type: 'AWS::EC2::Route'
+    DependsOn: AttachGateway
+    Properties:
+      RouteTableId:
+        Ref: PublicRouteTable
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId:
+        Ref: myInternetGateway
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 455cfe4d-3fe2-4423-b226-cfbbca0687a1
+  PublicSubnetRouteTableAssociation:
+    Type: 'AWS::EC2::SubnetRouteTableAssociation'
+    Properties:
+      SubnetId:
+        Ref: PublicSubnet
+      RouteTableId:
+        Ref: PublicRouteTable
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 9c0f7a34-10b2-4802-ab2d-252ddb80ad53
+Outputs:
+  ClusterEndpoint:
+    Description: Cluster endpoint
+    Value: !Sub '${RedshiftCluster.Endpoint.Address}:${RedshiftCluster.Endpoint.Port}'
+  ClusterName:
+    Description: Name of cluster
+    Value:
+      Ref: RedshiftCluster
+  ParameterGroupName:
+    Description: Name of parameter group
+    Value:
+      Ref: RedshiftClusterParameterGroup
+  RedshiftClusterSubnetGroupName:
+    Description: Name of cluster subnet group
+    Value:
+      Ref: RedshiftClusterSubnetGroup
+  RedshiftClusterSecurityGroupName:
+    Description: Name of cluster security group
+    Value:
+      Ref: SecurityGroup
+  RedshiftClusterUserName:
+    Description: >-
+      The MasterUsername that is associated with the master user account for
+      this cluster.
+    Value:
+      Ref: MasterUsername
+  RedshiftClusterPassword:
+    Description: >-
+      The MasterUserPassword that is associated with the master user account for
+      this cluster.
+    Value:
+      Ref: MasterUserPassword
+Metadata:
+  'AWS::CloudFormation::Designer':
+    f5f48a19-459d-4749-a26b-340d54dc884e:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 410
+        'y': 690
+      z: 0
+      embeds: []
+    82298cc7-3ae6-4afb-af5c-036600c2d5d2:
+      size:
+        width: 770
+        height: 510
+      position:
+        x: 50
+        'y': 90
+      z: 1
+      embeds:
+        - 1a2e68c9-0d25-4505-9c3d-b617754de922
+        - 6ffba5a5-4d41-4959-872a-497ea0f90192
+        - db9a0a5f-4679-44ec-9835-5191521b94f4
+    1a2e68c9-0d25-4505-9c3d-b617754de922:
+      size:
+        width: 150
+        height: 140
+      position:
+        x: 460
+        'y': 270
+      z: 2
+      parent: 82298cc7-3ae6-4afb-af5c-036600c2d5d2
+      embeds:
+        - 455cfe4d-3fe2-4423-b226-cfbbca0687a1
+      iscontainedinside:
+        - 82298cc7-3ae6-4afb-af5c-036600c2d5d2
+    e67c3904-0d88-402e-ac0d-bfe8d661733d:
+      source:
+        id: 82298cc7-3ae6-4afb-af5c-036600c2d5d2
+      target:
+        id: f5f48a19-459d-4749-a26b-340d54dc884e
+    455cfe4d-3fe2-4423-b226-cfbbca0687a1:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 500
+        'y': 310
+      z: 3
+      parent: 1a2e68c9-0d25-4505-9c3d-b617754de922
+      embeds: []
+      isassociatedwith:
+        - f5f48a19-459d-4749-a26b-340d54dc884e
+      iscontainedinside:
+        - 1a2e68c9-0d25-4505-9c3d-b617754de922
+      dependson:
+        - e67c3904-0d88-402e-ac0d-bfe8d661733d
+    6ffba5a5-4d41-4959-872a-497ea0f90192:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 500
+        'y': 110
+      z: 2
+      parent: 82298cc7-3ae6-4afb-af5c-036600c2d5d2
+      embeds: []
+      iscontainedinside:
+        - 82298cc7-3ae6-4afb-af5c-036600c2d5d2
+    db9a0a5f-4679-44ec-9835-5191521b94f4:
+      size:
+        width: 290
+        height: 270
+      position:
+        x: 80
+        'y': 200
+      z: 2
+      parent: 82298cc7-3ae6-4afb-af5c-036600c2d5d2
+      embeds:
+        - c32119e1-85ca-4d6f-90ad-df2cab994a99
+      iscontainedinside:
+        - 82298cc7-3ae6-4afb-af5c-036600c2d5d2
+    9c0f7a34-10b2-4802-ab2d-252ddb80ad53:
+      source:
+        id: 1a2e68c9-0d25-4505-9c3d-b617754de922
+      target:
+        id: db9a0a5f-4679-44ec-9835-5191521b94f4
+    c32119e1-85ca-4d6f-90ad-df2cab994a99:
+      size:
+        width: 160
+        height: 170
+      position:
+        x: 150
+        'y': 260
+      z: 3
+      parent: db9a0a5f-4679-44ec-9835-5191521b94f4
+      embeds:
+        - 0384765d-8bd9-458e-93ec-3b37c3665724
+      iscontainedinside:
+        - db9a0a5f-4679-44ec-9835-5191521b94f4
+    e70003fe-4812-4757-939e-a6c409377b59:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 300
+        'y': 690
+      z: 1
+      embeds: []
+    0384765d-8bd9-458e-93ec-3b37c3665724:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 180
+        'y': 320
+      z: 4
+      parent: c32119e1-85ca-4d6f-90ad-df2cab994a99
+      embeds: []
+      isassociatedwith:
+        - 6ffba5a5-4d41-4959-872a-497ea0f90192
+        - e70003fe-4812-4757-939e-a6c409377b59
+      iscontainedinside:
+        - c32119e1-85ca-4d6f-90ad-df2cab994a99
+      dependson:
+        - e67c3904-0d88-402e-ac0d-bfe8d661733d
+    19977a31-0652-45b8-88c4-6016db4abb0d:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 80
+        'y': 680
+      z: 1
+      embeds: []
