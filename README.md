@@ -183,10 +183,10 @@ Once you've entered these values, select  **Save**.
 
 ------
 # Appendix A
-
+[^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5Mzk1Mzg5LDE0NTA2ODYyODgsMTY5Nz
+eyJoaXN0b3J5IjpbNTQ5NDc5ODI1LDE0NTA2ODYyODgsMTY5Nz
 k1NDY4NywtMjUwNjIxNTgzLDIwODk0MTY3NDYsLTE4NjM5NzQ5
 ODcsMTAwNjE4MjM2MywtMTYxOTE0MjE1OCwtMTM0NzcxNjI1NC
 wxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC00MDQy
