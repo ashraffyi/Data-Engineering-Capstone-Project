@@ -143,9 +143,11 @@ Once you've entered these values, select  **Save**.
 ## II Database
 
 ### Step 1: Scope the Project and Gather Data
+
 ### Step 2: Explore and Assess the Data
 ### Step 3: Define the Data Model
 ### Step 4: Run ETL to Model the Data
+### Step 5: Complete Project Write Up
 
 ## III. Conclusion
 
@@ -163,11 +165,11 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3MDU5MzI3LDIwODk0MTY3NDYsLTE4Nj
-M5NzQ5ODcsMTAwNjE4MjM2MywtMTYxOTE0MjE1OCwtMTM0Nzcx
-NjI1NCwxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC
-00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLTU0MzA4ODg0NCw0Nzkx
-MDgzNDMsMTk4MDU2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1ODQwND
-EzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4Nzg0LDIw
-MTUxNTg4NzRdfQ==
+eyJoaXN0b3J5IjpbLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC0xOD
+YzOTc0OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNTgsLTEzNDc3
+MTYyNTQsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYyNzcwNy
+wtNDA0MjM2OTkwLC0xNTMzODY2MTM1LC01NDMwODg4NDQsNDc5
+MTA4MzQzLDE5ODA1NjE0NDUsLTU5ODc2NzE2OCwtMTk4NTg0MD
+QxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2NDEsMTI4NTgwODc4NCwy
+MDE1MTU4ODc0XX0=
 -->
