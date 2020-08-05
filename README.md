@@ -71,7 +71,7 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
  2. Click Running instances
  3. Find 
  4. Select it the Instance with the name `turbine-webserver`
- 6. Under Security Group
+ 6. Under Security Group select the group which contains the name `webserver`
  7. Select Security group ID with the name ElasticMapReduce-master
  8. Click edit Edit inbound rules
  9. Click Add rule
@@ -109,8 +109,8 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ2OTI3LC00MDQyMzY5OTAsLTE1Mz
-M4NjYxMzUsLTU0MzA4ODg0NCw0NzkxMDgzNDMsMTk4MDU2MTQ0
-NSwtNTk4NzY3MTY4LC0xOTg1ODQwNDEzLDE1NDY1NzYzOTgsMT
-k3NjIwNjY0MSwxMjg1ODA4Nzg0LDIwMTUxNTg4NzRdfQ==
+eyJoaXN0b3J5IjpbLTIwOTcxMjIyMjAsLTQwNDIzNjk5MCwtMT
+UzMzg2NjEzNSwtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgwNTYx
+NDQ1LC01OTg3NjcxNjgsLTE5ODU4NDA0MTMsMTU0NjU3NjM5OC
+wxOTc2MjA2NjQxLDEyODU4MDg3ODQsMjAxNTE1ODg3NF19
 -->
