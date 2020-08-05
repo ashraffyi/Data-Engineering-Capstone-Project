@@ -23,9 +23,11 @@ In this project, you can choose to complete the project provided for you, or def
  3. Take note of the access key and secret 
 
 #### Install AWS CLI and Configure
-1. Follow the instructions on [install-cliv2-windows.html](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html)
-2. Run `aws configure`
-3. Past access key and secret 
+ - Follow the instructions on 
+. [Installing the AWS CLI version 2 on Windows](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html)
+2. 
+3. Run `aws configure`
+4. Past access key and secret 
 
 #### Generate An AWS Key Pair For The Worker Nodes
  1. create an Amazon EC2 key pair:
@@ -144,7 +146,7 @@ see [https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-ssh-tunnel.html]
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDUxNjA2LDE5ODA1NjE0NDUsLTU5OD
-c2NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2
-NDEsMTI4NTgwODc4NCwyMDE1MTU4ODc0XX0=
+eyJoaXN0b3J5IjpbLTQ1NTIyNzgwNCwxOTgwNTYxNDQ1LC01OT
+g3NjcxNjgsLTE5ODU4NDA0MTMsMTU0NjU3NjM5OCwxOTc2MjA2
+NjQxLDEyODU4MDg3ODQsMjAxNTE1ODg3NF19
 -->
