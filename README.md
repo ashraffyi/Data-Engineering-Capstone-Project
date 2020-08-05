@@ -8,7 +8,10 @@ Data Engineer Nanodegree:
 ## I. Definition
 
 ### Project Overview
-In this project we are going to work with US immigraton data from the year 1994. We have facts such as visa types, transport modes, landing ports, us state codes, country codes. Apart from the sas7bdat formatted immigration data we have us airport information and us demographics data. We are going to parse SAS descriptor files for all the dimensions and sas7bdat files for all the facts. The tools we are going to use here are Apache Spark, Apache Airflow, Amazon Redshift, Amazon S3.
+In my last udacity In this project Capstone Project for Machine Learning Engineer Nanodegree. I worked with the 
+
+
+we are going to work with US immigraton data from the year 1994. We have facts such as visa types, transport modes, landing ports, us state codes, country codes. Apart from the sas7bdat formatted immigration data we have us airport information and us demographics data. We are going to parse SAS descriptor files for all the dimensions and sas7bdat files for all the facts. The tools we are going to use here are Apache Spark, Apache Airflow, Amazon Redshift, Amazon S3.
 
 We will be reading, parsing and cleaning the data from local file systems, Amazon S3 and transferring data to redshift tables in AWS. We will be orchestrating the flow of data through Apache Airflow DAGs.
 
@@ -167,11 +170,11 @@ Once you've entered these values, select  **Save**.
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjUxNTQ2MTAsLTI1MDYyMTU4MywyMD
-g5NDE2NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIzNjMsLTE2MTkx
-NDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5MDAwMD
-YxNCw0MzYyNzcwNywtNDA0MjM2OTkwLC0xNTMzODY2MTM1LC01
-NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0NDUsLTU5ODc2Nz
-E2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LDE5NzYyMDY2NDEs
-MTI4NTgwODc4NF19
+eyJoaXN0b3J5IjpbLTgxODY5ODE1NywtMjUwNjIxNTgzLDIwOD
+k0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4MjM2MywtMTYxOTE0
+MjE1OCwtMTM0NzcxNjI1NCwxNzUzOTMyNDQzLC0xODkwMDAwNj
+E0LDQzNjI3NzA3LC00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLTU0
+MzA4ODg0NCw0NzkxMDgzNDMsMTk4MDU2MTQ0NSwtNTk4NzY3MT
+Y4LC0xOTg1ODQwNDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwx
+Mjg1ODA4Nzg0XX0=
 -->
