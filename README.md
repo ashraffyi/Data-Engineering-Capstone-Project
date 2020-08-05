@@ -53,6 +53,7 @@ In this project, you can choose to complete the project provided for you, or def
  12. Click Save rules
 
 #### Set up the infrastructure
+1. Download 
 
 ## II Database
 
@@ -84,8 +85,8 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzM4NjYxMzUsLTU0MzA4ODg0NCw0Nz
-kxMDgzNDMsMTk4MDU2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1ODQw
-NDEzLDE1NDY1NzYzOTgsMTk3NjIwNjY0MSwxMjg1ODA4Nzg0LD
-IwMTUxNTg4NzRdfQ==
+eyJoaXN0b3J5IjpbLTQwNDIzNjk5MCwtMTUzMzg2NjEzNSwtNT
+QzMDg4ODQ0LDQ3OTEwODM0MywxOTgwNTYxNDQ1LC01OTg3Njcx
+NjgsLTE5ODU4NDA0MTMsMTU0NjU3NjM5OCwxOTc2MjA2NjQxLD
+EyODU4MDg3ODQsMjAxNTE1ODg3NF19
 -->
