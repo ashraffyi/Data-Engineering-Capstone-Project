@@ -58,14 +58,16 @@ In this project, you can choose to complete the project provided for you, or def
 2. Go to AWS Cloud Formation page
 3. Click Create stack
 4. Click upload file and choose [Data-Engineering-Capstone-Project-Redshift.yaml](https://github.com/sahussain/Data-Engineering-Capstone-Project/blob/master/Infrastructure/Data-Engineering-Capstone-Project-Redshift.yaml "Data-Engineering-Capstone-Project-Redshift.yaml")
-5. Fill in the `Parameters` and click `next`
-6. Don't fill any thing on `Configure stack options` and Click `next`
+5. Fill in the `Parameters` and click `Next`
+6. Don't fill any thing on `Configure stack options` and Click `Next`
 7. On Review page click `Create stack`
 
 ##### Setup Airflow
 1. Go to [Turbine git repo](https://github.com/villasv/aws-airflow-stack)
 2. Scroll down until you see 'Deploy the stack` and click Launch stack
-3. 
+3. On the Create stack page click `Next`
+4. Name your stack airflow and click `Next`. You don't need to change anything on this page
+5. 
 
 ## II Database
 
@@ -97,8 +99,8 @@ In this project, you can choose to complete the project provided for you, or def
 
 ### The database needed to be accessed by 100+ people:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQwMjM4MjEsLTQwNDIzNjk5MCwtMT
-UzMzg2NjEzNSwtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgwNTYx
-NDQ1LC01OTg3NjcxNjgsLTE5ODU4NDA0MTMsMTU0NjU3NjM5OC
-wxOTc2MjA2NjQxLDEyODU4MDg3ODQsMjAxNTE1ODg3NF19
+eyJoaXN0b3J5IjpbMTk1NzUzOTA4OCwtNDA0MjM2OTkwLC0xNT
+MzODY2MTM1LC01NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0
+NDUsLTU5ODc2NzE2OCwtMTk4NTg0MDQxMywxNTQ2NTc2Mzk4LD
+E5NzYyMDY2NDEsMTI4NTgwODc4NCwyMDE1MTU4ODc0XX0=
 -->
