@@ -47,7 +47,12 @@ This project will tackel the ETL procress using the following tools:
  8. Save the resulting PEM file in a safe location
 
 #### Set up the infrastructure
-This procress could take up 10-20 Minutes and could cost up to 
+```
+The stack resources take around 15 minutes to create, while the airflow installation and bootstrap 
+another 3 to 5 minutes. After that you can already access the Airflow UI and deploy your own Airflow DAGs.
+Total time could take up 15-20 Minutes and could cost minum $20/hour
+```
+
 
 ##### Setup Redshift
 1. Download [Data-Engineering-Capstone-Project-Redshift.yaml](https://github.com/sahussain/Data-Engineering-Capstone-Project/blob/master/Infrastructure/Data-Engineering-Capstone-Project-Redshift.yaml "Data-Engineering-Capstone-Project-Redshift.yaml")
@@ -60,10 +65,7 @@ This procress could take up 10-20 Minutes and could cost up to
 8. On Review page click `Create stack`
 
 ##### Setup Airflow
-```
-The stack resources take around 15 minutes to create, while the airflow installation and bootstrap 
-another 3 to 5 minutes. After that you can already access the Airflow UI and deploy your own Airflow DAGs.
-```
+
 1. Go to [Turbine git repo](https://github.com/villasv/aws-airflow-stack)
 2. Scroll down until you see 'Deploy the stack` and click Launch stack
 3. On the Create stack page click `Next`
@@ -584,7 +586,7 @@ Again there will be no issue we will just have to incrise the redshift nodes and
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3MzM2MjY3LDgzOTkzODY4MSwtMTkwMD
+eyJoaXN0b3J5IjpbLTQ2NjM0MzcxLDgzOTkzODY4MSwtMTkwMD
 QxNzUxMCwxMTEzNjE0MDE2LDE4Mzk3NDE5MjIsLTE3NzgyOTUw
 NjUsNTQ0NDE0NDA5LDIwNDcwMjkzMjEsLTE0NTI5NzY3NTYsMT
 U4MTgxMDE5MiwxMzI1MzM5MzU1LDEzMjYyODk3MDgsMTE2ODQ0
