@@ -437,6 +437,9 @@ Hear are the summary of the steps we will take to ETL the data into redshift:
 **Stage Tables**
 ![Alt](Images/stagetables.JPG)
 
+**Fact & Dimension Table**
+![Alt](Images/tables.jpg)
+
 ### Step 4: Run ETL to Model the Data
 
 Fellow the steps below to Run the ETL
@@ -549,7 +552,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDM0MDM0MiwtMTc3ODI5NTA2NSw1ND
+eyJoaXN0b3J5IjpbMTgzOTc0MTkyMiwtMTc3ODI5NTA2NSw1ND
 Q0MTQ0MDksMjA0NzAyOTMyMSwtMTQ1Mjk3Njc1NiwxNTgxODEw
 MTkyLDEzMjUzMzkzNTUsMTMyNjI4OTcwOCwxMTY4NDQ3ODUyLC
 0xNjkzNjQxMjg3LC0xOTgxMzMyOTEsMjAzNTUzMjg2OSwtMzAw
