@@ -337,7 +337,21 @@ All data set is very clean and null fields are still used a case to filter for e
 
 **Filters**: NONE
 
+**Columns that will be imported**: 
+- Last_Update
+- Confirmed
+- Deaths
+- Recovered
+- Active
+- FIPS
+- Incident_Rate
+- People_Tested
+- People_Hospitalized
+- Mortality_Rate
+- Testing_Rate
+- Hospitalization_Rate
 
+**Sample**:
 
 
  
@@ -415,11 +429,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjkyMTM5NTEsLTEwMjIyMDY2ODMsLT
-k2NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2
-NjgxMCw3MzA4MDcyNjksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLD
-E4ODY4MjIxMzksMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4
-NjI4OCwxNjk3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0Ni
-wtMTg2Mzk3NDk4NywxMDA2MTgyMzYzLC0xNjE5MTQyMTU4LC0x
-MzQ3NzE2MjU0XX0=
+eyJoaXN0b3J5IjpbMzE0NTU5ODUzLC0xMDIyMjA2NjgzLC05Nj
+Q2Njc0MzQsMTU4OTAzNjIxMyw5NzM0Mjk3MzMsLTE4MDA5NjY4
+MTAsNzMwODA3MjY5LC0xOTcwNDIwNTk4LDk2MTAwNzkwMywxOD
+g2ODIyMTM5LDE4ODU4MTU3NjgsMTE2Nzg0MTg1LDE0NTA2ODYy
+ODgsMTY5Nzk1NDY4NywtMjUwNjIxNTgzLDIwODk0MTY3NDYsLT
+E4NjM5NzQ5ODcsMTAwNjE4MjM2MywtMTYxOTE0MjE1OCwtMTM0
+NzcxNjI1NF19
 -->
