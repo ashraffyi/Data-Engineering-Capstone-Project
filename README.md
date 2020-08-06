@@ -170,24 +170,24 @@ This table contains an aggregation of each USA State level data.
 MM-DD-YYYY.csv in UTC.
 
 **Field description**
--   **Province_State**  - The name of the State within the USA.
--   **Country_Region**  - The name of the Country (US).
--   **Last_Update**  - The most recent date the file was pushed.
--   **Lat**  - Latitude.
--   **Long_**  - Longitude.
--   **Confirmed**  - Aggregated case count for the state.
--   **Deaths**  - Aggregated death toll for the state.
--   **Recovered**  - Aggregated Recovered case count for the state.
--   **Active**  - Aggregated confirmed cases that have not been resolved (Active cases = total cases - total recovered - total deaths).
--   **FIPS**  - Federal Information Processing Standards code that uniquely identifies counties within the USA.
--   **Incident_Rate**  - cases per 100,000 persons.
--   **People_Tested**  - Total number of people who have been tested.
--   **People_Hospitalized**  - Total number of people hospitalized.
--   **Mortality_Rate**  - Number recorded deaths * 100/ Number confirmed cases.
--   **UID**  - Unique Identifier for each row entry.
--   **ISO3**  - Officialy assigned country code identifiers.
--   **Testing_Rate**  - Total test results per 100,000 persons. The "total test results" are equal to "Total test results (Positive + Negative)" from  [COVID Tracking Project](https://covidtracking.com/).
--   **Hospitalization_Rate**  - US Hospitalization Rate (%): = Total number hospitalized / Number cases. The "Total number hospitalized" is the "Hospitalized – Cumulative" count from  [COVID Tracking Project](https://covidtracking.com/). The "hospitalization rate" and "Total number hospitalized" is only presented for those states which provide cumulative hospital data.
+- **Province_State**  - The name of the State within the USA.
+- **Country_Region**  - The name of the Country (US).
+- **Last_Update**  - The most recent date the file was pushed.
+- **Lat**  - Latitude.
+- **Long_**  - Longitude.
+- **Confirmed**  - Aggregated case count for the state.
+- **Deaths**  - Aggregated death toll for the state.
+- **Recovered**  - Aggregated Recovered case count for the state.
+- **Active**  - Aggregated confirmed cases that have not been resolved (Active cases = total cases - total recovered - total deaths).
+- **FIPS**  - Federal Information Processing Standards code that uniquely identifies counties within the USA.
+- **Incident_Rate**  - cases per 100,000 persons.
+- **People_Tested**  - Total number of people who have been tested.
+- **People_Hospitalized**  - Total number of people hospitalized.
+- **Mortality_Rate**  - Number recorded deaths * 100/ Number confirmed cases.
+- **UID**  - Unique Identifier for each row entry.
+- **ISO3**  - Officialy assigned country code identifiers.
+- **Testing_Rate**  - Total test results per 100,000 persons. The "total test results" are equal to "Total test results (Positive + Negative)" from  [COVID Tracking Project](https://covidtracking.com/).
+- **Hospitalization_Rate**  - US Hospitalization Rate (%): = Total number hospitalized / Number cases. The "Total number hospitalized" is the "Hospitalized – Cumulative" count from  [COVID Tracking Project](https://covidtracking.com/). The "hospitalization rate" and "Total number hospitalized" is only presented for those states which provide cumulative hospital data.
 
 **Update frequency**
 -   Once per day between 04:45 and 05:15 UTC.
@@ -203,8 +203,8 @@ Provided By: [Definitive Healthcare](https://www.definitivehc.com/) via AWS Data
 This resource includes data on numbers of licensed beds, staffed beds, ICU beds, and the bed utilization rate for the hospitals in the United States.
 
 **Field description**
--   **Province_State**  - The name of the State within the USA.
--   **Hospital Name** - Name of the Hospital
+- **Province_State**  - The name of the State within the USA.
+- **Hospital Name** - Name of the Hospital
 - **Hospital Types** 
 
 
@@ -238,11 +238,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzE2OTY0NzEsNzMwODA3MjY5LC0xOT
-cwNDIwNTk4LDk2MTAwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3
-NjgsMTE2Nzg0MTg1LDE0NTA2ODYyODgsMTY5Nzk1NDY4NywtMj
-UwNjIxNTgzLDIwODk0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4
-MjM2MywtMTYxOTE0MjE1OCwtMTM0NzcxNjI1NCwxNzUzOTMyND
-QzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC00MDQyMzY5OTAsLTE1
-MzM4NjYxMzVdfQ==
+eyJoaXN0b3J5IjpbMjY0NTA5NzM3LDczMDgwNzI2OSwtMTk3MD
+QyMDU5OCw5NjEwMDc5MDMsMTg4NjgyMjEzOSwxODg1ODE1NzY4
+LDExNjc4NDE4NSwxNDUwNjg2Mjg4LDE2OTc5NTQ2ODcsLTI1MD
+YyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIz
+NjMsLTE2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0My
+wtMTg5MDAwMDYxNCw0MzYyNzcwNywtNDA0MjM2OTkwLC0xNTMz
+ODY2MTM1XX0=
 -->
