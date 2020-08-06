@@ -475,7 +475,7 @@ jobs:
           git merge upstream/master
           git push origin master
 ```
-3. Go to [https://console.aws.amazon.com/codesuite/codepipeline/start?region=us-east-1](https://console.aws.amazon.com/codesuite/codepipeline/start?region=us-east-1)
+3. Go to AWS **CodePipeline**
 
 
 #### Uploading Dags
@@ -546,11 +546,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjIxMzQ5MjIsMjA0NzAyOTMyMSwtMT
-Q1Mjk3Njc1NiwxNTgxODEwMTkyLDEzMjUzMzkzNTUsMTMyNjI4
-OTcwOCwxMTY4NDQ3ODUyLC0xNjkzNjQxMjg3LC0xOTgxMzMyOT
-EsMjAzNTUzMjg2OSwtMzAwOTc4MzU3LC0xMDIyMjA2NjgzLC05
-NjQ2Njc0MzQsMTU4OTAzNjIxMyw5NzM0Mjk3MzMsLTE4MDA5Nj
-Y4MTAsNzMwODA3MjY5LC0xOTcwNDIwNTk4LDk2MTAwNzkwMywx
-ODg2ODIyMTM5XX0=
+eyJoaXN0b3J5IjpbNTQ0NDE0NDA5LDIwNDcwMjkzMjEsLTE0NT
+I5NzY3NTYsMTU4MTgxMDE5MiwxMzI1MzM5MzU1LDEzMjYyODk3
+MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0MTI4NywtMTk4MTMzMjkxLD
+IwMzU1MzI4NjksLTMwMDk3ODM1NywtMTAyMjIwNjY4MywtOTY0
+NjY3NDM0LDE1ODkwMzYyMTMsOTczNDI5NzMzLC0xODAwOTY2OD
+EwLDczMDgwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5MDMsMTg4
+NjgyMjEzOV19
 -->
