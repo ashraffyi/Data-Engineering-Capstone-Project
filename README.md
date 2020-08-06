@@ -418,7 +418,7 @@ All data set is very clean and null fields are still used a case to filter for e
 | Delaware       | US             | 2020/04/12 23:18 | 39.3185 | -75.5071  | 1625      | 35     | 191       | 1590   | 10   | 166.8782169   | 11103         | 190                 | 2.153846154    | 84000010 | USA  | 1140.214672  | 11.69230769          |
 ### Step 3: Define the Data Model
 **Database Schema Design**
-The project creates a redshift database in a AWS cluster using AWS CloudFormation. Then AWS CodePipeline and  CloudFormation is used to import the raw data into S3 buckets. Apache Airflow DAGs creates pre-defined empty tables in redshift then it opied over to the tables from s3 bucket. Apache Airflow DAGs helps with parallelizing the execution of one query on multiple CPUs. 
+The project creates a redshift database in a AWS cluster using AWS CloudFormation. Then AWS CodePipeline and  CloudFormation is used to import the raw data into S3 buckets. Apache Airflow DAGs creates pre-defined empty tables in redshift then it opied over to the tables from s3 bucket. Apache Airflow DAGs helps with parallelizing the execution of queries on multiple workers. 
 
 **ELT Pipeline**
 The project creates a star schema relational database. star schema is the simplest style of data mart schema and is the approach most widely used to develop data warehouses and dimensional data marts.[1] The star schema consists of one or more fact tables referencing any number of dimension tables. The star schema is an important special case of the snowflake schema, and is more effective for handling simpler queries.[^2]
@@ -505,11 +505,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDI3NTk3MzksLTE0NTI5NzY3NTYsMT
-U4MTgxMDE5MiwxMzI1MzM5MzU1LDEzMjYyODk3MDgsMTE2ODQ0
-Nzg1MiwtMTY5MzY0MTI4NywtMTk4MTMzMjkxLDIwMzU1MzI4Nj
-ksLTMwMDk3ODM1NywtMTAyMjIwNjY4MywtOTY0NjY3NDM0LDE1
-ODkwMzYyMTMsOTczNDI5NzMzLC0xODAwOTY2ODEwLDczMDgwNz
-I2OSwtMTk3MDQyMDU5OCw5NjEwMDc5MDMsMTg4NjgyMjEzOSwx
-ODg1ODE1NzY4XX0=
+eyJoaXN0b3J5IjpbNjM0MjMwOTY3LC0xNDUyOTc2NzU2LDE1OD
+E4MTAxOTIsMTMyNTMzOTM1NSwxMzI2Mjg5NzA4LDExNjg0NDc4
+NTIsLTE2OTM2NDEyODcsLTE5ODEzMzI5MSwyMDM1NTMyODY5LC
+0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2NzQzNCwxNTg5
+MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2NjgxMCw3MzA4MDcyNj
+ksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLDE4ODY4MjIxMzksMTg4
+NTgxNTc2OF19
 -->
