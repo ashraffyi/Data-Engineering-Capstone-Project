@@ -510,7 +510,9 @@ jobs:
 1. Go to your [Subscriptions](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions)
 2. Under **Entitled data sets** click [USA Hospital Beds | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/entitled-data-sets/298d3e38f0022d96e1e3d9f76f31ba00)
 3. click on the most recent **Revision ID**
-4. 
+4. Under **Assets** select the csv file 
+5. click on `Export to Amazon S3`
+6. Select the bucket you created when you run redshift CloudFormation
 
 #### Uploading Dags
 On Raspberry Pi
@@ -580,11 +582,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODg5MzI5Miw4Mzk5Mzg2ODEsLTE5MD
-A0MTc1MTAsMTExMzYxNDAxNiwxODM5NzQxOTIyLC0xNzc4Mjk1
-MDY1LDU0NDQxNDQwOSwyMDQ3MDI5MzIxLC0xNDUyOTc2NzU2LD
-E1ODE4MTAxOTIsMTMyNTMzOTM1NSwxMzI2Mjg5NzA4LDExNjg0
-NDc4NTIsLTE2OTM2NDEyODcsLTE5ODEzMzI5MSwyMDM1NTMyOD
-Y5LC0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2NzQzNCwx
-NTg5MDM2MjEzXX0=
+eyJoaXN0b3J5IjpbOTc4MzU0NzYwLDgzOTkzODY4MSwtMTkwMD
+QxNzUxMCwxMTEzNjE0MDE2LDE4Mzk3NDE5MjIsLTE3NzgyOTUw
+NjUsNTQ0NDE0NDA5LDIwNDcwMjkzMjEsLTE0NTI5NzY3NTYsMT
+U4MTgxMDE5MiwxMzI1MzM5MzU1LDEzMjYyODk3MDgsMTE2ODQ0
+Nzg1MiwtMTY5MzY0MTI4NywtMTk4MTMzMjkxLDIwMzU1MzI4Nj
+ksLTMwMDk3ODM1NywtMTAyMjIwNjY4MywtOTY0NjY3NDM0LDE1
+ODkwMzYyMTNdfQ==
 -->
