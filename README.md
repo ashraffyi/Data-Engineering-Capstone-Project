@@ -417,9 +417,6 @@ All data set is very clean and null fields are still used a case to filter for e
 | Connecticut    | US             | 2020/04/12 23:18 | 41.5978 | -72.7554  | 12035     | 554    |           | 11481  | 9    | 337.5604825   | 41220         | 1654                | 4.603240548    | 84000009 | USA  | 1156.148159  | 13.74324886          |
 | Delaware       | US             | 2020/04/12 23:18 | 39.3185 | -75.5071  | 1625      | 35     | 191       | 1590   | 10   | 166.8782169   | 11103         | 190                 | 2.153846154    | 84000010 | USA  | 1140.214672  | 11.69230769          |
 ### Step 3: Define the Data Model
-
-
-
 Hear are the summary of the steps we will take to ETL the data into redshift:
 
 - AWS CloudFormation to setup our infrastructure.  
@@ -500,11 +497,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODE3NzU0NjksMTU4MTgxMDE5MiwxMz
-I1MzM5MzU1LDEzMjYyODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0
-MTI4NywtMTk4MTMzMjkxLDIwMzU1MzI4NjksLTMwMDk3ODM1Ny
-wtMTAyMjIwNjY4MywtOTY0NjY3NDM0LDE1ODkwMzYyMTMsOTcz
-NDI5NzMzLC0xODAwOTY2ODEwLDczMDgwNzI2OSwtMTk3MDQyMD
-U5OCw5NjEwMDc5MDMsMTg4NjgyMjEzOSwxODg1ODE1NzY4LDEx
-Njc4NDE4NV19
+eyJoaXN0b3J5IjpbMTA3NTQxNDE1MywxNTgxODEwMTkyLDEzMj
+UzMzkzNTUsMTMyNjI4OTcwOCwxMTY4NDQ3ODUyLC0xNjkzNjQx
+Mjg3LC0xOTgxMzMyOTEsMjAzNTUzMjg2OSwtMzAwOTc4MzU3LC
+0xMDIyMjA2NjgzLC05NjQ2Njc0MzQsMTU4OTAzNjIxMyw5NzM0
+Mjk3MzMsLTE4MDA5NjY4MTAsNzMwODA3MjY5LC0xOTcwNDIwNT
+k4LDk2MTAwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3NjgsMTE2
+Nzg0MTg1XX0=
 -->
