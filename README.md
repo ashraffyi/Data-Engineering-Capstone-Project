@@ -202,6 +202,10 @@ Provided By: [Definitive Healthcare](https://www.definitivehc.com/) via AWS Data
 **Data Description**
 This resource includes data on numbers of licensed beds, staffed beds, ICU beds, and the bed utilization rate for the hospitals in the United States.
 
+**Field description**
+-   **Province_State**  - The name of the State within the USA.
+- 
+
 
 The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people infected (new and total case), Bed Utilization Rate caused by COVID-19 for a time duration of 30-days in united states based on historical data from JHU.
 
@@ -233,11 +237,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3MDM1NTI5LDczMDgwNzI2OSwtMTk3MD
-QyMDU5OCw5NjEwMDc5MDMsMTg4NjgyMjEzOSwxODg1ODE1NzY4
-LDExNjc4NDE4NSwxNDUwNjg2Mjg4LDE2OTc5NTQ2ODcsLTI1MD
-YyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIz
-NjMsLTE2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0My
-wtMTg5MDAwMDYxNCw0MzYyNzcwNywtNDA0MjM2OTkwLC0xNTMz
-ODY2MTM1XX0=
+eyJoaXN0b3J5IjpbLTc0NDk5MzYsNzMwODA3MjY5LC0xOTcwND
+IwNTk4LDk2MTAwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3Njgs
+MTE2Nzg0MTg1LDE0NTA2ODYyODgsMTY5Nzk1NDY4NywtMjUwNj
+IxNTgzLDIwODk0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4MjM2
+MywtMTYxOTE0MjE1OCwtMTM0NzcxNjI1NCwxNzUzOTMyNDQzLC
+0xODkwMDAwNjE0LDQzNjI3NzA3LC00MDQyMzY5OTAsLTE1MzM4
+NjYxMzVdfQ==
 -->
