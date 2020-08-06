@@ -104,49 +104,7 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 6. open a browser window
 7. past the link and add `:8080`
 
-#### Uploading Dags
-On Raspberry Pi
-1. Create a airflow folder in your home directory you can just use 
-2. In terminal Clone git repo [turbine](https://github.com/villasv/aws-airflow-stack) by running `git clone https://github.com/villasv/aws-airflow-stack.git`
-3. Copy airflow content form git repo to your airflow folder
-4. Copy makefile to home folder
-5. go to terminal and run the following command from your home dir 'make deploy stack-name=airflow'
-6. if you get an error code 255 make sure that your aws config under .aws which is in your home folder only have the following line 
-```
-	[default]
-	region = us-west-2
-```
-#### Add AWS credentials to Airflow Connections
-use Airflow's UI to configure your AWS credentials and connection to Redshift.
-1. To go to the Airflow UI
-2. Click on the **Admin** tab and select **Connections**.
-3. Under **Connections**, select **Create**.
-4. On the create connection page, enter the following values:
-	-   **Conn Id**: Enter  `aws_credentials`.
-	-   **Conn Type**: Enter  `Amazon Web Services`.
-	-   **Login**: Enter your  **Access key ID**  from the IAM User credentials you downloaded earlier.
-	-   **Password**: Enter your  **Secret access key**  from the IAM User credentials you downloaded earlier.
 
-Once you've entered these values, select  **Save**.
-
-#### Add AWS redshift to Airflow Connections
-Getting redshift connection settings:
-1. Go to AWS CloudFormation console
-2. click on redshift click on outputs
-	here you'll find all the settings for redshift
-3. To go to the Airflow UI
-4. Click on the **Admin** tab and select **Connections**.
-5. Under **Connections**, select **Create**.
-6. On the create connection page, enter the following values:
-	-   **Conn Id**: Enter  `redshift`.
-	-   **Conn Type**: Enter  `Postgres`.
-	-   **Host**: Enter the endpoint of your Redshift cluster, excluding the port at the end. **IMPORTANT: Make sure to  NOT**  include the port at the end of the Redshift endpoint string.
-	-   **Schema**: Enter  `dev`. This is the Redshift database you want to connect to.
-	-   **Login**: Enter  `awsuser`.
-	-   **Password**: Enter the password you created when launching your Redshift cluster.
-	-   **Port**: Enter  `5439`.
-
-Once you've entered these values, select  **Save**.
 
 ### IMPORTANT: Don't forget to shutdown everything. This is very simple
 1. Go to AWS CloudFormation console 
@@ -336,6 +294,53 @@ All data set is very clean and null fields are still used a case to filter for e
 
 ### Step 3: Define the Data Model
 ### Step 4: Run ETL to Model the Data
+
+Fellow the steps below to Run the ETL
+
+#### Uploading Dags
+On Raspberry Pi
+1. Create a airflow folder in your home directory you can just use 
+2. In terminal Clone git repo [turbine](https://github.com/villasv/aws-airflow-stack) by running `git clone https://github.com/villasv/aws-airflow-stack.git`
+3. Copy airflow content form git repo to your airflow folder
+4. Copy makefile to home folder
+5. go to terminal and run the following command from your home dir 'make deploy stack-name=airflow'
+6. if you get an error code 255 make sure that your aws config under .aws which is in your home folder only have the following line 
+```
+	[default]
+	region = us-west-2
+```
+#### Add AWS credentials to Airflow Connections
+use Airflow's UI to configure your AWS credentials and connection to Redshift.
+1. To go to the Airflow UI
+2. Click on the **Admin** tab and select **Connections**.
+3. Under **Connections**, select **Create**.
+4. On the create connection page, enter the following values:
+	-   **Conn Id**: Enter  `aws_credentials`.
+	-   **Conn Type**: Enter  `Amazon Web Services`.
+	-   **Login**: Enter your  **Access key ID**  from the IAM User credentials you downloaded earlier.
+	-   **Password**: Enter your  **Secret access key**  from the IAM User credentials you downloaded earlier.
+
+Once you've entered these values, select  **Save**.
+
+#### Add AWS redshift to Airflow Connections
+Getting redshift connection settings:
+1. Go to AWS CloudFormation console
+2. click on redshift click on outputs
+	here you'll find all the settings for redshift
+3. To go to the Airflow UI
+4. Click on the **Admin** tab and select **Connections**.
+5. Under **Connections**, select **Create**.
+6. On the create connection page, enter the following values:
+	-   **Conn Id**: Enter  `redshift`.
+	-   **Conn Type**: Enter  `Postgres`.
+	-   **Host**: Enter the endpoint of your Redshift cluster, excluding the port at the end. **IMPORTANT: Make sure to  NOT**  include the port at the end of the Redshift endpoint string.
+	-   **Schema**: Enter  `dev`. This is the Redshift database you want to connect to.
+	-   **Login**: Enter  `awsuser`.
+	-   **Password**: Enter the password you created when launching your Redshift cluster.
+	-   **Port**: Enter  `5439`.
+
+Once you've entered these values, select  **Save**.
+
 ### Step 5: Complete Project Write Up
 
 ## III. Conclusion
@@ -360,11 +365,11 @@ All data set is very clean and null fields are still used a case to filter for e
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Mjg3Mjk2NSwxNTg5MDM2MjEzLDk3Mz
-QyOTczMywtMTgwMDk2NjgxMCw3MzA4MDcyNjksLTE5NzA0MjA1
-OTgsOTYxMDA3OTAzLDE4ODY4MjIxMzksMTg4NTgxNTc2OCwxMT
-Y3ODQxODUsMTQ1MDY4NjI4OCwxNjk3OTU0Njg3LC0yNTA2MjE1
-ODMsMjA4OTQxNjc0NiwtMTg2Mzk3NDk4NywxMDA2MTgyMzYzLC
-0xNjE5MTQyMTU4LC0xMzQ3NzE2MjU0LDE3NTM5MzI0NDMsLTE4
-OTAwMDA2MTRdfQ==
+eyJoaXN0b3J5IjpbNjgxNTY1MDUxLDE1ODkwMzYyMTMsOTczND
+I5NzMzLC0xODAwOTY2ODEwLDczMDgwNzI2OSwtMTk3MDQyMDU5
+OCw5NjEwMDc5MDMsMTg4NjgyMjEzOSwxODg1ODE1NzY4LDExNj
+c4NDE4NSwxNDUwNjg2Mjg4LDE2OTc5NTQ2ODcsLTI1MDYyMTU4
+MywyMDg5NDE2NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIzNjMsLT
+E2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5
+MDAwMDYxNF19
 -->
