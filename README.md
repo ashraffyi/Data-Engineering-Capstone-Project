@@ -101,7 +101,8 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 #### Subscribe to [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
 1. Go to AWS Data Exchange
 2. Search for [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions/prod-ydzs6f2cju6qc)
-
+3. Click `Continue to subscribe`
+4. Click `Subscribe`
 
 ### IMPORTANT: Don't forget to shutdown everything. This is very simple
 1. Go to AWS CloudFormation console 
@@ -577,7 +578,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTI5NzM2NCwxMTEzNjE0MDE2LDE4Mz
+eyJoaXN0b3J5IjpbMTM3MDUxOTE5NywxMTEzNjE0MDE2LDE4Mz
 k3NDE5MjIsLTE3NzgyOTUwNjUsNTQ0NDE0NDA5LDIwNDcwMjkz
 MjEsLTE0NTI5NzY3NTYsMTU4MTgxMDE5MiwxMzI1MzM5MzU1LD
 EzMjYyODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0MTI4NywtMTk4
