@@ -507,10 +507,12 @@ jobs:
 18. Click Create pipeline
 
 #### Importing AWS Data Exchange to S3: [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
-1. Go to [retrieve new updates automatically using AWS Data Exchange](https://aws.amazon.com/blogs/big-data/find-and-acquire-new-data-sets-and-retrieve-new-updates-automatically-using-aws-data-exchange/)
-2. Scrol to **Automating the retrieval for new data set revisions**
-3. Look for Launch Stack and Click it
-4. Name Stack `aws-dataexchange-to-s3`
+1. Go to your [Subscriptions](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions)
+2. Under 
+3. Go to [retrieve new updates automatically using AWS Data Exchange](https://aws.amazon.com/blogs/big-data/find-and-acquire-new-data-sets-and-retrieve-new-updates-automatically-using-aws-data-exchange/)
+4. Scrol to **Automating the retrieval for new data set revisions**
+5. Look for Launch Stack and Click it
+6. Name Stack `aws-dataexchange-to-s3`
 
 #### Uploading Dags
 On Raspberry Pi
@@ -580,11 +582,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzOTQyNzgwLDExMTM2MTQwMTYsMTgzOT
-c0MTkyMiwtMTc3ODI5NTA2NSw1NDQ0MTQ0MDksMjA0NzAyOTMy
-MSwtMTQ1Mjk3Njc1NiwxNTgxODEwMTkyLDEzMjUzMzkzNTUsMT
-MyNjI4OTcwOCwxMTY4NDQ3ODUyLC0xNjkzNjQxMjg3LC0xOTgx
-MzMyOTEsMjAzNTUzMjg2OSwtMzAwOTc4MzU3LC0xMDIyMjA2Nj
-gzLC05NjQ2Njc0MzQsMTU4OTAzNjIxMyw5NzM0Mjk3MzMsLTE4
-MDA5NjY4MTBdfQ==
+eyJoaXN0b3J5IjpbLTEyODE2MzEyOTAsMTExMzYxNDAxNiwxOD
+M5NzQxOTIyLC0xNzc4Mjk1MDY1LDU0NDQxNDQwOSwyMDQ3MDI5
+MzIxLC0xNDUyOTc2NzU2LDE1ODE4MTAxOTIsMTMyNTMzOTM1NS
+wxMzI2Mjg5NzA4LDExNjg0NDc4NTIsLTE2OTM2NDEyODcsLTE5
+ODEzMzI5MSwyMDM1NTMyODY5LC0zMDA5NzgzNTcsLTEwMjIyMD
+Y2ODMsLTk2NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQyOTczMywt
+MTgwMDk2NjgxMF19
 -->
