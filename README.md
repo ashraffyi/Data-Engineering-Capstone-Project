@@ -161,7 +161,7 @@ Once you've entered these values, select  **Save**.
 ### Step 1: Scope the Project and Gather Data
 The following datasets will be used:
 #### [JHU CSSE COVID-19 Dataset](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports_us) 
-Provided By: Johns Hopkins University (JHU)
+Provided By: Johns Hopkins University (JHU) via GitRepo
 
 **Data Description**
 This table contains an aggregation of each USA State level data.
@@ -198,6 +198,9 @@ Refer to the  [mainpage](https://github.com/CSSEGISandData/COVID-19).
 #### [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
 
 
+**Data Description**
+This resource includes data on numbers of licensed beds, staffed beds, ICU beds, and the bed utilization rate for the hospitals in the United States.
+
 
 The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people infected (new and total case), Bed Utilization Rate caused by COVID-19 for a time duration of 30-days in united states based on historical data from JHU.
 
@@ -229,11 +232,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDU1Mzg2MSw3MzA4MDcyNjksLTE5Nz
-A0MjA1OTgsOTYxMDA3OTAzLDE4ODY4MjIxMzksMTg4NTgxNTc2
-OCwxMTY3ODQxODUsMTQ1MDY4NjI4OCwxNjk3OTU0Njg3LC0yNT
-A2MjE1ODMsMjA4OTQxNjc0NiwtMTg2Mzk3NDk4NywxMDA2MTgy
-MzYzLC0xNjE5MTQyMTU4LC0xMzQ3NzE2MjU0LDE3NTM5MzI0ND
-MsLTE4OTAwMDA2MTQsNDM2Mjc3MDcsLTQwNDIzNjk5MCwtMTUz
-Mzg2NjEzNV19
+eyJoaXN0b3J5IjpbNjE3NDM1OTAyLDczMDgwNzI2OSwtMTk3MD
+QyMDU5OCw5NjEwMDc5MDMsMTg4NjgyMjEzOSwxODg1ODE1NzY4
+LDExNjc4NDE4NSwxNDUwNjg2Mjg4LDE2OTc5NTQ2ODcsLTI1MD
+YyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIz
+NjMsLTE2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0My
+wtMTg5MDAwMDYxNCw0MzYyNzcwNywtNDA0MjM2OTkwLC0xNTMz
+ODY2MTM1XX0=
 -->
