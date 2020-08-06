@@ -395,8 +395,8 @@ All data set is very clean and null fields are still used a case to filter for e
 - STATE_FIPS<100
 
 **Columns that will be imported**: 
-- HOSPITAL_TYPE
 - STATE_FIPS
+- HOSPITAL_TYPE
 - NUM_LICENSED_BEDS
 - NUM_STAFFED_BEDS
 - NUM_ICU_BEDS
@@ -515,11 +515,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MDg4NzMwNywtMTk4MTMzMjkxLDIwMz
-U1MzI4NjksLTMwMDk3ODM1NywtMTAyMjIwNjY4MywtOTY0NjY3
-NDM0LDE1ODkwMzYyMTMsOTczNDI5NzMzLC0xODAwOTY2ODEwLD
-czMDgwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5MDMsMTg4Njgy
-MjEzOSwxODg1ODE1NzY4LDExNjc4NDE4NSwxNDUwNjg2Mjg4LD
-E2OTc5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC0xODYz
-OTc0OTg3XX0=
+eyJoaXN0b3J5IjpbLTE2OTM2NDEyODcsLTE5ODEzMzI5MSwyMD
+M1NTMyODY5LC0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2
+NzQzNCwxNTg5MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2NjgxMC
+w3MzA4MDcyNjksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLDE4ODY4
+MjIxMzksMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4NjI4OC
+wxNjk3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0NiwtMTg2
+Mzk3NDk4N119
 -->
