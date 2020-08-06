@@ -158,7 +158,7 @@ This resource includes data on numbers of licensed beds, staffed beds, ICU beds,
 **Field description**
 - **HOSPITAL_NAME** - Name of the hospital
 - **HOSPITAL_TYPE** - Type of the hospital (see below for different types)
-- **HQ_ADDRESS** - Civic street address of the hospital
+- **HQ_ADDRESS** - line 1 Civic street address of the hospital
 - **HQ_ADDRESS1** - line 2 of Civic street address of the hospital
 - **HQ_CITY** - City of the hospital
 - **HQ_STATE** - State of the hospital
@@ -514,7 +514,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTcyNDM3OCwxMzI2Mjg5NzA4LDExNj
+eyJoaXN0b3J5IjpbMTMyNTMzOTM1NSwxMzI2Mjg5NzA4LDExNj
 g0NDc4NTIsLTE2OTM2NDEyODcsLTE5ODEzMzI5MSwyMDM1NTMy
 ODY5LC0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2NzQzNC
 wxNTg5MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2NjgxMCw3MzA4
