@@ -197,7 +197,7 @@ Refer to the  [mainpage](https://github.com/CSSEGISandData/COVID-19).
 
 #### [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
 
-Provided By: [https://www.definitivehc.com/](https://www.definitivehc.com/)
+Provided By: [Definitive Healthcare](https://www.definitivehc.com/) via AWS Data Exchange
 
 **Data Description**
 This resource includes data on numbers of licensed beds, staffed beds, ICU beds, and the bed utilization rate for the hospitals in the United States.
@@ -233,11 +233,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjkzODAzMjEsNzMwODA3MjY5LC0xOT
-cwNDIwNTk4LDk2MTAwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3
-NjgsMTE2Nzg0MTg1LDE0NTA2ODYyODgsMTY5Nzk1NDY4NywtMj
-UwNjIxNTgzLDIwODk0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4
-MjM2MywtMTYxOTE0MjE1OCwtMTM0NzcxNjI1NCwxNzUzOTMyND
-QzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC00MDQyMzY5OTAsLTE1
-MzM4NjYxMzVdfQ==
+eyJoaXN0b3J5IjpbNTA3MDM1NTI5LDczMDgwNzI2OSwtMTk3MD
+QyMDU5OCw5NjEwMDc5MDMsMTg4NjgyMjEzOSwxODg1ODE1NzY4
+LDExNjc4NDE4NSwxNDUwNjg2Mjg4LDE2OTc5NTQ2ODcsLTI1MD
+YyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIz
+NjMsLTE2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0My
+wtMTg5MDAwMDYxNCw0MzYyNzcwNywtNDA0MjM2OTkwLC0xNTMz
+ODY2MTM1XX0=
 -->
