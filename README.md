@@ -98,6 +98,9 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 6. open a browser window
 7. past the link and add `:8080`
 
+#### Subscribe to [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
+1. Go to AWS Data Exchange
+2. Search for [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions/prod-ydzs6f2cju6qc)
 
 
 ### IMPORTANT: Don't forget to shutdown everything. This is very simple
@@ -107,6 +110,8 @@ another 3 to 5 minutes. After that you can already access the Airflow UI and dep
 4. Select `airflow` click `Delete`
 5. The stack will shutdown everything correctly, do not delete Nested stacks or delete es2, s3 buckets independently. It will take up to 15 to 20 minutes to delete. If you don't have any CloudFormation then everything deleted correctly. 
 6. Sometimes you will get an error `DELETE_FAILED` in this case you will have to go into `Events` and check why it failed to delete. There is a known error where the current Airflow is not emptying the S3 buckets if they are not empty. The workaround is to run the delete stack once then you get an error then go to S3 and empty the buckets and rerun delete stack. 
+
+
 
 ## II Database
 
@@ -572,11 +577,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTg0MDk3MTUsMTExMzYxNDAxNiwxOD
-M5NzQxOTIyLC0xNzc4Mjk1MDY1LDU0NDQxNDQwOSwyMDQ3MDI5
-MzIxLC0xNDUyOTc2NzU2LDE1ODE4MTAxOTIsMTMyNTMzOTM1NS
-wxMzI2Mjg5NzA4LDExNjg0NDc4NTIsLTE2OTM2NDEyODcsLTE5
-ODEzMzI5MSwyMDM1NTMyODY5LC0zMDA5NzgzNTcsLTEwMjIyMD
-Y2ODMsLTk2NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQyOTczMywt
-MTgwMDk2NjgxMF19
+eyJoaXN0b3J5IjpbLTg2NTI5NzM2NCwxMTEzNjE0MDE2LDE4Mz
+k3NDE5MjIsLTE3NzgyOTUwNjUsNTQ0NDE0NDA5LDIwNDcwMjkz
+MjEsLTE0NTI5NzY3NTYsMTU4MTgxMDE5MiwxMzI1MzM5MzU1LD
+EzMjYyODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0MTI4NywtMTk4
+MTMzMjkxLDIwMzU1MzI4NjksLTMwMDk3ODM1NywtMTAyMjIwNj
+Y4MywtOTY0NjY3NDM0LDE1ODkwMzYyMTMsOTczNDI5NzMzLC0x
+ODAwOTY2ODEwXX0=
 -->
