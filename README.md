@@ -159,7 +159,7 @@ This resource includes data on numbers of licensed beds, staffed beds, ICU beds,
 - **HOSPITAL_NAME** - Name of the hospital
 - **HOSPITAL_TYPE** - Type of the hospital (see below for different types)
 - **HQ_ADDRESS** - Civic street address of the hospital
-- **HQ_ADDRESS1** - If there is a po box
+- **HQ_ADDRESS1** - line 2 of Civic street address of the hospital
 - **HQ_CITY** - City of the hospital
 - **HQ_STATE** - State of the hospital
 - **HQ_ZIP_CODE** - Zip Code of the hospital
@@ -514,11 +514,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjI4OTcwOCwxMTY4NDQ3ODUyLC0xNj
-kzNjQxMjg3LC0xOTgxMzMyOTEsMjAzNTUzMjg2OSwtMzAwOTc4
-MzU3LC0xMDIyMjA2NjgzLC05NjQ2Njc0MzQsMTU4OTAzNjIxMy
-w5NzM0Mjk3MzMsLTE4MDA5NjY4MTAsNzMwODA3MjY5LC0xOTcw
-NDIwNTk4LDk2MTAwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3Nj
-gsMTE2Nzg0MTg1LDE0NTA2ODYyODgsMTY5Nzk1NDY4NywtMjUw
-NjIxNTgzXX0=
+eyJoaXN0b3J5IjpbMTI4NTcyNDM3OCwxMzI2Mjg5NzA4LDExNj
+g0NDc4NTIsLTE2OTM2NDEyODcsLTE5ODEzMzI5MSwyMDM1NTMy
+ODY5LC0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2NzQzNC
+wxNTg5MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2NjgxMCw3MzA4
+MDcyNjksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLDE4ODY4MjIxMz
+ksMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4NjI4OCwxNjk3
+OTU0Njg3XX0=
 -->
