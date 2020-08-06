@@ -406,31 +406,16 @@ All data set is very clean and null fields are still used a case to filter for e
 - AVG_VENTILATOR_USAGE
 
 **Sample**:
-| HOSPITAL_TYPE                  | STATE_FIPS | NUM_LICENSED_BEDS | NUM_STAFFED_BEDS | NUM_ICU_BEDS | ADULT_ICU_BEDS | PEDI_ICU_BEDS | Potential_Increase_In_Bed_Capac | AVG_VENTILATOR_USAGE |
-|--------------------------------|------------|-------------------|------------------|--------------|----------------|---------------|---------------------------------|----------------------|
-| VA Hospital                    | 4          | 62                | 62               | 0            | 0              |               | 0                               | 0                    |
-| VA Hospital                    | 4          | 295               | 295              | 2            | 2              |               | 0                               | 2                    |
-| VA Hospital                    | 6          | 54                | 54               | 2            | 2              |               | 0                               | 2                    |
-| VA Hospital                    | 9          | 216               | 216              | 1            | 1              |               | 0                               | 2                    |
-| VA Hospital                    | 10         | 62                | 62               | 0            | 0              |               | 0                               | 1                    |
-| VA Hospital                    | 11         | 164               | 164              | 1            | 1              |               | 0                               | 2                    |
-| VA Hospital                    | 12         | 432               | 278              | 2            | 2              |               | 154                             | 2                    |
-| VA Hospital                    | 16         | 46                | 46               | 1            | 1              |               | 0                               | 1                    |
-| VA Hospital                    | 22         | 111               | 111              | 1            | 1              |               | 0                               | 2                    |
-| Short Term Acute Care Hospital | 28         | 160               | 160              | 10           | 10             | 20            | 0                               | 2                    |
-| VA Hospital                    | 29         | 89                | 89               | 2            | 2              |               | 0                               | 2                    |
-| VA Hospital                    | 35         | 163               | 163              | 1            | 1              |               | 0                               | 1                    |
-| VA Hospital                    | 36         | 67                | 67               | 2            | 2              |               | 0                               | 2                    |
-| VA Hospital                    | 36         | 311               | 311              | 2            | 2              |               | 0                               | 2                    |
-| VA Hospital                    | 38         | 37                | 37               | 1            | 1              |               | 0                               | 1                    |
-| VA Hospital                    | 41         |                   |                  | 0            | 0              |               | 0                               | 0                    |
-| VA Hospital                    | 42         | 146               | 146              | 2            | 2              |               | 0                               | 2                    |
-| Short Term Acute Care Hospital | 1          | 85                | 55               | 6            | 6              | 0             | 30                              | 2                    |
-| Short Term Acute Care Hospital | 1          | 150               | 129              | 17           | 17             | 0             | 21                              | 3                    |
-| Short Term Acute Care Hospital | 1          | 58                | 55               | 4            | 4              | 0             | 3                               | 2                    |
-| Short Term Acute Care Hospital | 1          | 74                | 30               | 5            | 5              | 0             | 44                              | 2                    |
-| Short Term Acute Care Hospital | 1          | 35                | 25               | 4            | 4              | 0             | 10                              | 1                    |
-
+| Province_State | Country_Region | Last_Update      | Lat     | Long_     | Confirmed | Deaths | Recovered | Active | FIPS | Incident_Rate | People_Tested | People_Hospitalized | Mortality_Rate | UID      | ISO3 | Testing_Rate | Hospitalization_Rate |
+|----------------|----------------|------------------|---------|-----------|-----------|--------|-----------|--------|------|---------------|---------------|---------------------|----------------|----------|------|--------------|----------------------|
+| Alabama        | US             | 2020/04/12 23:18 | 32.3182 | -86.9023  | 3563      | 93     |           | 3470   | 1    | 75.98802021   | 21583         | 437                 | 2.610159978    | 84000001 | USA  | 460.3001516  | 12.26494527          |
+| Alaska         | US             | 2020/04/12 23:18 | 61.3707 | -152.4044 | 272       | 8      | 66        | 264    | 2    | 45.50404936   | 8038          | 31                  | 2.941176471    | 84000002 | USA  | 1344.711576  | 11.39705882          |
+| Arizona        | US             | 2020/04/12 23:18 | 33.7298 | -111.4312 | 3542      | 115    |           | 3427   | 4    | 48.66242224   | 42109         |                     | 3.246753247    | 84000004 | USA  | 578.5222863  |                      |
+| Arkansas       | US             | 2020/04/12 23:18 | 34.9697 | -92.3731  | 1280      | 27     | 367       | 1253   | 5    | 49.43942261   | 19722         | 130                 | 2.109375       | 84000005 | USA  | 761.7533537  | 10.15625             |
+| California     | US             | 2020/04/12 23:18 | 36.1162 | -119.6816 | 22795     | 640    |           | 22155  | 6    | 58.13772584   | 190328        | 5234                | 2.81202018     | 84000006 | USA  | 485.4238685  | 22.9611757           |
+| Colorado       | US             | 2020/04/12 23:18 | 39.0598 | -105.3111 | 7307      | 289    |           | 7018   | 8    | 128.943729    | 34873         | 1376                | 3.955111537    | 84000008 | USA  | 615.3899908  | 18.8312577           |
+| Connecticut    | US             | 2020/04/12 23:18 | 41.5978 | -72.7554  | 12035     | 554    |           | 11481  | 9    | 337.5604825   | 41220         | 1654                | 4.603240548    | 84000009 | USA  | 1156.148159  | 13.74324886          |
+| Delaware       | US             | 2020/04/12 23:18 | 39.3185 | -75.5071  | 1625      | 35     | 191       | 1590   | 10   | 166.8782169   | 11103         | 190                 | 2.153846154    | 84000010 | USA  | 1140.214672  | 11.69230769          |
 ### Step 3: Define the Data Model
 
 
@@ -515,11 +500,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTgxMDE5MiwxMzI1MzM5MzU1LDEzMj
-YyODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0MTI4NywtMTk4MTMz
-MjkxLDIwMzU1MzI4NjksLTMwMDk3ODM1NywtMTAyMjIwNjY4My
-wtOTY0NjY3NDM0LDE1ODkwMzYyMTMsOTczNDI5NzMzLC0xODAw
-OTY2ODEwLDczMDgwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5MD
-MsMTg4NjgyMjEzOSwxODg1ODE1NzY4LDExNjc4NDE4NSwxNDUw
-Njg2Mjg4XX0=
+eyJoaXN0b3J5IjpbLTE5ODE3NzU0NjksMTU4MTgxMDE5MiwxMz
+I1MzM5MzU1LDEzMjYyODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0
+MTI4NywtMTk4MTMzMjkxLDIwMzU1MzI4NjksLTMwMDk3ODM1Ny
+wtMTAyMjIwNjY4MywtOTY0NjY3NDM0LDE1ODkwMzYyMTMsOTcz
+NDI5NzMzLC0xODAwOTY2ODEwLDczMDgwNzI2OSwtMTk3MDQyMD
+U5OCw5NjEwMDc5MDMsMTg4NjgyMjEzOSwxODg1ODE1NzY4LDEx
+Njc4NDE4NV19
 -->
