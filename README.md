@@ -502,7 +502,7 @@ jobs:
 
 #### Importing AWS Data Exchange to S3: [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
 1. Go to AWS Data Exchange
-2. sea
+2. Search for [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions/prod-ydzs6f2cju6qc)
 
 #### Uploading Dags
 On Raspberry Pi
@@ -572,7 +572,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTM0Mzk2NTMsMTExMzYxNDAxNiwxOD
+eyJoaXN0b3J5IjpbLTE2MTg0MDk3MTUsMTExMzYxNDAxNiwxOD
 M5NzQxOTIyLC0xNzc4Mjk1MDY1LDU0NDQxNDQwOSwyMDQ3MDI5
 MzIxLC0xNDUyOTc2NzU2LDE1ODE4MTAxOTIsMTMyNTMzOTM1NS
 wxMzI2Mjg5NzA4LDExNjg0NDc4NTIsLTE2OTM2NDEyODcsLTE5
