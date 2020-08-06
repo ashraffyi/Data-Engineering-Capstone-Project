@@ -192,6 +192,9 @@ MM-DD-YYYY.csv in UTC.
 **Update frequency**
 -   Once per day between 04:45 and 05:15 UTC.
 
+**Formats**
+-   CSV
+
 **Data sources**
 Refer to the  [mainpage](https://github.com/CSSEGISandData/COVID-19).
 
@@ -264,9 +267,10 @@ _Hospital types are defined by the last four digits of the hospital’s Medicare
 -   Provides care for military service people (Army, Navy, Air Force, Marines, and Coast Guard), their dependents, and retirees (not all military service retirees are eligible for VA services)
 
 **Update frequency**
-	- Daily
+-   Daily
 
-**Formats: GeoJSON, CSV
+**Formats**
+-   GeoJSON, CSV
 
 The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people infected (new and total case), Bed Utilization Rate caused by COVID-19 for a time duration of 30-days in united states based on historical data from JHU.
 
@@ -298,7 +302,7 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjYxMzk4MSwtMTgwMDk2NjgxMCw3Mz
+eyJoaXN0b3J5IjpbMTQ3MjQxNzQyMSwtMTgwMDk2NjgxMCw3Mz
 A4MDcyNjksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLDE4ODY4MjIx
 MzksMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4NjI4OCwxNj
 k3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0NiwtMTg2Mzk3
