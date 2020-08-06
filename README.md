@@ -391,7 +391,7 @@ All data set is very clean and null fields are still used a case to filter for e
  
 **Filters**: 
 - Last_Update IsNotNULL
-- FIPS <100
+- STATE_FIPS<100
 
 **Columns that will be imported**: 
 - Last_Update
@@ -482,7 +482,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE0NTg2MzEsLTEwMjIyMDY2ODMsLT
+eyJoaXN0b3J5IjpbLTEzOTg4Mzc2OTEsLTEwMjIyMDY2ODMsLT
 k2NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2
 NjgxMCw3MzA4MDcyNjksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLD
 E4ODY4MjIxMzksMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4
