@@ -152,7 +152,7 @@ Once you've entered these values, select  **Save**.
 
 ### Step 1: Scope the Project and Gather Data
 The following datasets will be used:
-#### [Global Coronavirus (COVID-19) Data (Corona Data Scraper)](https://aws.amazon.com/marketplace/pp/Global-Coronavirus-COVID-19-Data-Corona-Data-Scrap/prodview-vtnf3vvvheqzw) 
+#### [JHU CSSE COVID-19 Dataset](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports_us) 
 
 Provided By: Enigma
 
@@ -189,11 +189,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjgyMjEzOSwxODg1ODE1NzY4LDExNj
-c4NDE4NSwxNDUwNjg2Mjg4LDE2OTc5NTQ2ODcsLTI1MDYyMTU4
-MywyMDg5NDE2NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIzNjMsLT
-E2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5
-MDAwMDYxNCw0MzYyNzcwNywtNDA0MjM2OTkwLC0xNTMzODY2MT
-M1LC01NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0NDUsLTU5
-ODc2NzE2OF19
+eyJoaXN0b3J5IjpbLTgyNzk1MjU5LDE4ODY4MjIxMzksMTg4NT
+gxNTc2OCwxMTY3ODQxODUsMTQ1MDY4NjI4OCwxNjk3OTU0Njg3
+LC0yNTA2MjE1ODMsMjA4OTQxNjc0NiwtMTg2Mzk3NDk4NywxMD
+A2MTgyMzYzLC0xNjE5MTQyMTU4LC0xMzQ3NzE2MjU0LDE3NTM5
+MzI0NDMsLTE4OTAwMDA2MTQsNDM2Mjc3MDcsLTQwNDIzNjk5MC
+wtMTUzMzg2NjEzNSwtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgw
+NTYxNDQ1XX0=
 -->
