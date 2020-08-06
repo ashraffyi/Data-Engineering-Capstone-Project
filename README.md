@@ -578,17 +578,17 @@ The goal of the project was to have the data setup for a ML model. The queries w
 There will be no promble with S3 bucket and Airflow as each is setup to incrise with load dynamically. If the load is too high on the redshift we can delete the old one with shapshort and create a new one with more nodes.
 
 ### The pipelines would be run on a daily basis by 7 am every day:
-All data expect for AWS Data Exchange
+All data expect for AWS Data Exchange is set to run on a daily basis by 7AM UTC
 
 ### The database needed to be accessed by 100+ people:
-
+Again there will be no issue we will just have to incrise the redshift nodes. and 
 
 ------
 # Appendix A
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTk3NzgzNzAsODM5OTM4NjgxLC0xOT
+eyJoaXN0b3J5IjpbLTIwMzU2OTQ3MDYsODM5OTM4NjgxLC0xOT
 AwNDE3NTEwLDExMTM2MTQwMTYsMTgzOTc0MTkyMiwtMTc3ODI5
 NTA2NSw1NDQ0MTQ0MDksMjA0NzAyOTMyMSwtMTQ1Mjk3Njc1Ni
 wxNTgxODEwMTkyLDEzMjUzMzkzNTUsMTMyNjI4OTcwOCwxMTY4
