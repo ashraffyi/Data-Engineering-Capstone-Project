@@ -439,7 +439,10 @@ Hear are the summary of the steps we will take to ETL the data into redshift:
 Fellow the steps below to Run the ETL
 
 #### Importing data from github to S3: [JHU COVID-19 git repo](https://github.com/CSSEGISandData/COVID-19)
-1. Go to [JHU COVID-19 git repo](https://github.com/CSSEGISandData/COVID-19) and forke the 
+1. Go to [JHU COVID-19 git repo](https://github.com/CSSEGISandData/COVID-19) and fork the Repo
+2. Go to your fork go to git actions and create a new action with the following code
+```Python
+```
 
 
 
@@ -511,11 +514,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzAyOTMyMSwtMTQ1Mjk3Njc1NiwxNT
-gxODEwMTkyLDEzMjUzMzkzNTUsMTMyNjI4OTcwOCwxMTY4NDQ3
-ODUyLC0xNjkzNjQxMjg3LC0xOTgxMzMyOTEsMjAzNTUzMjg2OS
-wtMzAwOTc4MzU3LC0xMDIyMjA2NjgzLC05NjQ2Njc0MzQsMTU4
-OTAzNjIxMyw5NzM0Mjk3MzMsLTE4MDA5NjY4MTAsNzMwODA3Mj
-Y5LC0xOTcwNDIwNTk4LDk2MTAwNzkwMywxODg2ODIyMTM5LDE4
-ODU4MTU3NjhdfQ==
+eyJoaXN0b3J5IjpbLTEzMTc0MDc1MSwyMDQ3MDI5MzIxLC0xND
+UyOTc2NzU2LDE1ODE4MTAxOTIsMTMyNTMzOTM1NSwxMzI2Mjg5
+NzA4LDExNjg0NDc4NTIsLTE2OTM2NDEyODcsLTE5ODEzMzI5MS
+wyMDM1NTMyODY5LC0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2
+NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2Nj
+gxMCw3MzA4MDcyNjksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLDE4
+ODY4MjIxMzldfQ==
 -->
