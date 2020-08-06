@@ -416,6 +416,7 @@ All data set is very clean and null fields are still used a case to filter for e
 | Colorado       | US             | 2020/04/12 23:18 | 39.0598 | -105.3111 | 7307      | 289    |           | 7018   | 8    | 128.943729    | 34873         | 1376                | 3.955111537    | 84000008 | USA  | 615.3899908  | 18.8312577           |
 | Connecticut    | US             | 2020/04/12 23:18 | 41.5978 | -72.7554  | 12035     | 554    |           | 11481  | 9    | 337.5604825   | 41220         | 1654                | 4.603240548    | 84000009 | USA  | 1156.148159  | 13.74324886          |
 | Delaware       | US             | 2020/04/12 23:18 | 39.3185 | -75.5071  | 1625      | 35     | 191       | 1590   | 10   | 166.8782169   | 11103         | 190                 | 2.153846154    | 84000010 | USA  | 1140.214672  | 11.69230769          |
+
 ### Step 3: Define the Data Model
 **Database Schema Design**
 The project creates a redshift database in a AWS cluster using AWS CloudFormation. Then AWS CodePipeline and  CloudFormation is used to import the raw data into S3 buckets. Apache Airflow DAGs creates pre-defined empty tables in redshift then it opied over to the tables from s3 bucket. Apache Airflow DAGs helps with parallelizing the execution of queries on multiple workers. 
@@ -505,11 +506,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0MjMwOTY3LC0xNDUyOTc2NzU2LDE1OD
-E4MTAxOTIsMTMyNTMzOTM1NSwxMzI2Mjg5NzA4LDExNjg0NDc4
-NTIsLTE2OTM2NDEyODcsLTE5ODEzMzI5MSwyMDM1NTMyODY5LC
-0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2NzQzNCwxNTg5
-MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2NjgxMCw3MzA4MDcyNj
-ksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLDE4ODY4MjIxMzksMTg4
-NTgxNTc2OF19
+eyJoaXN0b3J5IjpbMTg5NzE4ODg3MywtMTQ1Mjk3Njc1NiwxNT
+gxODEwMTkyLDEzMjUzMzkzNTUsMTMyNjI4OTcwOCwxMTY4NDQ3
+ODUyLC0xNjkzNjQxMjg3LC0xOTgxMzMyOTEsMjAzNTUzMjg2OS
+wtMzAwOTc4MzU3LC0xMDIyMjA2NjgzLC05NjQ2Njc0MzQsMTU4
+OTAzNjIxMyw5NzM0Mjk3MzMsLTE4MDA5NjY4MTAsNzMwODA3Mj
+Y5LC0xOTcwNDIwNTk4LDk2MTAwNzkwMywxODg2ODIyMTM5LDE4
+ODU4MTU3NjhdfQ==
 -->
