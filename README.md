@@ -435,7 +435,7 @@ Hear are the summary of the steps we will take to ETL the data into redshift:
 - We will use Apache Airflow DAGs to select data for US only, marge the data into one table and move data from S3 to redshift
 
 **Stage Tables**
-![Alt](img.jpg)
+![Alt](Images/stagetables.JPG)
 
 ### Step 4: Run ETL to Model the Data
 
@@ -549,11 +549,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzgyOTUwNjUsNTQ0NDE0NDA5LDIwND
-cwMjkzMjEsLTE0NTI5NzY3NTYsMTU4MTgxMDE5MiwxMzI1MzM5
-MzU1LDEzMjYyODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0MTI4Ny
-wtMTk4MTMzMjkxLDIwMzU1MzI4NjksLTMwMDk3ODM1NywtMTAy
-MjIwNjY4MywtOTY0NjY3NDM0LDE1ODkwMzYyMTMsOTczNDI5Nz
-MzLC0xODAwOTY2ODEwLDczMDgwNzI2OSwtMTk3MDQyMDU5OCw5
-NjEwMDc5MDNdfQ==
+eyJoaXN0b3J5IjpbMTEzMDM0MDM0MiwtMTc3ODI5NTA2NSw1ND
+Q0MTQ0MDksMjA0NzAyOTMyMSwtMTQ1Mjk3Njc1NiwxNTgxODEw
+MTkyLDEzMjUzMzkzNTUsMTMyNjI4OTcwOCwxMTY4NDQ3ODUyLC
+0xNjkzNjQxMjg3LC0xOTgxMzMyOTEsMjAzNTUzMjg2OSwtMzAw
+OTc4MzU3LC0xMDIyMjA2NjgzLC05NjQ2Njc0MzQsMTU4OTAzNj
+IxMyw5NzM0Mjk3MzMsLTE4MDA5NjY4MTAsNzMwODA3MjY5LC0x
+OTcwNDIwNTk4XX0=
 -->
