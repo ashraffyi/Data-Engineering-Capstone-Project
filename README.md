@@ -22,7 +22,7 @@ This project will tackel the ETL procress using the following tools:
 
 ### Prerequisites
 ***IMPORTANT:*** 
-1. Don't forget to delete the Stacks, Pipelines and ensure that all resources are deleted this includes 
+1. Don't forget to delete the Stacks, Pipelines and ensure that all resources are deleted this includes CloudFormation Stacks, S3 Buckets, EC2, and Redshift
 2. 
 #### IAM user:
  1. Create a new IAM user in your AWS account
@@ -554,11 +554,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4NTUzODg1LDE4Mzk3NDE5MjIsLTE3Nz
-gyOTUwNjUsNTQ0NDE0NDA5LDIwNDcwMjkzMjEsLTE0NTI5NzY3
-NTYsMTU4MTgxMDE5MiwxMzI1MzM5MzU1LDEzMjYyODk3MDgsMT
-E2ODQ0Nzg1MiwtMTY5MzY0MTI4NywtMTk4MTMzMjkxLDIwMzU1
-MzI4NjksLTMwMDk3ODM1NywtMTAyMjIwNjY4MywtOTY0NjY3ND
-M0LDE1ODkwMzYyMTMsOTczNDI5NzMzLC0xODAwOTY2ODEwLDcz
-MDgwNzI2OV19
+eyJoaXN0b3J5IjpbMTYyMTY2OTksMTgzOTc0MTkyMiwtMTc3OD
+I5NTA2NSw1NDQ0MTQ0MDksMjA0NzAyOTMyMSwtMTQ1Mjk3Njc1
+NiwxNTgxODEwMTkyLDEzMjUzMzkzNTUsMTMyNjI4OTcwOCwxMT
+Y4NDQ3ODUyLC0xNjkzNjQxMjg3LC0xOTgxMzMyOTEsMjAzNTUz
+Mjg2OSwtMzAwOTc4MzU3LC0xMDIyMjA2NjgzLC05NjQ2Njc0Mz
+QsMTU4OTAzNjIxMyw5NzM0Mjk3MzMsLTE4MDA5NjY4MTAsNzMw
+ODA3MjY5XX0=
 -->
