@@ -195,7 +195,7 @@ Refer to the  [mainpage](https://github.com/CSSEGISandData/COVID-19).
 
 #### [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
 
-3. [fips-codes](https://github.com/kjhealy/fips-codes)
+
 
 The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people infected (new and total case), Bed Utilization Rate caused by COVID-19 for a time duration of 30-days in united states based on historical data from JHU.
 
@@ -227,7 +227,7 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzNDIwNjQ4LC0xOTcwNDIwNTk4LDk2MT
+eyJoaXN0b3J5IjpbNzMwODA3MjY5LC0xOTcwNDIwNTk4LDk2MT
 AwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3NjgsMTE2Nzg0MTg1
 LDE0NTA2ODYyODgsMTY5Nzk1NDY4NywtMjUwNjIxNTgzLDIwOD
 k0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4MjM2MywtMTYxOTE0
