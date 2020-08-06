@@ -156,7 +156,7 @@ The following datasets will be used:
 2. [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
 3. [fips-codes](https://github.com/kjhealy/fips-codes)
 
-The end case is to have the data avaliable 
+The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to 
 
 
 ### Step 2: Explore and Assess the Data
@@ -186,7 +186,7 @@ The end case is to have the data avaliable
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzkzNDUzOSwxODg1ODE1NzY4LDExNj
+eyJoaXN0b3J5IjpbMTQ2MDU5NDQwNiwxODg1ODE1NzY4LDExNj
 c4NDE4NSwxNDUwNjg2Mjg4LDE2OTc5NTQ2ODcsLTI1MDYyMTU4
 MywyMDg5NDE2NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIzNjMsLT
 E2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5
