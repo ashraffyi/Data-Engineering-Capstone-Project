@@ -502,9 +502,9 @@ Once you've entered these values, select  **Save**.
 ------
 # Appendix A
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
-[^2]:DWH Schemas, 2009, archived from the original on 16 July 2010
+[^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTc1MjU2LDE1ODE4MTAxOTIsMTMyNT
+eyJoaXN0b3J5IjpbLTE1OTYzODQ3LDE1ODE4MTAxOTIsMTMyNT
 MzOTM1NSwxMzI2Mjg5NzA4LDExNjg0NDc4NTIsLTE2OTM2NDEy
 ODcsLTE5ODEzMzI5MSwyMDM1NTMyODY5LC0zMDA5NzgzNTcsLT
 EwMjIyMDY2ODMsLTk2NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQy
