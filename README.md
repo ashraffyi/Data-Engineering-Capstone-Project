@@ -278,14 +278,58 @@ _Hospital types are defined by the last four digits of the hospital’s Medicare
 This table contains the UID Lookup Table Logic for Federal Information Processing Standard County code (FIPS) mapping to State, City etc... .
 
 **File naming convention**
-MM-DD-YYYY.csv in UTC.
+UID_ISO_FIPS_LookUp_Table.csv
 
 **Field description**
+1.  All countries without dependencies (entries with only Admin0).
 
+-   None cruise ship Admin0: UID = code3. (e.g., Afghanistan, UID = code3 = 4)
+-   Cruise ships in Admin0: Diamond Princess UID = 9999, MS Zaandam UID = 8888.
+
+2.  All countries with only state-level dependencies (entries with Admin0 and Admin1).
+
+-   Demark, France, Netherlands: mother countries and their dependencies have different code3, therefore UID = code 3. (e.g., Faroe Islands, Denmark, UID = code3 = 234; Denmark UID = 208)
+-   United Kingdom: the mother country and dependencies have different code3s, therefore UID = code 3. One exception: Channel Islands is using the same code3 as the mother country (826), and its artificial UID = 8261.
+-   Australia: alphabetically ordered all states, and their UIDs are from 3601 to 3608. Australia itself is 36.
+-   Canada: alphabetically ordered all provinces (including cruise ships and recovered entry), and their UIDs are from 12401 to 12415. Canada itself is 124.
+-   China: alphabetically ordered all provinces, and their UIDs are from 15601 to 15631. China itself is 156. Hong Kong, Macau and Taiwan have their own code3.
+-   Germany: alphabetically ordered all admin1 regions (including Unknown), and their UIDs are from 27601 to 27617. Germany itself is 276.
+-   Italy: UIDs are combined country code (380) with  `codice_regione`, which is from  [Dati COVID-19 Italia](https://github.com/pcm-dpc/COVID-19). Exceptions: P.A. Bolzano is 38041 and P.A. Trento is 38042.
+
+3.  The US (most entries with Admin0, Admin1 and Admin2).
+
+-   US by itself is 840 (UID = code3).
+-   US dependencies, American Samoa, Guam, Northern Mariana Islands, Virgin Islands and Puerto Rico, UID = code3. Their Admin0 FIPS codes are different from code3.
+-   US states: UID = 840 (country code3) + 000XX (state FIPS code). Ranging from 8400001 to 84000056.
+-   Out of [State], US: UID = 840 (country code3) + 800XX (state FIPS code). Ranging from 8408001 to 84080056.
+-   Unassigned, US: UID = 840 (country code3) + 900XX (state FIPS code). Ranging from 8409001 to 84090056.
+-   US counties: UID = 840 (country code3) + XXXXX (5-digit FIPS code).
+-   Exception type 1, such as recovered and Kansas City, ranging from 8407001 to 8407999.
+-   Exception type 2, only the New York City, which is replacing New York County and its FIPS code.
+-   Exception type 3, Diamond Princess, US: 84088888; Grand Princess, US: 84099999.
+-   Exception type 4, municipalities in Puerto Rico are regarded as counties with FIPS codes. The FIPS code for the unassigned category is defined as 72999.
+
+4.  Population data sources.
+
+-   United Nations, Department of Economic and Social Affairs, Population Division (2019). World Population Prospects 2019, Online Edition. Rev. 1.  [https://population.un.org/wpp/Download/Standard/Population/](https://population.un.org/wpp/Download/Standard/Population/)
+-   eurostat:  [https://ec.europa.eu/eurostat/web/products-datasets/product?code=tgs00096](https://ec.europa.eu/eurostat/web/products-datasets/product?code=tgs00096)
+-   The U.S. Census Bureau:  [https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html](https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html)
+-   Mexico population 2020 projection:  [Proyecciones de población](http://sniiv.conavi.gob.mx/(X(1)S(kqitzysod5qf1g00jwueeklj))/demanda/poblacion_proyecciones.aspx?AspxAutoDetectCookieSupport=1)
+-   Brazil 2019 projection: ftp://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2019/
+-   Peru 2020 projection:  [https://www.citypopulation.de/en/peru/cities/](https://www.citypopulation.de/en/peru/cities/)
+-   India 2019 population:  [http://statisticstimes.com/demographics/population-of-indian-states.php](http://statisticstimes.com/demographics/population-of-indian-states.php)
+-   The Admin0 level population could be different from the sum of Admin1 level population since they may be from different sources.
+
+Disclaimer: *The names of locations included on the Website correspond with the official designations used by the U.S. Department of State. The presentation of material therein does not imply the expression of any opinion whatsoever on the part of JHU concerning the legal status of any country, area or territory or of its authorities. The depiction and use of boundaries, geographic names and related data shown on maps and included in lists, tables, documents, and databases on this website are not warranted to be error free nor do they necessarily imply official endorsement or acceptance by JHU.
 
 
 The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people cases (Confirmed, Deaths, Recovered, Active), Bed Utilization Rate caused by COVID-19 for a time duration of 30-days in United States based on historical data. This will help hospitals to better manage hospital's resource utilization.
 
+**Update frequency**
+-   Only when a new FIPS code added by U.S. Department of State.
+
+**Formats**
+-   CSV
 
 ### Step 2: Explore and Assess the Data
 ### Step 3: Define the Data Model
@@ -314,7 +358,7 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODk2MjEzNCw5NzM0Mjk3MzMsLTE4MD
+eyJoaXN0b3J5IjpbMTU4OTAzNjIxMyw5NzM0Mjk3MzMsLTE4MD
 A5NjY4MTAsNzMwODA3MjY5LC0xOTcwNDIwNTk4LDk2MTAwNzkw
 MywxODg2ODIyMTM5LDE4ODU4MTU3NjgsMTE2Nzg0MTg1LDE0NT
 A2ODYyODgsMTY5Nzk1NDY4NywtMjUwNjIxNTgzLDIwODk0MTY3
