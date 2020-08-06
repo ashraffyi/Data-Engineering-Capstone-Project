@@ -203,27 +203,27 @@ Provided By: [Definitive Healthcare](https://www.definitivehc.com/) via AWS Data
 This resource includes data on numbers of licensed beds, staffed beds, ICU beds, and the bed utilization rate for the hospitals in the United States.
 
 **Field description**
-- **Province_State**  - The name of the State within the USA.
-- **HOSPITAL_NAME**
-- **HOSPITAL_TYPE**
-- **HQ_ADDRESS**
-- **HQ_ADDRESS1**
-- **HQ_CITY**
-- **HQ_STATE**
-- **HQ_ZIP_CODE**
-- **COUNTY_NAME**
-- **STATE_NAME**
-- **STATE_FIPS**
-- **CNTY_FIPS**
-- **FIPS**
-- **NUM_LICENSED_BEDS**
-- **NUM_STAFFED_BEDS**
-- **NUM_ICU_BEDS**
-- **ADULT_ICU_BEDS**
-- **PEDI_ICU_BEDS**
-- **BED_UTILIZATION**
-- **Potential_Increase_In_Bed_Capac**
-- **AVG_VENTILATOR_USAGE**
+- **HOSPITAL_NAME** - Name of the hospital
+- **HOSPITAL_TYPE** - Type of the hospital (see below for different types)
+- **HQ_ADDRESS** - Civic street address of the hospital
+- **HQ_ADDRESS1** - If there is a po box
+- **HQ_CITY** - City of the hospital
+- **HQ_STATE** - State of the hospital
+- **HQ_ZIP_CODE** - Zip Code of the hospital
+- **COUNTY_NAME** - County of the hospital
+- **STATE_NAME** - State name in which hospital is located
+- **STATE_FIPS** - Federal Information Processing Standard State code (FIPS) of the hospital in which it is located
+- **CNTY_FIPS** - Full Federal Information Processing Standard County code (FIPS) of the hospital in which it is located
+- **FIPS** - Federal Information Processing Standard County code (FIPS) of the hospital in which it is located
+- **NUM_LICENSED_BEDS** - is the maximum number of beds for which a hospital holds a license to operate; however, many hospitals do not operate all the beds for which they are licensed. This number is obtained through DHC Primary Research. Licensed beds for Health Systems are equal to the total number of licensed beds of individual Hospitals within a given Health System.
+- **NUM_STAFFED_BEDS** - is defined as an "adult bed, pediatric bed, birthing room, or newborn ICU bed (excluding newborn bassinets) maintained in a patient care area for lodging patients in acute, long term, or domiciliary areas of the hospital." Beds in labor room, birthing room, post-anesthesia, postoperative recovery rooms, outpatient areas, emergency rooms, ancillary departments, nurses and other staff residences, and other such areas which are regularly maintained and utilized for only a portion of the stay of patients (primarily for special procedures or not for inpatient lodging) are not termed a bed for these purposes. Definitive Healthcare sources Staffed Bed data from the Medicare Cost Report or Proprietary Research as needed. As with all Medicare Cost Report metrics, this number is self-reported by providers. Staffed beds for Health Systems are equal to the total number of staffed beds of individual Hospitals within a given Health System. Total number of staffed beds in the US should exclude Hospital Systems to avoid double counting. ICU beds are likely to follow the same logic as a subset of Staffed beds.
+- **NUM_ICU_BEDS** - are qualified based on definitions by CMS, Section 2202.7, 22-8.2. These beds include ICU beds, burn ICU beds, surgical ICU beds, premature ICU beds, neonatal ICU beds, pediatric ICU beds, psychiatric ICU beds, trauma ICU beds, and Detox ICU beds.
+- **ADULT_ICU_BEDS** - are qualified based on definitions by CMS, Section 2202.7, 22-8.2. These beds include ICU beds, burn ICU beds, surgical ICU beds, premature ICU beds, neonatal ICU beds, pediatric ICU beds, psychiatric ICU beds, trauma ICU beds, and Detox ICU beds. (Adult beds)
+- **PEDI_ICU_BEDS** - are qualified based on definitions by CMS, Section 2202.7, 22-8.2. These beds include ICU beds, burn ICU beds, surgical ICU beds, premature ICU beds, neonatal ICU beds, pediatric ICU beds, psychiatric ICU beds, trauma ICU beds, and Detox ICU beds. (Pediatric beds)
+- **BED_UTILIZATION** - is calculated based on metrics from the Medicare Cost Report: Bed Utilization Rate = Total Patient Days (excluding nursery days)/Bed Days Available
+- **Potential_Increase_In_Bed_Capac** - This metric is computed by subtracting “Number of Staffed Beds from Number of Licensed beds” (Licensed Beds – Staffed Beds). This would provide insights into scenario planning for when staff can be shifted around to increase available bed capacity as needed.
+- **AVG_VENTILATOR_USAGE** - number of average ventilators are use
+
 
 
 
@@ -258,11 +258,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDA5NjY4MTAsNzMwODA3MjY5LC0xOT
-cwNDIwNTk4LDk2MTAwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3
-NjgsMTE2Nzg0MTg1LDE0NTA2ODYyODgsMTY5Nzk1NDY4NywtMj
-UwNjIxNTgzLDIwODk0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4
-MjM2MywtMTYxOTE0MjE1OCwtMTM0NzcxNjI1NCwxNzUzOTMyND
-QzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC00MDQyMzY5OTAsLTE1
-MzM4NjYxMzVdfQ==
+eyJoaXN0b3J5IjpbLTk3MDI1ODkyLC0xODAwOTY2ODEwLDczMD
+gwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5MDMsMTg4NjgyMjEz
+OSwxODg1ODE1NzY4LDExNjc4NDE4NSwxNDUwNjg2Mjg4LDE2OT
+c5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0
+OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNTgsLTEzNDc3MTYyNT
+QsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYyNzcwNywtNDA0
+MjM2OTkwXX0=
 -->
