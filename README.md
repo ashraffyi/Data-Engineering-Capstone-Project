@@ -564,7 +564,7 @@ Once you've entered these values, select  **Save**.
 2. Data_to_redshift
 
 ### Step 5: Complete Project Write Up
-The goal of the project was to have the data setup for a ML model. The queries will be decied when desgine the ML model. The reason I chose this model is to demonstrate how we can take COVID-19 data from opensources and map it to redshift. Hopefully when I take [Cloud Dev Ops Engineer](https://www.udacity.com/course/cloud-dev-ops-nanodegree--nd9991) nanodegree I am able to refine the setup procress. 
+The goal of the project was to have the data setup for a ML model. The queries will be decied when desgine the ML model. The reason I chose this model is to demonstrate how we can take COVID-19 data from opensources and map it to redshift. Hopefully when I take [Cloud Dev Ops Engineer](https://www.udacity.com/course/cloud-dev-ops-nanodegree--nd9991) nanodegree I am able to refine the setup procress. The data should be updated daily. 
 
 ## III. Conclusion
 
@@ -575,7 +575,7 @@ The goal of the project was to have the data setup for a ML model. The queries w
 ## Addressing other scenarios
 
 ### Data Increased by 100x:
-
+There will be no promble with any of AWS/Airflow as each is setup to 
 
 ### The pipelines would be run on a daily basis by 7 am every day:
 
@@ -588,11 +588,11 @@ The goal of the project was to have the data setup for a ML model. The queries w
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQ1NTcwNDcsODM5OTM4NjgxLC0xOT
-AwNDE3NTEwLDExMTM2MTQwMTYsMTgzOTc0MTkyMiwtMTc3ODI5
-NTA2NSw1NDQ0MTQ0MDksMjA0NzAyOTMyMSwtMTQ1Mjk3Njc1Ni
-wxNTgxODEwMTkyLDEzMjUzMzkzNTUsMTMyNjI4OTcwOCwxMTY4
-NDQ3ODUyLC0xNjkzNjQxMjg3LC0xOTgxMzMyOTEsMjAzNTUzMj
-g2OSwtMzAwOTc4MzU3LC0xMDIyMjA2NjgzLC05NjQ2Njc0MzQs
-MTU4OTAzNjIxM119
+eyJoaXN0b3J5IjpbMzQ5NzU4MDc1LDgzOTkzODY4MSwtMTkwMD
+QxNzUxMCwxMTEzNjE0MDE2LDE4Mzk3NDE5MjIsLTE3NzgyOTUw
+NjUsNTQ0NDE0NDA5LDIwNDcwMjkzMjEsLTE0NTI5NzY3NTYsMT
+U4MTgxMDE5MiwxMzI1MzM5MzU1LDEzMjYyODk3MDgsMTE2ODQ0
+Nzg1MiwtMTY5MzY0MTI4NywtMTk4MTMzMjkxLDIwMzU1MzI4Nj
+ksLTMwMDk3ODM1NywtMTAyMjIwNjY4MywtOTY0NjY3NDM0LDE1
+ODkwMzYyMTNdfQ==
 -->
