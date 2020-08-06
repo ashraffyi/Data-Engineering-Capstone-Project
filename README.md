@@ -394,20 +394,41 @@ All data set is very clean and null fields are still used a case to filter for e
 - STATE_FIPS<100
 
 **Columns that will be imported**: 
-- Last_Update
-- Confirmed
-- Deaths
-- Recovered
-- Active
-- FIPS
-- Incident_Rate
-- People_Tested
-- People_Hospitalized
-- Mortality_Rate
-- Testing_Rate
-- Hospitalization_Rate
+- HOSPITAL_TYPE
+- STATE_FIPS
+- NUM_LICENSED_BEDS
+- NUM_STAFFED_BEDS
+- NUM_ICU_BEDS
+- ADULT_ICU_BEDS
+- PEDI_ICU_BEDS
+- Potential_Increase_In_Bed_Capac
+- AVG_VENTILATOR_USAGE
 
 **Sample**:
+| HOSPITAL_TYPE                  | STATE_FIPS | NUM_LICENSED_BEDS | NUM_STAFFED_BEDS | NUM_ICU_BEDS | ADULT_ICU_BEDS | PEDI_ICU_BEDS | Potential_Increase_In_Bed_Capac | AVG_VENTILATOR_USAGE |
+|--------------------------------|------------|-------------------|------------------|--------------|----------------|---------------|---------------------------------|----------------------|
+| VA Hospital                    | 4          | 62                | 62               | 0            | 0              |               | 0                               | 0                    |
+| VA Hospital                    | 4          | 295               | 295              | 2            | 2              |               | 0                               | 2                    |
+| VA Hospital                    | 6          | 54                | 54               | 2            | 2              |               | 0                               | 2                    |
+| VA Hospital                    | 9          | 216               | 216              | 1            | 1              |               | 0                               | 2                    |
+| VA Hospital                    | 10         | 62                | 62               | 0            | 0              |               | 0                               | 1                    |
+| VA Hospital                    | 11         | 164               | 164              | 1            | 1              |               | 0                               | 2                    |
+| VA Hospital                    | 12         | 432               | 278              | 2            | 2              |               | 154                             | 2                    |
+| VA Hospital                    | 16         | 46                | 46               | 1            | 1              |               | 0                               | 1                    |
+| VA Hospital                    | 22         | 111               | 111              | 1            | 1              |               | 0                               | 2                    |
+| Short Term Acute Care Hospital | 28         | 160               | 160              | 10           | 10             | 20            | 0                               | 2                    |
+| VA Hospital                    | 29         | 89                | 89               | 2            | 2              |               | 0                               | 2                    |
+| VA Hospital                    | 35         | 163               | 163              | 1            | 1              |               | 0                               | 1                    |
+| VA Hospital                    | 36         | 67                | 67               | 2            | 2              |               | 0                               | 2                    |
+| VA Hospital                    | 36         | 311               | 311              | 2            | 2              |               | 0                               | 2                    |
+| VA Hospital                    | 38         | 37                | 37               | 1            | 1              |               | 0                               | 1                    |
+| VA Hospital                    | 41         |                   |                  | 0            | 0              |               | 0                               | 0                    |
+| VA Hospital                    | 42         | 146               | 146              | 2            | 2              |               | 0                               | 2                    |
+| Short Term Acute Care Hospital | 1          | 85                | 55               | 6            | 6              | 0             | 30                              | 2                    |
+| Short Term Acute Care Hospital | 1          | 150               | 129              | 17           | 17             | 0             | 21                              | 3                    |
+| Short Term Acute Care Hospital | 1          | 58                | 55               | 4            | 4              | 0             | 3                               | 2                    |
+| Short Term Acute Care Hospital | 1          | 74                | 30               | 5            | 5              | 0             | 44                              | 2                    |
+| Short Term Acute Care Hospital | 1          | 35                | 25               | 4            | 4              | 0             | 10                              | 1                    |
 
 ### Step 3: Define the Data Model
 ### Step 4: Run ETL to Model the Data
@@ -482,11 +503,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTg4Mzc2OTEsLTEwMjIyMDY2ODMsLT
-k2NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2
-NjgxMCw3MzA4MDcyNjksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLD
-E4ODY4MjIxMzksMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4
-NjI4OCwxNjk3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0Ni
-wtMTg2Mzk3NDk4NywxMDA2MTgyMzYzLC0xNjE5MTQyMTU4LC0x
-MzQ3NzE2MjU0XX0=
+eyJoaXN0b3J5IjpbLTMwMDk3ODM1NywtMTAyMjIwNjY4MywtOT
+Y0NjY3NDM0LDE1ODkwMzYyMTMsOTczNDI5NzMzLC0xODAwOTY2
+ODEwLDczMDgwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5MDMsMT
+g4NjgyMjEzOSwxODg1ODE1NzY4LDExNjc4NDE4NSwxNDUwNjg2
+Mjg4LDE2OTc5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC
+0xODYzOTc0OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNTgsLTEz
+NDc3MTYyNTRdfQ==
 -->
