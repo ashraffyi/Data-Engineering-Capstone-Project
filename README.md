@@ -274,6 +274,13 @@ _Hospital types are defined by the last four digits of the hospital’s Medicare
 
 #### [UID Lookup Table Logic](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/UID_ISO_FIPS_LookUp_Table.csv)
 
+**Data Description**
+This table contains the UID Lookup Table Logic for Federal Information Processing Standard County code (FIPS) mapping to State, City etc... .
+
+**File naming convention**
+MM-DD-YYYY.csv in UTC.
+
+**Field description**
 
 
 
@@ -307,11 +314,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQxMDM5NDMsOTczNDI5NzMzLC0xOD
-AwOTY2ODEwLDczMDgwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5
-MDMsMTg4NjgyMjEzOSwxODg1ODE1NzY4LDExNjc4NDE4NSwxND
-UwNjg2Mjg4LDE2OTc5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2
-NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNT
-gsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0
-MzYyNzcwN119
+eyJoaXN0b3J5IjpbLTU3ODk2MjEzNCw5NzM0Mjk3MzMsLTE4MD
+A5NjY4MTAsNzMwODA3MjY5LC0xOTcwNDIwNTk4LDk2MTAwNzkw
+MywxODg2ODIyMTM5LDE4ODU4MTU3NjgsMTE2Nzg0MTg1LDE0NT
+A2ODYyODgsMTY5Nzk1NDY4NywtMjUwNjIxNTgzLDIwODk0MTY3
+NDYsLTE4NjM5NzQ5ODcsMTAwNjE4MjM2MywtMTYxOTE0MjE1OC
+wtMTM0NzcxNjI1NCwxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQz
+NjI3NzA3XX0=
 -->
