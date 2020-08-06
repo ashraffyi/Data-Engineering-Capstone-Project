@@ -20,14 +20,6 @@ This project will tackel the ETL procress using the following tools:
  - [Amazon Redshift](https://aws.amazon.com/redshift/): The most popular and fastest cloud data warehouse
  - [AWS Data Exchange](https://aws.amazon.com/data-exchange/): makes it easy to find, subscribe to, and use third-party data in the cloud. Qualified data providers include category-leading brands such as Reuters, who curate data from over 2.2 million unique news stories per year in multiple languages; Change Healthcare, who process and anonymize more than 14 billion healthcare transactions and $1 trillion in claims annually; Dun & Bradstreet, who maintain a database of more than 330 million global business records; and Foursquare, whose location data is derived from 220 million unique consumers and includes more than 60 million global commercial venues
 
-Hear are the summary of the steps we will take to ETL the data into redshift:
-
-- AWS CloudFormation to setup our infrastructure.  
-- AWS CodePipeline to bring in data from [JHU COVID-19 git repo](https://github.com/CSSEGISandData/COVID-19)
-- AWS Data Exchange to subcribe to [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions/prod-ydzs6f2cju6qc).
-- We will use Apache Airflow DAGs to select data for US only, marge the data into one table and move data from S3 to redshift
-
-
 ### Prerequisites
 
 #### IAM user:
@@ -503,11 +495,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5Mjg5OTU3NiwtMzAwOTc4MzU3LC0xMD
-IyMjA2NjgzLC05NjQ2Njc0MzQsMTU4OTAzNjIxMyw5NzM0Mjk3
-MzMsLTE4MDA5NjY4MTAsNzMwODA3MjY5LC0xOTcwNDIwNTk4LD
-k2MTAwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3NjgsMTE2Nzg0
-MTg1LDE0NTA2ODYyODgsMTY5Nzk1NDY4NywtMjUwNjIxNTgzLD
-IwODk0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4MjM2MywtMTYx
-OTE0MjE1OF19
+eyJoaXN0b3J5IjpbMjc3Mzk2MjUyLC0zMDA5NzgzNTcsLTEwMj
+IyMDY2ODMsLTk2NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQyOTcz
+MywtMTgwMDk2NjgxMCw3MzA4MDcyNjksLTE5NzA0MjA1OTgsOT
+YxMDA3OTAzLDE4ODY4MjIxMzksMTg4NTgxNTc2OCwxMTY3ODQx
+ODUsMTQ1MDY4NjI4OCwxNjk3OTU0Njg3LC0yNTA2MjE1ODMsMj
+A4OTQxNjc0NiwtMTg2Mzk3NDk4NywxMDA2MTgyMzYzLC0xNjE5
+MTQyMTU4XX0=
 -->
