@@ -306,6 +306,31 @@ All data set is very clean and null fields are still used a case to filter for e
 - Long_
 - Population
 
+**Sample**:
+| FIPS | Province_State           | Country_Region | Lat     | Long_     | Population |
+|------|--------------------------|----------------|---------|-----------|------------|
+| 60   | American Samoa           | US             | -14.271 | -170.132  | 55641      |
+| 66   | Guam                     | US             | 13.4443 | 144.7937  | 164229     |
+| 69   | Northern Mariana Islands | US             | 15.0979 | 145.6739  | 55144      |
+| 78   | Virgin Islands           | US             | 18.3358 | -64.8963  | 107268     |
+| 72   | Puerto Rico              | US             | 18.2208 | -66.5901  | 2933408    |
+| 1    | Alabama                  | US             | 32.3182 | -86.9023  | 4903185    |
+| 2    | Alaska                   | US             | 61.3707 | -152.4044 | 731545     |
+| 4    | Arizona                  | US             | 33.7298 | -111.4312 | 7278717    |
+| 5    | Arkansas                 | US             | 34.9697 | -92.3731  | 3017804    |
+| 6    | California               | US             | 36.1162 | -119.6816 | 39512223   |
+| 8    | Colorado                 | US             | 39.0598 | -105.3111 | 5758736    |
+| 9    | Connecticut              | US             | 41.5978 | -72.7554  | 3565287    |
+| 10   | Delaware                 | US             | 39.3185 | -75.5071  | 973764     |
+| 11   | District of Columbia     | US             | 38.8974 | -77.0268  | 705749     |
+| 12   | Florida                  | US             | 27.7663 | -81.6868  | 21477737   |
+| 13   | Georgia                  | US             | 33.0406 | -83.6431  | 10617423   |
+| 15   | Hawaii                   | US             | 21.0943 | -157.4983 | 1415872    |
+| 16   | Idaho                    | US             | 44.2405 | -114.4788 | 1787065    |
+| 17   | Illinois                 | US             | 40.3495 | -88.9861  | 12671821   |
+| 18   | Indiana                  | US             | 39.8494 | -86.2583  | 6732219    |
+| 19   | Iowa                     | US             | 42.0115 | -93.2105  | 3155070    |
+
 
 **JHU CSSE COVID-19 Dataset**: will be used as a dimension table and the following fields and filters will be imported:
  
@@ -383,11 +408,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDA3MDE1MywtOTY0NjY3NDM0LDE1OD
-kwMzYyMTMsOTczNDI5NzMzLC0xODAwOTY2ODEwLDczMDgwNzI2
-OSwtMTk3MDQyMDU5OCw5NjEwMDc5MDMsMTg4NjgyMjEzOSwxOD
-g1ODE1NzY4LDExNjc4NDE4NSwxNDUwNjg2Mjg4LDE2OTc5NTQ2
-ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0OTg3LD
-EwMDYxODIzNjMsLTE2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMTc1
-MzkzMjQ0M119
+eyJoaXN0b3J5IjpbLTEwMjIyMDY2ODMsLTk2NDY2NzQzNCwxNT
+g5MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2NjgxMCw3MzA4MDcy
+NjksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLDE4ODY4MjIxMzksMT
+g4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4NjI4OCwxNjk3OTU0
+Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0NiwtMTg2Mzk3NDk4Ny
+wxMDA2MTgyMzYzLC0xNjE5MTQyMTU4LC0xMzQ3NzE2MjU0LDE3
+NTM5MzI0NDNdfQ==
 -->
