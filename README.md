@@ -162,6 +162,7 @@ Once you've entered these values, select  **Save**.
 The following datasets will be used:
 #### [JHU CSSE COVID-19 Dataset](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports_us) 
 Provided By: Johns Hopkins University (JHU)
+**Data Description**
 This table contains an aggregation of each USA State level data.
 
 **File naming convention**
@@ -227,11 +228,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwODA3MjY5LC0xOTcwNDIwNTk4LDk2MT
-AwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3NjgsMTE2Nzg0MTg1
-LDE0NTA2ODYyODgsMTY5Nzk1NDY4NywtMjUwNjIxNTgzLDIwOD
-k0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4MjM2MywtMTYxOTE0
-MjE1OCwtMTM0NzcxNjI1NCwxNzUzOTMyNDQzLC0xODkwMDAwNj
-E0LDQzNjI3NzA3LC00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLTU0
-MzA4ODg0NF19
+eyJoaXN0b3J5IjpbMTY0OTc3NjEzLDczMDgwNzI2OSwtMTk3MD
+QyMDU5OCw5NjEwMDc5MDMsMTg4NjgyMjEzOSwxODg1ODE1NzY4
+LDExNjc4NDE4NSwxNDUwNjg2Mjg4LDE2OTc5NTQ2ODcsLTI1MD
+YyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIz
+NjMsLTE2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0My
+wtMTg5MDAwMDYxNCw0MzYyNzcwNywtNDA0MjM2OTkwLC0xNTMz
+ODY2MTM1XX0=
 -->
