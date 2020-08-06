@@ -21,7 +21,9 @@ This project will tackel the ETL procress using the following tools:
  - [AWS Data Exchange](https://aws.amazon.com/data-exchange/): makes it easy to find, subscribe to, and use third-party data in the cloud. Qualified data providers include category-leading brands such as Reuters, who curate data from over 2.2 million unique news stories per year in multiple languages; Change Healthcare, who process and anonymize more than 14 billion healthcare transactions and $1 trillion in claims annually; Dun & Bradstreet, who maintain a database of more than 330 million global business records; and Foursquare, whose location data is derived from 220 million unique consumers and includes more than 60 million global commercial venues
 
 ### Prerequisites
-
+***IMPORTANT:*** 
+1. Don't forget to delete the Stacks, Pipelines and ensure that all resources are deleted this includes 
+2. 
 #### IAM user:
  1. Create a new IAM user in your AWS account
  2. Give it `AdministratorAccess`, From `Attach existing policies directly` Tab
@@ -552,11 +554,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTc0MTkyMiwtMTc3ODI5NTA2NSw1ND
-Q0MTQ0MDksMjA0NzAyOTMyMSwtMTQ1Mjk3Njc1NiwxNTgxODEw
-MTkyLDEzMjUzMzkzNTUsMTMyNjI4OTcwOCwxMTY4NDQ3ODUyLC
-0xNjkzNjQxMjg3LC0xOTgxMzMyOTEsMjAzNTUzMjg2OSwtMzAw
-OTc4MzU3LC0xMDIyMjA2NjgzLC05NjQ2Njc0MzQsMTU4OTAzNj
-IxMyw5NzM0Mjk3MzMsLTE4MDA5NjY4MTAsNzMwODA3MjY5LC0x
-OTcwNDIwNTk4XX0=
+eyJoaXN0b3J5IjpbMzg4NTUzODg1LDE4Mzk3NDE5MjIsLTE3Nz
+gyOTUwNjUsNTQ0NDE0NDA5LDIwNDcwMjkzMjEsLTE0NTI5NzY3
+NTYsMTU4MTgxMDE5MiwxMzI1MzM5MzU1LDEzMjYyODk3MDgsMT
+E2ODQ0Nzg1MiwtMTY5MzY0MTI4NywtMTk4MTMzMjkxLDIwMzU1
+MzI4NjksLTMwMDk3ODM1NywtMTAyMjIwNjY4MywtOTY0NjY3ND
+M0LDE1ODkwMzYyMTMsOTczNDI5NzMzLC0xODAwOTY2ODEwLDcz
+MDgwNzI2OV19
 -->
