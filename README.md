@@ -418,7 +418,7 @@ All data set is very clean and null fields are still used a case to filter for e
 | Delaware       | US             | 2020/04/12 23:18 | 39.3185 | -75.5071  | 1625      | 35     | 191       | 1590   | 10   | 166.8782169   | 11103         | 190                 | 2.153846154    | 84000010 | USA  | 1140.214672  | 11.69230769          |
 ### Step 3: Define the Data Model
 **Database Schema Design**
-The project creates a redshift database in a AWS cluster using AWS CloudFormation.  with pre-defined empty tables then it opied over to the tables from s3 bucket. They are columnar in nature which helps with parallelizing the execution of one query on multiple CPUs. 
+The project creates a redshift database in a AWS cluster using AWS CloudFormation. Then AWS CodePipeline and  CloudFormation is used to import the raw data into S3 buckets. Apache Airflow DAGs creates pre-defined empty tables in redshift then it opied over to the tables from s3 bucket. They are columnar in nature which helps with parallelizing the execution of one query on multiple CPUs. 
 
 **ELT Pipeline**
 The project creates a star schema relational database. star schema is the simplest style of data mart schema and is the approach most widely used to develop data warehouses and dimensional data marts.[1] The star schema consists of one or more fact tables referencing any number of dimension tables. The star schema is an important special case of the snowflake schema, and is more effective for handling simpler queries.[^2]
@@ -505,7 +505,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTA0OTg4MDUsMTU4MTgxMDE5MiwxMz
+eyJoaXN0b3J5IjpbLTE0NTI5NzY3NTYsMTU4MTgxMDE5MiwxMz
 I1MzM5MzU1LDEzMjYyODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0
 MTI4NywtMTk4MTMzMjkxLDIwMzU1MzI4NjksLTMwMDk3ODM1Ny
 wtMTAyMjIwNjY4MywtOTY0NjY3NDM0LDE1ODkwMzYyMTMsOTcz
