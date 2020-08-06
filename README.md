@@ -498,9 +498,9 @@ jobs:
 15. Select the Deploy provider Amazon S3
 16. Select the bucket you created when you run redshift CloudFormation
 17. Check `Extract file before deploy`
-18. Click 
+18. Click Create pipeline
 
-
+#### Importing data from github to S3: 
 
 #### Uploading Dags
 On Raspberry Pi
@@ -570,11 +570,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk3Nzg3NDksMTgzOTc0MTkyMiwtMT
-c3ODI5NTA2NSw1NDQ0MTQ0MDksMjA0NzAyOTMyMSwtMTQ1Mjk3
-Njc1NiwxNTgxODEwMTkyLDEzMjUzMzkzNTUsMTMyNjI4OTcwOC
-wxMTY4NDQ3ODUyLC0xNjkzNjQxMjg3LC0xOTgxMzMyOTEsMjAz
-NTUzMjg2OSwtMzAwOTc4MzU3LC0xMDIyMjA2NjgzLC05NjQ2Nj
-c0MzQsMTU4OTAzNjIxMyw5NzM0Mjk3MzMsLTE4MDA5NjY4MTAs
-NzMwODA3MjY5XX0=
+eyJoaXN0b3J5IjpbMTExMzYxNDAxNiwxODM5NzQxOTIyLC0xNz
+c4Mjk1MDY1LDU0NDQxNDQwOSwyMDQ3MDI5MzIxLC0xNDUyOTc2
+NzU2LDE1ODE4MTAxOTIsMTMyNTMzOTM1NSwxMzI2Mjg5NzA4LD
+ExNjg0NDc4NTIsLTE2OTM2NDEyODcsLTE5ODEzMzI5MSwyMDM1
+NTMyODY5LC0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2Nz
+QzNCwxNTg5MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2NjgxMCw3
+MzA4MDcyNjldfQ==
 -->
