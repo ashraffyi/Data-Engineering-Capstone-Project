@@ -23,7 +23,7 @@ This project will tackel the ETL procress using the following tools:
  - [Amazon Redshift](https://aws.amazon.com/redshift/): The most popular and fastest cloud data warehouse
  - [AWS Data Exchange](https://aws.amazon.com/data-exchange/): makes it easy to find, subscribe to, and use third-party data in the cloud. Qualified data providers include category-leading brands such as Reuters, who curate data from over 2.2 million unique news stories per year in multiple languages; Change Healthcare, who process and anonymize more than 14 billion healthcare transactions and $1 trillion in claims annually; Dun & Bradstreet, who maintain a database of more than 330 million global business records; and Foursquare, whose location data is derived from 220 million unique consumers and includes more than 60 million global commercial venues
 
-We will be reading, parsing and cleaning the data from S3 buckets, Amazon S3 and transferring data to redshift tables in AWS. We will be orchestrating the flow of data through Apache Airflow DAGs.
+We will be reading, parsing and cleaning the data from Amazon S3 and transferring data to AWS redshift tables. We will be orchestrating the flow of data through AWS CloudFormation and Apache Airflow DAGs.
 
 ### Prerequisites
 
@@ -184,11 +184,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5MjA4NTk0LDExNjc4NDE4NSwxNDUwNj
-g2Mjg4LDE2OTc5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2
-LC0xODYzOTc0OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNTgsLT
-EzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYy
-NzcwNywtNDA0MjM2OTkwLC0xNTMzODY2MTM1LC01NDMwODg4ND
-QsNDc5MTA4MzQzLDE5ODA1NjE0NDUsLTU5ODc2NzE2OCwtMTk4
-NTg0MDQxM119
+eyJoaXN0b3J5IjpbMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MD
+Y4NjI4OCwxNjk3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0
+NiwtMTg2Mzk3NDk4NywxMDA2MTgyMzYzLC0xNjE5MTQyMTU4LC
+0xMzQ3NzE2MjU0LDE3NTM5MzI0NDMsLTE4OTAwMDA2MTQsNDM2
+Mjc3MDcsLTQwNDIzNjk5MCwtMTUzMzg2NjEzNSwtNTQzMDg4OD
+Q0LDQ3OTEwODM0MywxOTgwNTYxNDQ1LC01OTg3NjcxNjgsLTE5
+ODU4NDA0MTNdfQ==
 -->
