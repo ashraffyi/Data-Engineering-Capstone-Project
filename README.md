@@ -272,7 +272,7 @@ _Hospital types are defined by the last four digits of the hospital’s Medicare
 **Formats**
 -   AWS Data Exchange to S3 as CSV
 
-The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people cases (Confirmed, Deaths, Recovered, Active), Bed Utilization Rate caused by COVID-19 for a time duration of 30-days in United States based on historical data. This will help hospitals to better plan hospital's resource utilization
+The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people cases (Confirmed, Deaths, Recovered, Active), Bed Utilization Rate caused by COVID-19 for a time duration of 30-days in United States based on historical data. This will help hospitals to better manage hospital's resource utilization.
 
 
 ### Step 2: Explore and Assess the Data
@@ -302,11 +302,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MzUyODU4MywtMTgwMDk2NjgxMCw3Mz
-A4MDcyNjksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLDE4ODY4MjIx
-MzksMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4NjI4OCwxNj
-k3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0NiwtMTg2Mzk3
-NDk4NywxMDA2MTgyMzYzLC0xNjE5MTQyMTU4LC0xMzQ3NzE2Mj
-U0LDE3NTM5MzI0NDMsLTE4OTAwMDA2MTQsNDM2Mjc3MDcsLTQw
-NDIzNjk5MF19
+eyJoaXN0b3J5IjpbOTczNDI5NzMzLC0xODAwOTY2ODEwLDczMD
+gwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5MDMsMTg4NjgyMjEz
+OSwxODg1ODE1NzY4LDExNjc4NDE4NSwxNDUwNjg2Mjg4LDE2OT
+c5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0
+OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNTgsLTEzNDc3MTYyNT
+QsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYyNzcwNywtNDA0
+MjM2OTkwXX0=
 -->
