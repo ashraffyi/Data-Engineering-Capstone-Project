@@ -14,6 +14,8 @@ In my last udacity Capstone Project for Machine Learning Engineer Nanodegree. I 
 
 The following datasets will be used:
 1. [Global Coronavirus (COVID-19) Data (Corona Data Scraper)](https://aws.amazon.com/marketplace/pp/Global-Coronavirus-COVID-19-Data-Corona-Data-Scrap/prodview-vtnf3vvvheqzw)
+2. [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
+3. [fips-codes](https://github.com/kjhealy/fips-codes)
 
 This project I will tackel the ETL procress using the following tools:
  - [AWS CloudFormation](https://aws.amazon.com/cloudformation/): allows you to use programming languages or a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts. This gives you a single source of truth for your AWS and third party resources.
@@ -189,11 +191,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2Nzg0MTg1LDE0NTA2ODYyODgsMTY5Nz
-k1NDY4NywtMjUwNjIxNTgzLDIwODk0MTY3NDYsLTE4NjM5NzQ5
-ODcsMTAwNjE4MjM2MywtMTYxOTE0MjE1OCwtMTM0NzcxNjI1NC
-wxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC00MDQy
-MzY5OTAsLTE1MzM4NjYxMzUsLTU0MzA4ODg0NCw0NzkxMDgzND
-MsMTk4MDU2MTQ0NSwtNTk4NzY3MTY4LC0xOTg1ODQwNDEzLDE1
-NDY1NzYzOThdfQ==
+eyJoaXN0b3J5IjpbMTE3ODczNDQ4NywxMTY3ODQxODUsMTQ1MD
+Y4NjI4OCwxNjk3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0
+NiwtMTg2Mzk3NDk4NywxMDA2MTgyMzYzLC0xNjE5MTQyMTU4LC
+0xMzQ3NzE2MjU0LDE3NTM5MzI0NDMsLTE4OTAwMDA2MTQsNDM2
+Mjc3MDcsLTQwNDIzNjk5MCwtMTUzMzg2NjEzNSwtNTQzMDg4OD
+Q0LDQ3OTEwODM0MywxOTgwNTYxNDQ1LC01OTg3NjcxNjgsLTE5
+ODU4NDA0MTNdfQ==
 -->
