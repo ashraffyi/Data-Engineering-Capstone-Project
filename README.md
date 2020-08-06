@@ -224,7 +224,47 @@ This resource includes data on numbers of licensed beds, staffed beds, ICU beds,
 - **Potential_Increase_In_Bed_Capac** - This metric is computed by subtracting “Number of Staffed Beds from Number of Licensed beds” (Licensed Beds – Staffed Beds). This would provide insights into scenario planning for when staff can be shifted around to increase available bed capacity as needed.
 - **AVG_VENTILATOR_USAGE** - number of average ventilators are use
 
+**Hospital Definition:**  Definitive Healthcare defines a hospital as a healthcare institution providing inpatient, therapeutic, or rehabilitation services under the supervision of physicians. In order for a facility to be considered a hospital it must provide inpatient care.
 
+_Hospital types are defined by the last four digits of the hospital’s Medicare Provider Number. If the hospital does not have a Medicare Provider Number, Definitive Healthcare determines the Hospital type by proprietary research._
+
+**Hospital Types**
+
+***Short Term Acute Care Hospital (STAC)***
+-   Provides inpatient care and other services for surgery, acute medical conditions, or injuries
+-   Patients care can be provided overnight, and average length of stay is less than 25 days
+
+***Critical Access Hospital (CAH)***
+-   25 or fewer acute care inpatient beds
+-   Located more than 35 miles from another hospital
+-   Annual average length of stay is 96 hours or less for acute care patients
+-   Must provide 24/7 emergency care services
+-   Designation by CMS to reduce financial vulnerability of rural hospitals and improve access to healthcare
+-   Religious Non-Medical Health Care Institutions
+-   Provide nonmedical health care items and services to people who need hospital or skilled nursing facility care, but for whom that care would be inconsistent with their religious beliefs
+
+***Long Term Acute Care Hospitals***
+-   Average length of stay is more than 25 days
+-   Patients are receiving acute care - services often include respiratory therapy, head trauma treatment, and pain management
+-   Rehabilitation Hospitals
+-   Specializes in improving or restoring patients' functional abilities through therapies
+
+***Children’s Hospitals***
+-   Majority of inpatients under 18 years old
+
+***Psychiatric Hospitals
+
+-   Provides inpatient services for diagnosis and treatment of mental illness 24/7
+-   Under the supervision of a physician
+
+#### Veteran's Affairs (VA) Hospital
+
+-   Responsible for the care of war veterans and other retired military personnel
+-   Administered by the U.S. VA, and funded by the federal government
+
+#### Department of Defense (DoD) Hospital
+
+-   Provides care for military service people (Army, Navy, Air Force, Marines, and Coast Guard), their dependents, and retirees (not all military service retirees are eligible for VA services)
 
 
 
@@ -258,7 +298,7 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDI1ODkyLC0xODAwOTY2ODEwLDczMD
+eyJoaXN0b3J5IjpbNDk1MzA1MjA1LC0xODAwOTY2ODEwLDczMD
 gwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5MDMsMTg4NjgyMjEz
 OSwxODg1ODE1NzY4LDExNjc4NDE4NSwxNDUwNjg2Mjg4LDE2OT
 c5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0
