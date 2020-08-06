@@ -514,7 +514,8 @@ jobs:
 5. Scrol to **Automating the retrieval for new data set revisions**
 6. Look for Launch Stack and Click it
 7. Name Stack `aws-dataexchange-to-s3`
-8. 
+8. Fill in the **Data set ID** and take note of the most recent **Revision ID** 
+9.  Check all boxes Capabilities and transforms
 
 #### Uploading Dags
 On Raspberry Pi
@@ -584,7 +585,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODk4MTkyMCwxMTEzNjE0MDE2LDE4Mz
+eyJoaXN0b3J5IjpbMTg5NTk0NDY4NywxMTEzNjE0MDE2LDE4Mz
 k3NDE5MjIsLTE3NzgyOTUwNjUsNTQ0NDE0NDA5LDIwNDcwMjkz
 MjEsLTE0NTI5NzY3NTYsMTU4MTgxMDE5MiwxMzI1MzM5MzU1LD
 EzMjYyODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0MTI4NywtMTk4
