@@ -387,6 +387,7 @@ All data set is very clean and null fields are still used a case to filter for e
 | 2020/04/12 23:18 | 791       | 17     |           | 774    | 31   | 51.85960275   | 10691         |                     | 2.149178255    | 700.924163   |                      |
 | 2020/04/12 23:18 | 2836      | 112    |           | 2724   | 32   | 94.01010443   | 24611         | 282                 | 3.94922426     | 815.8260508  | 9.943582511          |
 
+ **USA Hospital Beds - COVID-19 | Definitive Healthcare**: : will be used as a dimension table and the following fields and filters will be imported:
  
 
 ### Step 3: Define the Data Model
@@ -462,11 +463,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyNDg4MTExLC0xMDIyMjA2NjgzLC05Nj
-Q2Njc0MzQsMTU4OTAzNjIxMyw5NzM0Mjk3MzMsLTE4MDA5NjY4
-MTAsNzMwODA3MjY5LC0xOTcwNDIwNTk4LDk2MTAwNzkwMywxOD
-g2ODIyMTM5LDE4ODU4MTU3NjgsMTE2Nzg0MTg1LDE0NTA2ODYy
-ODgsMTY5Nzk1NDY4NywtMjUwNjIxNTgzLDIwODk0MTY3NDYsLT
-E4NjM5NzQ5ODcsMTAwNjE4MjM2MywtMTYxOTE0MjE1OCwtMTM0
-NzcxNjI1NF19
+eyJoaXN0b3J5IjpbLTE4ODY0NDAyMzksLTEwMjIyMDY2ODMsLT
+k2NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2
+NjgxMCw3MzA4MDcyNjksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLD
+E4ODY4MjIxMzksMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4
+NjI4OCwxNjk3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0Ni
+wtMTg2Mzk3NDk4NywxMDA2MTgyMzYzLC0xNjE5MTQyMTU4LC0x
+MzQ3NzE2MjU0XX0=
 -->
