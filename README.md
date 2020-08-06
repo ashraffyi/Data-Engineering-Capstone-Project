@@ -12,7 +12,7 @@ On 31 December, 2019, the World Health Organization (WHO) was informed of an out
 
 In response to this ongoing public health emergency, Johns Hopkins University (JHU), a private research university in Maryland, USA, developed an interactive web-based dashboard hosted by their Center for Systems Science and Engineering (CSSE). The dashboard visualizes and tracks reported cases in real-time, illustrating the location and number of confirmed COVID-19 cases, deaths and recoveries for all affected countries. It is used by researchers, public health authorities, news agencies and the general public.
 
-In that project we will desgine a ETL procress to import csv files form [csse_covid_19_daily_reports_us](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports_us) by JHU which enriched by mapping USA Hospital Beds data from [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions/prod-ydzs6f2cju6qc). The fact table we will use 
+In that project we will desgine a ETL procress to import csv files form [csse_covid_19_daily_reports_us](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports_us) by JHU which enriched by mapping USA Hospital Beds data from [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions/prod-ydzs6f2cju6qc). The fact table we will use [UID_ISO_FIPS_LookUp_Table.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/UID_ISO_FIPS_LookUp_Table.csv "UID_ISO_FIPS_LookUp_Table.csv")
 
 This project will tackel the ETL procress using the following tools:
  - [AWS CloudFormation](https://aws.amazon.com/cloudformation/): allows you to use programming languages or a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts. This gives you a single source of truth for your AWS and third party resources.
@@ -20,7 +20,8 @@ This project will tackel the ETL procress using the following tools:
  - [Amazon Redshift](https://aws.amazon.com/redshift/): The most popular and fastest cloud data warehouse
  - [AWS Data Exchange](https://aws.amazon.com/data-exchange/): makes it easy to find, subscribe to, and use third-party data in the cloud. Qualified data providers include category-leading brands such as Reuters, who curate data from over 2.2 million unique news stories per year in multiple languages; Change Healthcare, who process and anonymize more than 14 billion healthcare transactions and $1 trillion in claims annually; Dun & Bradstreet, who maintain a database of more than 330 million global business records; and Foursquare, whose location data is derived from 220 million unique consumers and includes more than 60 million global commercial venues
 
-We will be reading, parsing and cleaning the data from Amazon S3 and transferring data to AWS redshift tables. We will be orchestrating the flow of data through AWS CloudFormation and Apache Airflow DAGs.
+Hear are the summary 
+We will be using AWS CloudFormation to setup our infrastructure.  the data from Amazon S3 and transferring data to AWS redshift tables. We will be orchestrating the flow of data through AWS CloudFormation and Apache Airflow DAGs.
 
 ### Prerequisites
 
@@ -191,11 +192,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyODQxMzY4MCw5NjEwMDc5MDMsMTg4Nj
-gyMjEzOSwxODg1ODE1NzY4LDExNjc4NDE4NSwxNDUwNjg2Mjg4
-LDE2OTc5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC0xOD
-YzOTc0OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNTgsLTEzNDc3
-MTYyNTQsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYyNzcwNy
-wtNDA0MjM2OTkwLC0xNTMzODY2MTM1LC01NDMwODg4NDQsNDc5
-MTA4MzQzXX0=
+eyJoaXN0b3J5IjpbMTU0MzkxNjM1LDk2MTAwNzkwMywxODg2OD
+IyMTM5LDE4ODU4MTU3NjgsMTE2Nzg0MTg1LDE0NTA2ODYyODgs
+MTY5Nzk1NDY4NywtMjUwNjIxNTgzLDIwODk0MTY3NDYsLTE4Nj
+M5NzQ5ODcsMTAwNjE4MjM2MywtMTYxOTE0MjE1OCwtMTM0Nzcx
+NjI1NCwxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC
+00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLTU0MzA4ODg0NCw0Nzkx
+MDgzNDNdfQ==
 -->
