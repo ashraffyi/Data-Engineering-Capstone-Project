@@ -272,6 +272,11 @@ _Hospital types are defined by the last four digits of the hospital’s Medicare
 **Formats**
 -   AWS Data Exchange to S3 as CSV
 
+#### [UID Lookup Table Logic](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/UID_ISO_FIPS_LookUp_Table.csv)
+
+
+
+
 The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people cases (Confirmed, Deaths, Recovered, Active), Bed Utilization Rate caused by COVID-19 for a time duration of 30-days in United States based on historical data. This will help hospitals to better manage hospital's resource utilization.
 
 
@@ -302,11 +307,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTczNDI5NzMzLC0xODAwOTY2ODEwLDczMD
-gwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5MDMsMTg4NjgyMjEz
-OSwxODg1ODE1NzY4LDExNjc4NDE4NSwxNDUwNjg2Mjg4LDE2OT
-c5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0
-OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNTgsLTEzNDc3MTYyNT
-QsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYyNzcwNywtNDA0
-MjM2OTkwXX0=
+eyJoaXN0b3J5IjpbLTE5OTQxMDM5NDMsOTczNDI5NzMzLC0xOD
+AwOTY2ODEwLDczMDgwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5
+MDMsMTg4NjgyMjEzOSwxODg1ODE1NzY4LDExNjc4NDE4NSwxND
+UwNjg2Mjg4LDE2OTc5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2
+NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNT
+gsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0
+MzYyNzcwN119
 -->
