@@ -12,11 +12,6 @@ On 31 December, 2019, the World Health Organization (WHO) was informed of an out
 
 In my last udacity Capstone Project for Machine Learning Engineer Nanodegree. I worked with the Johns Hopkins University (JHU) COVID-19 cases, deaths and recoveries for all affected countries. In that project I didn't get a chance to desgine the ETL procress. So In this project I will be using COVID-19 Johns Hopkins University (JHU) data set. [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject). 
 
-The following datasets will be used:
-1. [Global Coronavirus (COVID-19) Data (Corona Data Scraper)](https://aws.amazon.com/marketplace/pp/Global-Coronavirus-COVID-19-Data-Corona-Data-Scrap/prodview-vtnf3vvvheqzw)
-2. [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
-3. [fips-codes](https://github.com/kjhealy/fips-codes)
-
 This project will tackel the ETL procress using the following tools:
  - [AWS CloudFormation](https://aws.amazon.com/cloudformation/): allows you to use programming languages or a simple text file to model and provision, in an automated and secure manner, all the resources needed for your applications across all regions and accounts. This gives you a single source of truth for your AWS and third party resources.
  - [Apache Airflow](https://airflow.apache.org/): Platform created by the community to programmatically author, schedule and monitor workflows.
@@ -156,6 +151,13 @@ Once you've entered these values, select  **Save**.
 ## II Database
 
 ### Step 1: Scope the Project and Gather Data
+The following datasets will be used:
+1. [Global Coronavirus (COVID-19) Data (Corona Data Scraper)](https://aws.amazon.com/marketplace/pp/Global-Coronavirus-COVID-19-Data-Corona-Data-Scrap/prodview-vtnf3vvvheqzw)
+2. [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
+3. [fips-codes](https://github.com/kjhealy/fips-codes)
+
+The end case is to have the data avaliable 
+
 
 ### Step 2: Explore and Assess the Data
 ### Step 3: Define the Data Model
@@ -184,11 +186,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MD
-Y4NjI4OCwxNjk3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0
-NiwtMTg2Mzk3NDk4NywxMDA2MTgyMzYzLC0xNjE5MTQyMTU4LC
-0xMzQ3NzE2MjU0LDE3NTM5MzI0NDMsLTE4OTAwMDA2MTQsNDM2
-Mjc3MDcsLTQwNDIzNjk5MCwtMTUzMzg2NjEzNSwtNTQzMDg4OD
-Q0LDQ3OTEwODM0MywxOTgwNTYxNDQ1LC01OTg3NjcxNjgsLTE5
-ODU4NDA0MTNdfQ==
+eyJoaXN0b3J5IjpbLTg2NzkzNDUzOSwxODg1ODE1NzY4LDExNj
+c4NDE4NSwxNDUwNjg2Mjg4LDE2OTc5NTQ2ODcsLTI1MDYyMTU4
+MywyMDg5NDE2NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIzNjMsLT
+E2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5
+MDAwMDYxNCw0MzYyNzcwNywtNDA0MjM2OTkwLC0xNTMzODY2MT
+M1LC01NDMwODg4NDQsNDc5MTA4MzQzLDE5ODA1NjE0NDUsLTU5
+ODc2NzE2OF19
 -->
