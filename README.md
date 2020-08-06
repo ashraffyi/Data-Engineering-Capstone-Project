@@ -162,7 +162,8 @@ Once you've entered these values, select  **Save**.
 The following datasets will be used:
 #### [JHU CSSE COVID-19 Dataset](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports_us) 
 
-Provided By: Enigma
+Provided By: Johns Hopkins University (JHU)
+
 
 #### [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
 3. [fips-codes](https://github.com/kjhealy/fips-codes)
@@ -197,11 +198,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU5OTM2MDYzLDk2MTAwNzkwMywxODg2OD
-IyMTM5LDE4ODU4MTU3NjgsMTE2Nzg0MTg1LDE0NTA2ODYyODgs
-MTY5Nzk1NDY4NywtMjUwNjIxNTgzLDIwODk0MTY3NDYsLTE4Nj
-M5NzQ5ODcsMTAwNjE4MjM2MywtMTYxOTE0MjE1OCwtMTM0Nzcx
-NjI1NCwxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC
-00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLTU0MzA4ODg0NCw0Nzkx
-MDgzNDNdfQ==
+eyJoaXN0b3J5IjpbLTE5NzA0MjA1OTgsOTYxMDA3OTAzLDE4OD
+Y4MjIxMzksMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4NjI4
+OCwxNjk3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0NiwtMT
+g2Mzk3NDk4NywxMDA2MTgyMzYzLC0xNjE5MTQyMTU4LC0xMzQ3
+NzE2MjU0LDE3NTM5MzI0NDMsLTE4OTAwMDA2MTQsNDM2Mjc3MD
+csLTQwNDIzNjk5MCwtMTUzMzg2NjEzNSwtNTQzMDg4ODQ0LDQ3
+OTEwODM0M119
 -->
