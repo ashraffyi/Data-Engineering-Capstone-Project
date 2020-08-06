@@ -421,7 +421,7 @@ All data set is very clean and null fields are still used a case to filter for e
 The project creates a redshift database in a AWS cluster using AWS CloudFormation.  with pre-defined empty tables then it opied over to the tables from s3 bucket. They are columnar in nature which helps with parallelizing the execution of one query on multiple CPUs. 
 
 **ELT Pipeline**
-The project creates a star schema relational database.
+The project creates a star schema relational database. star schema is the simplest style of data mart schema and is the approach most widely used to develop data warehouses and dimensional data marts.[1] The star schema consists of one or more fact tables referencing any number of dimension tables. The star schema is an important special case of the snowflake schema, and is more effective for handling simpler queries.[^2]
 
 
 
@@ -502,13 +502,13 @@ Once you've entered these values, select  **Save**.
 ------
 # Appendix A
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
-
+[^2]:DWH Schemas, 2009, archived from the original on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM3NzI1OTIsMTU4MTgxMDE5MiwxMz
-I1MzM5MzU1LDEzMjYyODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0
-MTI4NywtMTk4MTMzMjkxLDIwMzU1MzI4NjksLTMwMDk3ODM1Ny
-wtMTAyMjIwNjY4MywtOTY0NjY3NDM0LDE1ODkwMzYyMTMsOTcz
-NDI5NzMzLC0xODAwOTY2ODEwLDczMDgwNzI2OSwtMTk3MDQyMD
-U5OCw5NjEwMDc5MDMsMTg4NjgyMjEzOSwxODg1ODE1NzY4LDEx
-Njc4NDE4NV19
+eyJoaXN0b3J5IjpbMjA5MTc1MjU2LDE1ODE4MTAxOTIsMTMyNT
+MzOTM1NSwxMzI2Mjg5NzA4LDExNjg0NDc4NTIsLTE2OTM2NDEy
+ODcsLTE5ODEzMzI5MSwyMDM1NTMyODY5LC0zMDA5NzgzNTcsLT
+EwMjIyMDY2ODMsLTk2NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQy
+OTczMywtMTgwMDk2NjgxMCw3MzA4MDcyNjksLTE5NzA0MjA1OT
+gsOTYxMDA3OTAzLDE4ODY4MjIxMzksMTg4NTgxNTc2OCwxMTY3
+ODQxODVdfQ==
 -->
