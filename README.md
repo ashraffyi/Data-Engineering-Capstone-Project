@@ -270,7 +270,7 @@ _Hospital types are defined by the last four digits of the hospital’s Medicare
 -   Daily
 
 **Formats**
--   GeoJSON, CSV
+-   AWS Data Exchange to S3 as CSV
 
 The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people infected (new and total case), Bed Utilization Rate caused by COVID-19 for a time duration of 30-days in united states based on historical data from JHU.
 
@@ -302,11 +302,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MjQxNzQyMSwtMTgwMDk2NjgxMCw3Mz
-A4MDcyNjksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLDE4ODY4MjIx
-MzksMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4NjI4OCwxNj
-k3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0NiwtMTg2Mzk3
-NDk4NywxMDA2MTgyMzYzLC0xNjE5MTQyMTU4LC0xMzQ3NzE2Mj
-U0LDE3NTM5MzI0NDMsLTE4OTAwMDA2MTQsNDM2Mjc3MDcsLTQw
-NDIzNjk5MF19
+eyJoaXN0b3J5IjpbLTE3ODExMzQ5NTksLTE4MDA5NjY4MTAsNz
+MwODA3MjY5LC0xOTcwNDIwNTk4LDk2MTAwNzkwMywxODg2ODIy
+MTM5LDE4ODU4MTU3NjgsMTE2Nzg0MTg1LDE0NTA2ODYyODgsMT
+Y5Nzk1NDY4NywtMjUwNjIxNTgzLDIwODk0MTY3NDYsLTE4NjM5
+NzQ5ODcsMTAwNjE4MjM2MywtMTYxOTE0MjE1OCwtMTM0NzcxNj
+I1NCwxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC00
+MDQyMzY5OTBdfQ==
 -->
