@@ -12,6 +12,10 @@ On 31 December, 2019, the World Health Organization (WHO) was informed of an out
 
 In response to this ongoing public health emergency, Johns Hopkins University (JHU), a private research university in Maryland, USA, developed an interactive web-based dashboard hosted by their Center for Systems Science and Engineering (CSSE). The dashboard visualizes and tracks reported cases in real-time, illustrating the location and number of confirmed COVID-19 cases, deaths and recoveries for all affected countries. It is used by researchers, public health authorities, news agencies and the general public.
 
+The end case is to have 3 tab the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people cases (Confirmed, Deaths, Recovered, Active), Bed Utilization Rate caused by COVID-19 for a time duration of 30-days in United States based on historical data. This will help hospitals to better manage hospital's resource utilization.
+
+
+
 In that project we will desgine a ETL procress to import csv files form [csse_covid_19_daily_reports_us](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports_us) by JHU which enriched by mapping USA Hospital Beds data from [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions/prod-ydzs6f2cju6qc). The fact table we will use [UID_ISO_FIPS_LookUp_Table.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/UID_ISO_FIPS_LookUp_Table.csv "UID_ISO_FIPS_LookUp_Table.csv")
 
 This project will tackel the ETL procress using the following tools:
@@ -281,9 +285,6 @@ UID_ISO_FIPS_LookUp_Table.csv
 -   The Admin0 level population could be different from the sum of Admin1 level population since they may be from different sources.
 
 Disclaimer: *The names of locations included on the Website correspond with the official designations used by the U.S. Department of State. The presentation of material therein does not imply the expression of any opinion whatsoever on the part of JHU concerning the legal status of any country, area or territory or of its authorities. The depiction and use of boundaries, geographic names and related data shown on maps and included in lists, tables, documents, and databases on this website are not warranted to be error free nor do they necessarily imply official endorsement or acceptance by JHU.
-
-
-The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people cases (Confirmed, Deaths, Recovered, Active), Bed Utilization Rate caused by COVID-19 for a time duration of 30-days in United States based on historical data. This will help hospitals to better manage hospital's resource utilization.
 
 **Update frequency**
 -   Only when a new FIPS code added by U.S. Department of State.
@@ -586,11 +587,11 @@ Again there will be no issue we will just have to incrise the redshift nodes and
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0OTg1MDM1MCw4Mzk5Mzg2ODEsLTE5MD
-A0MTc1MTAsMTExMzYxNDAxNiwxODM5NzQxOTIyLC0xNzc4Mjk1
-MDY1LDU0NDQxNDQwOSwyMDQ3MDI5MzIxLC0xNDUyOTc2NzU2LD
-E1ODE4MTAxOTIsMTMyNTMzOTM1NSwxMzI2Mjg5NzA4LDExNjg0
-NDc4NTIsLTE2OTM2NDEyODcsLTE5ODEzMzI5MSwyMDM1NTMyOD
-Y5LC0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2NzQzNCwx
-NTg5MDM2MjEzXX0=
+eyJoaXN0b3J5IjpbMTQ0MzYxMzQ3MCwtOTQ5ODUwMzUwLDgzOT
+kzODY4MSwtMTkwMDQxNzUxMCwxMTEzNjE0MDE2LDE4Mzk3NDE5
+MjIsLTE3NzgyOTUwNjUsNTQ0NDE0NDA5LDIwNDcwMjkzMjEsLT
+E0NTI5NzY3NTYsMTU4MTgxMDE5MiwxMzI1MzM5MzU1LDEzMjYy
+ODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0MTI4NywtMTk4MTMzMj
+kxLDIwMzU1MzI4NjksLTMwMDk3ODM1NywtMTAyMjIwNjY4Mywt
+OTY0NjY3NDM0XX0=
 -->
