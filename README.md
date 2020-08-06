@@ -496,7 +496,8 @@ jobs:
 13. On the Add build stage Click `Skip build stage`
 14. Click `Skip`
 15. Select the Deploy provider Amazon S3
-16. Select the bucket you created when you r
+16. Select the bucket you created when you run redshift CloudFormation
+17. 
 
 
 
@@ -568,11 +569,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzNDYwNDI1LDE4Mzk3NDE5MjIsLTE3Nz
-gyOTUwNjUsNTQ0NDE0NDA5LDIwNDcwMjkzMjEsLTE0NTI5NzY3
-NTYsMTU4MTgxMDE5MiwxMzI1MzM5MzU1LDEzMjYyODk3MDgsMT
-E2ODQ0Nzg1MiwtMTY5MzY0MTI4NywtMTk4MTMzMjkxLDIwMzU1
-MzI4NjksLTMwMDk3ODM1NywtMTAyMjIwNjY4MywtOTY0NjY3ND
-M0LDE1ODkwMzYyMTMsOTczNDI5NzMzLC0xODAwOTY2ODEwLDcz
-MDgwNzI2OV19
+eyJoaXN0b3J5IjpbLTc2ODI1NzI1MywxODM5NzQxOTIyLC0xNz
+c4Mjk1MDY1LDU0NDQxNDQwOSwyMDQ3MDI5MzIxLC0xNDUyOTc2
+NzU2LDE1ODE4MTAxOTIsMTMyNTMzOTM1NSwxMzI2Mjg5NzA4LD
+ExNjg0NDc4NTIsLTE2OTM2NDEyODcsLTE5ODEzMzI5MSwyMDM1
+NTMyODY5LC0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2Nz
+QzNCwxNTg5MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2NjgxMCw3
+MzA4MDcyNjldfQ==
 -->
