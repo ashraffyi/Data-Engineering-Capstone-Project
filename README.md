@@ -292,11 +292,14 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 ### Step 2: Explore and Assess the Data
 All data set is very clean and null fields are still used a case to filter for example in UID_ISO_FIPS_LookUp_Table a null value in Admin2 field is to donate a state level details. Since we will be only looking at US data the following filters are needed:
 
-**UID_ISO_FIPS_LookUp_Table.csv**: Will be used as fact table with the following filters, which will make sure that we only have US States. 
+**UID_ISO_FIPS_LookUp_Table.csv**: will be used as fact table with the following filters, which will make sure that we only have US States. 
 - Country_Region = "US"
 - Admin2 = NULL
 - Province_State != Null
 - FIPS <=100
+
+**JHU CSSE COVID-19 Dataset**: will be used as a dimension table and the following fields and filters will be imported:
+ 
 
 ### Step 3: Define the Data Model
 ### Step 4: Run ETL to Model the Data
@@ -371,7 +374,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjM1ODA1NSwxNTg5MDM2MjEzLDk3Mz
+eyJoaXN0b3J5IjpbLTk2NDY2NzQzNCwxNTg5MDM2MjEzLDk3Mz
 QyOTczMywtMTgwMDk2NjgxMCw3MzA4MDcyNjksLTE5NzA0MjA1
 OTgsOTYxMDA3OTAzLDE4ODY4MjIxMzksMTg4NTgxNTc2OCwxMT
 Y3ODQxODUsMTQ1MDY4NjI4OCwxNjk3OTU0Njg3LC0yNTA2MjE1
