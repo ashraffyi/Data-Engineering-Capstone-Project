@@ -575,10 +575,10 @@ The goal of the project was to have the data setup for a ML model. The queries w
 ## Addressing other scenarios
 
 ### Data Increased by 100x:
-There will be no promble with S3 bucket and Airflow as each is setup to incrise with load dynamically. 
+There will be no promble with S3 bucket and Airflow as each is setup to incrise with load dynamically. If the load is too high on the redshift we can delete the old one with shapshort and create a new one with more nodes.
 
 ### The pipelines would be run on a daily basis by 7 am every day:
-
+All data expect for AWS Data Exchange
 
 ### The database needed to be accessed by 100+ people:
 
@@ -588,11 +588,11 @@ There will be no promble with S3 bucket and Airflow as each is setup to incrise 
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjkxMzg4Myw4Mzk5Mzg2ODEsLTE5MD
-A0MTc1MTAsMTExMzYxNDAxNiwxODM5NzQxOTIyLC0xNzc4Mjk1
-MDY1LDU0NDQxNDQwOSwyMDQ3MDI5MzIxLC0xNDUyOTc2NzU2LD
-E1ODE4MTAxOTIsMTMyNTMzOTM1NSwxMzI2Mjg5NzA4LDExNjg0
-NDc4NTIsLTE2OTM2NDEyODcsLTE5ODEzMzI5MSwyMDM1NTMyOD
-Y5LC0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2NzQzNCwx
-NTg5MDM2MjEzXX0=
+eyJoaXN0b3J5IjpbLTEwMTk3NzgzNzAsODM5OTM4NjgxLC0xOT
+AwNDE3NTEwLDExMTM2MTQwMTYsMTgzOTc0MTkyMiwtMTc3ODI5
+NTA2NSw1NDQ0MTQ0MDksMjA0NzAyOTMyMSwtMTQ1Mjk3Njc1Ni
+wxNTgxODEwMTkyLDEzMjUzMzkzNTUsMTMyNjI4OTcwOCwxMTY4
+NDQ3ODUyLC0xNjkzNjQxMjg3LC0xOTgxMzMyOTEsMjAzNTUzMj
+g2OSwtMzAwOTc4MzU3LC0xMDIyMjA2NjgzLC05NjQ2Njc0MzQs
+MTU4OTAzNjIxM119
 -->
