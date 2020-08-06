@@ -230,13 +230,11 @@ Outputs:
   AirflowConnectionSettingHost:
     Description: >-
       Airflow Connection Setting
-    Value:
-      Value: !Sub '${RedshiftCluster.Endpoint.Address}'     
+    Value: !Sub '${RedshiftCluster.Endpoint.Address}'     
   AirflowConnectionSettingPort:
     Description: >-
       Airflow Connection Setting
-    Value:
-      Value: !Sub '${RedshiftCluster.Endpoint.Port}'   
+    Value: !Sub '${RedshiftCluster.Endpoint.Port}'   
   AirflowConnectionSettingLogin:
     Description: >-
       Airflow Connection Setting
