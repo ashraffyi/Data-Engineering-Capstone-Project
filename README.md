@@ -204,26 +204,27 @@ This resource includes data on numbers of licensed beds, staffed beds, ICU beds,
 
 **Field description**
 - **Province_State**  - The name of the State within the USA.
-- HOSPITAL_NAME
-HOSPITAL_TYPE
-HQ_ADDRESS
-HQ_ADDRESS1
-HQ_CITY
-HQ_STATE
-HQ_ZIP_CODE
-COUNTY_NAME
-STATE_NAME
-STATE_FIPS
-CNTY_FIPS
-FIPS
-NUM_LICENSED_BEDS
-NUM_STAFFED_BEDS
-NUM_ICU_BEDS
-ADULT_ICU_BEDS
-PEDI_ICU_BEDS
-BED_UTILIZATION
-Potential_Increase_In_Bed_Capac
-AVG_VENTILATOR_USAGE
+- **HOSPITAL_NAME**
+- **HOSPITAL_TYPE**
+- **HQ_ADDRESS**
+- **HQ_ADDRESS1**
+- **HQ_CITY**
+- **HQ_STATE**
+- **HQ_ZIP_CODE**
+- **COUNTY_NAME**
+- **STATE_NAME**
+- **STATE_FIPS**
+- **CNTY_FIPS**
+- **FIPS**
+- **NUM_LICENSED_BEDS**
+- **NUM_STAFFED_BEDS**
+- **NUM_ICU_BEDS**
+- **ADULT_ICU_BEDS**
+- **PEDI_ICU_BEDS**
+- **BED_UTILIZATION**
+- **Potential_Increase_In_Bed_Capac**
+- **AVG_VENTILATOR_USAGE**
+
 
 
 
@@ -257,7 +258,7 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTMxNzg4OTMsNzMwODA3MjY5LC0xOT
+eyJoaXN0b3J5IjpbLTE4MDA5NjY4MTAsNzMwODA3MjY5LC0xOT
 cwNDIwNTk4LDk2MTAwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3
 NjgsMTE2Nzg0MTg1LDE0NTA2ODYyODgsMTY5Nzk1NDY4NywtMj
 UwNjIxNTgzLDIwODk0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4
