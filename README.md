@@ -434,6 +434,9 @@ Hear are the summary of the steps we will take to ETL the data into redshift:
 - AWS CloudFormation to get the [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions/prod-ydzs6f2cju6qc) data into an S3 buckit.
 - We will use Apache Airflow DAGs to select data for US only, marge the data into one table and move data from S3 to redshift
 
+**Stage Tables**
+
+
 ### Step 4: Run ETL to Model the Data
 
 Fellow the steps below to Run the ETL
@@ -546,11 +549,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0NDE0NDA5LDIwNDcwMjkzMjEsLTE0NT
-I5NzY3NTYsMTU4MTgxMDE5MiwxMzI1MzM5MzU1LDEzMjYyODk3
-MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0MTI4NywtMTk4MTMzMjkxLD
-IwMzU1MzI4NjksLTMwMDk3ODM1NywtMTAyMjIwNjY4MywtOTY0
-NjY3NDM0LDE1ODkwMzYyMTMsOTczNDI5NzMzLC0xODAwOTY2OD
-EwLDczMDgwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5MDMsMTg4
-NjgyMjEzOV19
+eyJoaXN0b3J5IjpbLTExMDUwMjQyNTAsNTQ0NDE0NDA5LDIwND
+cwMjkzMjEsLTE0NTI5NzY3NTYsMTU4MTgxMDE5MiwxMzI1MzM5
+MzU1LDEzMjYyODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0MTI4Ny
+wtMTk4MTMzMjkxLDIwMzU1MzI4NjksLTMwMDk3ODM1NywtMTAy
+MjIwNjY4MywtOTY0NjY3NDM0LDE1ODkwMzYyMTMsOTczNDI5Nz
+MzLC0xODAwOTY2ODEwLDczMDgwNzI2OSwtMTk3MDQyMDU5OCw5
+NjEwMDc5MDNdfQ==
 -->
