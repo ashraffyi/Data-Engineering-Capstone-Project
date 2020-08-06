@@ -222,16 +222,29 @@ Outputs:
     Description: Name of cluster security group
     Value:
       Ref: SecurityGroup
-  RedshiftClusterUserName:
+  AirflowConnectionSettingSchema:
     Description: >-
-      The MasterUsername that is associated with the master user account for
-      this cluster.
+      Airflow Connection Setting
+    Value:
+      Ref: DatabaseName  
+  AirflowConnectionSettingHost:
+    Description: >-
+      Airflow Connection Setting
+    Value:
+      Value: !Sub '${RedshiftCluster.Endpoint.Address}'     
+  AirflowConnectionSettingPort:
+    Description: >-
+      Airflow Connection Setting
+    Value:
+      Value: !Sub '${RedshiftCluster.Endpoint.Port}'   
+  AirflowConnectionSettingLogin:
+    Description: >-
+      Airflow Connection Setting
     Value:
       Ref: MasterUsername
-  RedshiftClusterPassword:
+  AirflowConnectionSettingPassword:
     Description: >-
-      The MasterUserPassword that is associated with the master user account for
-      this cluster.
+        Airflow Connection Setting
     Value:
       Ref: MasterUserPassword
 Metadata:
