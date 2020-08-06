@@ -20,8 +20,11 @@ This project will tackel the ETL procress using the following tools:
  - [Amazon Redshift](https://aws.amazon.com/redshift/): The most popular and fastest cloud data warehouse
  - [AWS Data Exchange](https://aws.amazon.com/data-exchange/): makes it easy to find, subscribe to, and use third-party data in the cloud. Qualified data providers include category-leading brands such as Reuters, who curate data from over 2.2 million unique news stories per year in multiple languages; Change Healthcare, who process and anonymize more than 14 billion healthcare transactions and $1 trillion in claims annually; Dun & Bradstreet, who maintain a database of more than 330 million global business records; and Foursquare, whose location data is derived from 220 million unique consumers and includes more than 60 million global commercial venues
 
-Hear are the summary 
-We will be using AWS CloudFormation to setup our infrastructure.  the data from Amazon S3 and transferring data to AWS redshift tables. We will be orchestrating the flow of data through AWS CloudFormation and Apache Airflow DAGs.
+Hear are the summary of the steps we will take to ETL the data into redshift:
+
+- AWS CloudFormation to setup our infrastructure.  
+- AWS CloudFormation to bring in data from 
+the data from Amazon S3 and transferring data to AWS redshift tables. We will be orchestrating the flow of data through AWS CloudFormation and Apache Airflow DAGs.
 
 ### Prerequisites
 
@@ -192,11 +195,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzkxNjM1LDk2MTAwNzkwMywxODg2OD
-IyMTM5LDE4ODU4MTU3NjgsMTE2Nzg0MTg1LDE0NTA2ODYyODgs
-MTY5Nzk1NDY4NywtMjUwNjIxNTgzLDIwODk0MTY3NDYsLTE4Nj
-M5NzQ5ODcsMTAwNjE4MjM2MywtMTYxOTE0MjE1OCwtMTM0Nzcx
-NjI1NCwxNzUzOTMyNDQzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC
-00MDQyMzY5OTAsLTE1MzM4NjYxMzUsLTU0MzA4ODg0NCw0Nzkx
-MDgzNDNdfQ==
+eyJoaXN0b3J5IjpbLTExOTA2ODE3OTMsOTYxMDA3OTAzLDE4OD
+Y4MjIxMzksMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4NjI4
+OCwxNjk3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0NiwtMT
+g2Mzk3NDk4NywxMDA2MTgyMzYzLC0xNjE5MTQyMTU4LC0xMzQ3
+NzE2MjU0LDE3NTM5MzI0NDMsLTE4OTAwMDA2MTQsNDM2Mjc3MD
+csLTQwNDIzNjk5MCwtMTUzMzg2NjEzNSwtNTQzMDg4ODQ0LDQ3
+OTEwODM0M119
 -->
