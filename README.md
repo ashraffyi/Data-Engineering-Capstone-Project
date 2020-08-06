@@ -106,7 +106,7 @@ Total time could take up 30 Minutes and could the cost could Skyrocket if left r
 3. Click `Continue to subscribe`
 4. Click `Subscribe`
 
-### IMPORTANT: Don't forget to shutdown everything. This is very simple
+### IMPORTANT: Don't forget to shutdown everything. 
 1. Go to AWS CloudFormation console 
 2. Select stacks
 3. Select `redshift` click `Delete`
@@ -586,11 +586,11 @@ Again there will be no issue we will just have to incrise the redshift nodes and
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MjQ3MTQwLDgzOTkzODY4MSwtMTkwMD
-QxNzUxMCwxMTEzNjE0MDE2LDE4Mzk3NDE5MjIsLTE3NzgyOTUw
-NjUsNTQ0NDE0NDA5LDIwNDcwMjkzMjEsLTE0NTI5NzY3NTYsMT
-U4MTgxMDE5MiwxMzI1MzM5MzU1LDEzMjYyODk3MDgsMTE2ODQ0
-Nzg1MiwtMTY5MzY0MTI4NywtMTk4MTMzMjkxLDIwMzU1MzI4Nj
-ksLTMwMDk3ODM1NywtMTAyMjIwNjY4MywtOTY0NjY3NDM0LDE1
-ODkwMzYyMTNdfQ==
+eyJoaXN0b3J5IjpbMTIyNjA4NDkxNCw4Mzk5Mzg2ODEsLTE5MD
+A0MTc1MTAsMTExMzYxNDAxNiwxODM5NzQxOTIyLC0xNzc4Mjk1
+MDY1LDU0NDQxNDQwOSwyMDQ3MDI5MzIxLC0xNDUyOTc2NzU2LD
+E1ODE4MTAxOTIsMTMyNTMzOTM1NSwxMzI2Mjg5NzA4LDExNjg0
+NDc4NTIsLTE2OTM2NDEyODcsLTE5ODEzMzI5MSwyMDM1NTMyOD
+Y5LC0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2NzQzNCwx
+NTg5MDM2MjEzXX0=
 -->
