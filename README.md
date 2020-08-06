@@ -417,8 +417,11 @@ All data set is very clean and null fields are still used a case to filter for e
 | Connecticut    | US             | 2020/04/12 23:18 | 41.5978 | -72.7554  | 12035     | 554    |           | 11481  | 9    | 337.5604825   | 41220         | 1654                | 4.603240548    | 84000009 | USA  | 1156.148159  | 13.74324886          |
 | Delaware       | US             | 2020/04/12 23:18 | 39.3185 | -75.5071  | 1625      | 35     | 191       | 1590   | 10   | 166.8782169   | 11103         | 190                 | 2.153846154    | 84000010 | USA  | 1140.214672  | 11.69230769          |
 ### Step 3: Define the Data Model
-Hear are the summary of the steps we will take to ETL the data into redshift:
+The database will use 
 
+
+
+Hear are the summary of the steps we will take to ETL the data into redshift:
 - AWS CloudFormation to setup our infrastructure.  
 - AWS CodePipeline to bring in data from [JHU COVID-19 git repo](https://github.com/CSSEGISandData/COVID-19)
 - AWS Data Exchange to subcribe to [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions/prod-ydzs6f2cju6qc).
@@ -497,11 +500,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTQxNDE1MywxNTgxODEwMTkyLDEzMj
-UzMzkzNTUsMTMyNjI4OTcwOCwxMTY4NDQ3ODUyLC0xNjkzNjQx
-Mjg3LC0xOTgxMzMyOTEsMjAzNTUzMjg2OSwtMzAwOTc4MzU3LC
-0xMDIyMjA2NjgzLC05NjQ2Njc0MzQsMTU4OTAzNjIxMyw5NzM0
-Mjk3MzMsLTE4MDA5NjY4MTAsNzMwODA3MjY5LC0xOTcwNDIwNT
-k4LDk2MTAwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3NjgsMTE2
-Nzg0MTg1XX0=
+eyJoaXN0b3J5IjpbNzExOTkzOTgyLDE1ODE4MTAxOTIsMTMyNT
+MzOTM1NSwxMzI2Mjg5NzA4LDExNjg0NDc4NTIsLTE2OTM2NDEy
+ODcsLTE5ODEzMzI5MSwyMDM1NTMyODY5LC0zMDA5NzgzNTcsLT
+EwMjIyMDY2ODMsLTk2NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQy
+OTczMywtMTgwMDk2NjgxMCw3MzA4MDcyNjksLTE5NzA0MjA1OT
+gsOTYxMDA3OTAzLDE4ODY4MjIxMzksMTg4NTgxNTc2OCwxMTY3
+ODQxODVdfQ==
 -->
