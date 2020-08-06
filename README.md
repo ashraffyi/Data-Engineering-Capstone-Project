@@ -204,9 +204,27 @@ This resource includes data on numbers of licensed beds, staffed beds, ICU beds,
 
 **Field description**
 - **Province_State**  - The name of the State within the USA.
-- **Hospital Name** - Name of the Hospital
-- **Hospital Types** - Type of the Hospital (see Hospital Types below)
-- ** Address
+- HOSPITAL_NAME
+HOSPITAL_TYPE
+HQ_ADDRESS
+HQ_ADDRESS1
+HQ_CITY
+HQ_STATE
+HQ_ZIP_CODE
+COUNTY_NAME
+STATE_NAME
+STATE_FIPS
+CNTY_FIPS
+FIPS
+NUM_LICENSED_BEDS
+NUM_STAFFED_BEDS
+NUM_ICU_BEDS
+ADULT_ICU_BEDS
+PEDI_ICU_BEDS
+BED_UTILIZATION
+Potential_Increase_In_Bed_Capac
+AVG_VENTILATOR_USAGE
+
 
 
 The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people infected (new and total case), Bed Utilization Rate caused by COVID-19 for a time duration of 30-days in united states based on historical data from JHU.
@@ -239,11 +257,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4Mjk1ODg5NSw3MzA4MDcyNjksLTE5Nz
-A0MjA1OTgsOTYxMDA3OTAzLDE4ODY4MjIxMzksMTg4NTgxNTc2
-OCwxMTY3ODQxODUsMTQ1MDY4NjI4OCwxNjk3OTU0Njg3LC0yNT
-A2MjE1ODMsMjA4OTQxNjc0NiwtMTg2Mzk3NDk4NywxMDA2MTgy
-MzYzLC0xNjE5MTQyMTU4LC0xMzQ3NzE2MjU0LDE3NTM5MzI0ND
-MsLTE4OTAwMDA2MTQsNDM2Mjc3MDcsLTQwNDIzNjk5MCwtMTUz
-Mzg2NjEzNV19
+eyJoaXN0b3J5IjpbLTIwNTMxNzg4OTMsNzMwODA3MjY5LC0xOT
+cwNDIwNTk4LDk2MTAwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3
+NjgsMTE2Nzg0MTg1LDE0NTA2ODYyODgsMTY5Nzk1NDY4NywtMj
+UwNjIxNTgzLDIwODk0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4
+MjM2MywtMTYxOTE0MjE1OCwtMTM0NzcxNjI1NCwxNzUzOTMyND
+QzLC0xODkwMDAwNjE0LDQzNjI3NzA3LC00MDQyMzY5OTAsLTE1
+MzM4NjYxMzVdfQ==
 -->
