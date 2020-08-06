@@ -298,6 +298,15 @@ All data set is very clean and null fields are still used a case to filter for e
 - Province_State != Null
 - FIPS <=100
 
+**Columns that will be imported**: 
+- FIPS
+- Province_State
+- Country_Region
+- Lat
+- Long_
+- Population
+
+
 **JHU CSSE COVID-19 Dataset**: will be used as a dimension table and the following fields and filters will be imported:
  
 
@@ -374,11 +383,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDY2NzQzNCwxNTg5MDM2MjEzLDk3Mz
-QyOTczMywtMTgwMDk2NjgxMCw3MzA4MDcyNjksLTE5NzA0MjA1
-OTgsOTYxMDA3OTAzLDE4ODY4MjIxMzksMTg4NTgxNTc2OCwxMT
-Y3ODQxODUsMTQ1MDY4NjI4OCwxNjk3OTU0Njg3LC0yNTA2MjE1
-ODMsMjA4OTQxNjc0NiwtMTg2Mzk3NDk4NywxMDA2MTgyMzYzLC
-0xNjE5MTQyMTU4LC0xMzQ3NzE2MjU0LDE3NTM5MzI0NDMsLTE4
-OTAwMDA2MTRdfQ==
+eyJoaXN0b3J5IjpbLTc2MDA3MDE1MywtOTY0NjY3NDM0LDE1OD
+kwMzYyMTMsOTczNDI5NzMzLC0xODAwOTY2ODEwLDczMDgwNzI2
+OSwtMTk3MDQyMDU5OCw5NjEwMDc5MDMsMTg4NjgyMjEzOSwxOD
+g1ODE1NzY4LDExNjc4NDE4NSwxNDUwNjg2Mjg4LDE2OTc5NTQ2
+ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0OTg3LD
+EwMDYxODIzNjMsLTE2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMTc1
+MzkzMjQ0M119
 -->
