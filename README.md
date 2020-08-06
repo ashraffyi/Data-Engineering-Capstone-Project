@@ -61,8 +61,8 @@ Total time could take up 30 Minutes and could the cost could Skyrocket if left r
 4. Click upload file and choose [Data-Engineering-Capstone-Project-Redshift.yaml](https://github.com/sahussain/Data-Engineering-Capstone-Project/blob/master/Infrastructure/Data-Engineering-Capstone-Project-Redshift.yaml "Data-Engineering-Capstone-Project-Redshift.yaml")
 5. Fill in the stack name as `redshift`
 6. Fill in the `Parameters` and click `Next`
-7. Don't fill any thing on `Configure stack options` and Click `Next`
-8. On Review page click `Create stack`
+8. Don't fill any thing on `Configure stack options` and Click `Next`
+9. On Review page click `Create stack`
 
 ##### Setup Airflow
 
@@ -586,7 +586,7 @@ Again there will be no issue we will just have to incrise the redshift nodes and
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjA4NDkxNCw4Mzk5Mzg2ODEsLTE5MD
+eyJoaXN0b3J5IjpbLTk0OTg1MDM1MCw4Mzk5Mzg2ODEsLTE5MD
 A0MTc1MTAsMTExMzYxNDAxNiwxODM5NzQxOTIyLC0xNzc4Mjk1
 MDY1LDU0NDQxNDQwOSwyMDQ3MDI5MzIxLC0xNDUyOTc2NzU2LD
 E1ODE4MTAxOTIsMTMyNTMzOTM1NSwxMzI2Mjg5NzA4LDExNjg0
