@@ -401,6 +401,7 @@ All data set is very clean and null fields are still used a case to filter for e
 - NUM_ICU_BEDS
 - ADULT_ICU_BEDS
 - PEDI_ICU_BEDS
+- BED_UTILIZATION
 - Potential_Increase_In_Bed_Capac
 - AVG_VENTILATOR_USAGE
 
@@ -514,11 +515,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTMzOTM1NSwxMzI2Mjg5NzA4LDExNj
-g0NDc4NTIsLTE2OTM2NDEyODcsLTE5ODEzMzI5MSwyMDM1NTMy
-ODY5LC0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2NzQzNC
-wxNTg5MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2NjgxMCw3MzA4
-MDcyNjksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLDE4ODY4MjIxMz
-ksMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4NjI4OCwxNjk3
-OTU0Njg3XX0=
+eyJoaXN0b3J5IjpbMTU4MTgxMDE5MiwxMzI1MzM5MzU1LDEzMj
+YyODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0MTI4NywtMTk4MTMz
+MjkxLDIwMzU1MzI4NjksLTMwMDk3ODM1NywtMTAyMjIwNjY4My
+wtOTY0NjY3NDM0LDE1ODkwMzYyMTMsOTczNDI5NzMzLC0xODAw
+OTY2ODEwLDczMDgwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5MD
+MsMTg4NjgyMjEzOSwxODg1ODE1NzY4LDExNjc4NDE4NSwxNDUw
+Njg2Mjg4XX0=
 -->
