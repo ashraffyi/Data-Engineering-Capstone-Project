@@ -525,7 +525,7 @@ On Raspberry Pi
 6. if you get an error code 255 make sure that your aws config under .aws which is in your home folder only have the following line 
 ```
 	[default]
-	region = us-west-2
+	region = us-east-1
 ```
 #### Add AWS credentials to Airflow Connections
 use Airflow's UI to configure your AWS credentials and connection to Redshift.
@@ -583,7 +583,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjUwMjI4Myw4Mzk5Mzg2ODEsLTE5MD
+eyJoaXN0b3J5IjpbMTM2MTUyNTA2NCw4Mzk5Mzg2ODEsLTE5MD
 A0MTc1MTAsMTExMzYxNDAxNiwxODM5NzQxOTIyLC0xNzc4Mjk1
 MDY1LDU0NDQxNDQwOSwyMDQ3MDI5MzIxLC0xNDUyOTc2NzU2LD
 E1ODE4MTAxOTIsMTMyNTMzOTM1NSwxMzI2Mjg5NzA4LDExNjg0
