@@ -560,7 +560,8 @@ Getting redshift connection settings:
 Once you've entered these values, select  **Save**.
 
 #### Run the following Dags
-
+1. Initiation only to be run once
+2. Data_to_redshift
 
 ### Step 5: Complete Project Write Up
 
@@ -586,7 +587,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3MjIyMzUwLDgzOTkzODY4MSwtMTkwMD
+eyJoaXN0b3J5IjpbNDE5MTI5MTUxLDgzOTkzODY4MSwtMTkwMD
 QxNzUxMCwxMTEzNjE0MDE2LDE4Mzk3NDE5MjIsLTE3NzgyOTUw
 NjUsNTQ0NDE0NDA5LDIwNDcwMjkzMjEsLTE0NTI5NzY3NTYsMT
 U4MTgxMDE5MiwxMzI1MzM5MzU1LDEzMjYyODk3MDgsMTE2ODQ0
