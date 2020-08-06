@@ -490,7 +490,11 @@ jobs:
 7. Make sure Artifact store and  Encryption key is set to default 
 8. Select the Source provider: `Github` if this is the first time click `Connect to Github` button, enter your credentials and click authorize
 9. Repository select the fork repo
-10.Branch Select master 
+10. Branch Select master
+11. Leave Change detection options to GitHub webhooks
+12. Click Next
+13. click 
+
 
 
 #### Uploading Dags
@@ -561,7 +565,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODE3MTk3MTYsMTgzOTc0MTkyMiwtMT
+eyJoaXN0b3J5IjpbLTE4NTQzOTQxODgsMTgzOTc0MTkyMiwtMT
 c3ODI5NTA2NSw1NDQ0MTQ0MDksMjA0NzAyOTMyMSwtMTQ1Mjk3
 Njc1NiwxNTgxODEwMTkyLDEzMjUzMzkzNTUsMTMyNjI4OTcwOC
 wxMTY4NDQ3ODUyLC0xNjkzNjQxMjg3LC0xOTgxMzMyOTEsMjAz
