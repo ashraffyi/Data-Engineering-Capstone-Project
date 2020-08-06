@@ -508,11 +508,12 @@ jobs:
 
 #### Importing AWS Data Exchange to S3: [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
 1. Go to your [Subscriptions](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions)
-2. Under 
+2. Under **Entitled data sets** click [USA Hospital Beds | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/entitled-data-sets/298d3e38f0022d96e1e3d9f76f31ba00)
 3. Go to [retrieve new updates automatically using AWS Data Exchange](https://aws.amazon.com/blogs/big-data/find-and-acquire-new-data-sets-and-retrieve-new-updates-automatically-using-aws-data-exchange/)
-4. Scrol to **Automating the retrieval for new data set revisions**
-5. Look for Launch Stack and Click it
-6. Name Stack `aws-dataexchange-to-s3`
+4. Note the Data set ID and take the most rec
+5. Scrol to **Automating the retrieval for new data set revisions**
+6. Look for Launch Stack and Click it
+7. Name Stack `aws-dataexchange-to-s3`
 
 #### Uploading Dags
 On Raspberry Pi
@@ -582,7 +583,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODE2MzEyOTAsMTExMzYxNDAxNiwxOD
+eyJoaXN0b3J5IjpbLTIwNTUyNTYwMTAsMTExMzYxNDAxNiwxOD
 M5NzQxOTIyLC0xNzc4Mjk1MDY1LDU0NDQxNDQwOSwyMDQ3MDI5
 MzIxLC0xNDUyOTc2NzU2LDE1ODE4MTAxOTIsMTMyNTMzOTM1NS
 wxMzI2Mjg5NzA4LDExNjg0NDc4NTIsLTE2OTM2NDEyODcsLTE5
