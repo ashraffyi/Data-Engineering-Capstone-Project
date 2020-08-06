@@ -252,18 +252,15 @@ _Hospital types are defined by the last four digits of the hospital’s Medicare
 ***Children’s Hospitals***
 -   Majority of inpatients under 18 years old
 
-***Psychiatric Hospitals
-
+***Psychiatric Hospitals***
 -   Provides inpatient services for diagnosis and treatment of mental illness 24/7
 -   Under the supervision of a physician
 
-#### Veteran's Affairs (VA) Hospital
-
+***Veteran's Affairs (VA) Hospital***
 -   Responsible for the care of war veterans and other retired military personnel
 -   Administered by the U.S. VA, and funded by the federal government
 
-#### Department of Defense (DoD) Hospital
-
+***Department of Defense (DoD) Hospital***
 -   Provides care for military service people (Army, Navy, Air Force, Marines, and Coast Guard), their dependents, and retirees (not all military service retirees are eligible for VA services)
 
 
@@ -298,11 +295,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk1MzA1MjA1LC0xODAwOTY2ODEwLDczMD
-gwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5MDMsMTg4NjgyMjEz
-OSwxODg1ODE1NzY4LDExNjc4NDE4NSwxNDUwNjg2Mjg4LDE2OT
-c5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC0xODYzOTc0
-OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNTgsLTEzNDc3MTYyNT
-QsMTc1MzkzMjQ0MywtMTg5MDAwMDYxNCw0MzYyNzcwNywtNDA0
-MjM2OTkwXX0=
+eyJoaXN0b3J5IjpbMTk2MTk1OTQ1MywtMTgwMDk2NjgxMCw3Mz
+A4MDcyNjksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLDE4ODY4MjIx
+MzksMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4NjI4OCwxNj
+k3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0NiwtMTg2Mzk3
+NDk4NywxMDA2MTgyMzYzLC0xNjE5MTQyMTU4LC0xMzQ3NzE2Mj
+U0LDE3NTM5MzI0NDMsLTE4OTAwMDA2MTQsNDM2Mjc3MDcsLTQw
+NDIzNjk5MF19
 -->
