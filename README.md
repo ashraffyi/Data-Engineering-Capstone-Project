@@ -23,7 +23,7 @@ This project will tackel the ETL procress using the following tools:
 Hear are the summary of the steps we will take to ETL the data into redshift:
 
 - AWS CloudFormation to setup our infrastructure.  
-- AWS CloudFormation to bring in data from [JHU COVID-19 git repo](https://github.com/CSSEGISandData/COVID-19)
+- AWS CodePipeline to bring in data from [JHU COVID-19 git repo](https://github.com/CSSEGISandData/COVID-19)
 - AWS Data Exchange to subcribe to [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions/prod-ydzs6f2cju6qc).
 - We will use Apache Airflow DAGs to select data for US only, marge the data into one table and move data from S3 to redshift
 
@@ -503,11 +503,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDk3ODM1NywtMTAyMjIwNjY4MywtOT
-Y0NjY3NDM0LDE1ODkwMzYyMTMsOTczNDI5NzMzLC0xODAwOTY2
-ODEwLDczMDgwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5MDMsMT
-g4NjgyMjEzOSwxODg1ODE1NzY4LDExNjc4NDE4NSwxNDUwNjg2
-Mjg4LDE2OTc5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC
-0xODYzOTc0OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNTgsLTEz
-NDc3MTYyNTRdfQ==
+eyJoaXN0b3J5IjpbMTk5Mjg5OTU3NiwtMzAwOTc4MzU3LC0xMD
+IyMjA2NjgzLC05NjQ2Njc0MzQsMTU4OTAzNjIxMyw5NzM0Mjk3
+MzMsLTE4MDA5NjY4MTAsNzMwODA3MjY5LC0xOTcwNDIwNTk4LD
+k2MTAwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3NjgsMTE2Nzg0
+MTg1LDE0NTA2ODYyODgsMTY5Nzk1NDY4NywtMjUwNjIxNTgzLD
+IwODk0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4MjM2MywtMTYx
+OTE0MjE1OF19
 -->
