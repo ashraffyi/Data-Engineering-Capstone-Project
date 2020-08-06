@@ -287,7 +287,7 @@ All data set is very clean and null fields are still used a case to filter for e
 **UID_ISO_FIPS_LookUp_Table.csv**: will be used as fact table with the following filters, which will make sure that we only have US States. 
 
 
-Redshift Table Name:
+**Redshift Table Name:** Master
 
 **Filters**:
 - Country_Region = "US"
@@ -510,7 +510,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDIyNjc2OSwyMDM1NTMyODY5LC0zMD
+eyJoaXN0b3J5IjpbMTU4MDkxMjE1MSwyMDM1NTMyODY5LC0zMD
 A5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2NzQzNCwxNTg5MDM2
 MjEzLDk3MzQyOTczMywtMTgwMDk2NjgxMCw3MzA4MDcyNjksLT
 E5NzA0MjA1OTgsOTYxMDA3OTAzLDE4ODY4MjIxMzksMTg4NTgx
