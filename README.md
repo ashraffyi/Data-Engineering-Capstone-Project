@@ -509,15 +509,8 @@ jobs:
 #### Importing AWS Data Exchange to S3: [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
 1. Go to your [Subscriptions](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions)
 2. Under **Entitled data sets** click [USA Hospital Beds | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/entitled-data-sets/298d3e38f0022d96e1e3d9f76f31ba00)
-3. Note the **Data set ID** and take note of the most recent **Revision ID**
-4.  Go to [retrieve new updates automatically using AWS Data Exchange](https://aws.amazon.com/blogs/big-data/find-and-acquire-new-data-sets-and-retrieve-new-updates-automatically-using-aws-data-exchange/)
-5. Scrol to **Automating the retrieval for new data set revisions**
-6. Look for Launch Stack and Click it
-7. Name Stack `hospital-beds`
-8. Fill in the **Data set ID** and take note of the most recent **Revision ID** 
-9. Check all boxes Capabilities and transforms
-10. Click Create stack
-Note this will create a S3 bucket with the prifix aws-dataexchange-to-s3-datas
+3. click on the most recent **Revision ID**
+4. 
 
 #### Uploading Dags
 On Raspberry Pi
@@ -587,11 +580,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5OTM4NjgxLC0xOTAwNDE3NTEwLDExMT
-M2MTQwMTYsMTgzOTc0MTkyMiwtMTc3ODI5NTA2NSw1NDQ0MTQ0
-MDksMjA0NzAyOTMyMSwtMTQ1Mjk3Njc1NiwxNTgxODEwMTkyLD
-EzMjUzMzkzNTUsMTMyNjI4OTcwOCwxMTY4NDQ3ODUyLC0xNjkz
-NjQxMjg3LC0xOTgxMzMyOTEsMjAzNTUzMjg2OSwtMzAwOTc4Mz
-U3LC0xMDIyMjA2NjgzLC05NjQ2Njc0MzQsMTU4OTAzNjIxMyw5
-NzM0Mjk3MzNdfQ==
+eyJoaXN0b3J5IjpbMjAzODg5MzI5Miw4Mzk5Mzg2ODEsLTE5MD
+A0MTc1MTAsMTExMzYxNDAxNiwxODM5NzQxOTIyLC0xNzc4Mjk1
+MDY1LDU0NDQxNDQwOSwyMDQ3MDI5MzIxLC0xNDUyOTc2NzU2LD
+E1ODE4MTAxOTIsMTMyNTMzOTM1NSwxMzI2Mjg5NzA4LDExNjg0
+NDc4NTIsLTE2OTM2NDEyODcsLTE5ODEzMzI5MSwyMDM1NTMyOD
+Y5LC0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2NzQzNCwx
+NTg5MDM2MjEzXX0=
 -->
