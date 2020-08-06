@@ -507,7 +507,10 @@ jobs:
 18. Click Create pipeline
 
 #### Importing AWS Data Exchange to S3: [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
-1. Go to [retrieve new updates automatically using AWS Data Exchange
+1. Go to [retrieve new updates automatically using AWS Data Exchange](https://aws.amazon.com/blogs/big-data/find-and-acquire-new-data-sets-and-retrieve-new-updates-automatically-using-aws-data-exchange/)
+2. Scrol to **Automating the retrieval for new data set revisions**
+3. Look for Launch Stack and Click it
+4. Name Stack `aws-dataexchange-to-s3`
 
 #### Uploading Dags
 On Raspberry Pi
@@ -577,11 +580,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDgxMTkzNiwxMTEzNjE0MDE2LDE4Mz
-k3NDE5MjIsLTE3NzgyOTUwNjUsNTQ0NDE0NDA5LDIwNDcwMjkz
-MjEsLTE0NTI5NzY3NTYsMTU4MTgxMDE5MiwxMzI1MzM5MzU1LD
-EzMjYyODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0MTI4NywtMTk4
-MTMzMjkxLDIwMzU1MzI4NjksLTMwMDk3ODM1NywtMTAyMjIwNj
-Y4MywtOTY0NjY3NDM0LDE1ODkwMzYyMTMsOTczNDI5NzMzLC0x
-ODAwOTY2ODEwXX0=
+eyJoaXN0b3J5IjpbNzMzOTQyNzgwLDExMTM2MTQwMTYsMTgzOT
+c0MTkyMiwtMTc3ODI5NTA2NSw1NDQ0MTQ0MDksMjA0NzAyOTMy
+MSwtMTQ1Mjk3Njc1NiwxNTgxODEwMTkyLDEzMjUzMzkzNTUsMT
+MyNjI4OTcwOCwxMTY4NDQ3ODUyLC0xNjkzNjQxMjg3LC0xOTgx
+MzMyOTEsMjAzNTUzMjg2OSwtMzAwOTc4MzU3LC0xMDIyMjA2Nj
+gzLC05NjQ2Njc0MzQsMTU4OTAzNjIxMyw5NzM0Mjk3MzMsLTE4
+MDA5NjY4MTBdfQ==
 -->
