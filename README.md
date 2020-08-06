@@ -423,6 +423,17 @@ All data set is very clean and null fields are still used a case to filter for e
 | Short Term Acute Care Hospital | 1          | 35                | 25               | 4            | 4              | 0             | 10                              | 1                    |
 
 ### Step 3: Define the Data Model
+
+
+
+Hear are the summary of the steps we will take to ETL the data into redshift:
+
+- AWS CloudFormation to setup our infrastructure.  
+- AWS CodePipeline to bring in data from [JHU COVID-19 git repo](https://github.com/CSSEGISandData/COVID-19)
+- AWS Data Exchange to subcribe to [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions/prod-ydzs6f2cju6qc).
+- AWS CloudFormation to get the [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://console.aws.amazon.com/dataexchange/home?region=us-east-1#/subscriptions/prod-ydzs6f2cju6qc) data into an S3 buckit.
+- We will use Apache Airflow DAGs to select data for US only, marge the data into one table and move data from S3 to redshift
+
 ### Step 4: Run ETL to Model the Data
 
 Fellow the steps below to Run the ETL
@@ -495,11 +506,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3Mzk2MjUyLC0zMDA5NzgzNTcsLTEwMj
-IyMDY2ODMsLTk2NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQyOTcz
-MywtMTgwMDk2NjgxMCw3MzA4MDcyNjksLTE5NzA0MjA1OTgsOT
-YxMDA3OTAzLDE4ODY4MjIxMzksMTg4NTgxNTc2OCwxMTY3ODQx
-ODUsMTQ1MDY4NjI4OCwxNjk3OTU0Njg3LC0yNTA2MjE1ODMsMj
-A4OTQxNjc0NiwtMTg2Mzk3NDk4NywxMDA2MTgyMzYzLC0xNjE5
-MTQyMTU4XX0=
+eyJoaXN0b3J5IjpbMjAzNTUzMjg2OSwtMzAwOTc4MzU3LC0xMD
+IyMjA2NjgzLC05NjQ2Njc0MzQsMTU4OTAzNjIxMyw5NzM0Mjk3
+MzMsLTE4MDA5NjY4MTAsNzMwODA3MjY5LC0xOTcwNDIwNTk4LD
+k2MTAwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3NjgsMTE2Nzg0
+MTg1LDE0NTA2ODYyODgsMTY5Nzk1NDY4NywtMjUwNjIxNTgzLD
+IwODk0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4MjM2MywtMTYx
+OTE0MjE1OF19
 -->
