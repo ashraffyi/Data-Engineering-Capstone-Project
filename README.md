@@ -513,7 +513,7 @@ jobs:
 4.  Go to [retrieve new updates automatically using AWS Data Exchange](https://aws.amazon.com/blogs/big-data/find-and-acquire-new-data-sets-and-retrieve-new-updates-automatically-using-aws-data-exchange/)
 5. Scrol to **Automating the retrieval for new data set revisions**
 6. Look for Launch Stack and Click it
-7. Name Stack `aws-dataexchange-to-s3`
+7. Name Stack `hospital-beds`
 8. Fill in the **Data set ID** and take note of the most recent **Revision ID** 
 9. Check all boxes Capabilities and transforms
 10. Click Create stack
@@ -587,11 +587,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDA0MTc1MTAsMTExMzYxNDAxNiwxOD
-M5NzQxOTIyLC0xNzc4Mjk1MDY1LDU0NDQxNDQwOSwyMDQ3MDI5
-MzIxLC0xNDUyOTc2NzU2LDE1ODE4MTAxOTIsMTMyNTMzOTM1NS
-wxMzI2Mjg5NzA4LDExNjg0NDc4NTIsLTE2OTM2NDEyODcsLTE5
-ODEzMzI5MSwyMDM1NTMyODY5LC0zMDA5NzgzNTcsLTEwMjIyMD
-Y2ODMsLTk2NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQyOTczMywt
-MTgwMDk2NjgxMF19
+eyJoaXN0b3J5IjpbODM5OTM4NjgxLC0xOTAwNDE3NTEwLDExMT
+M2MTQwMTYsMTgzOTc0MTkyMiwtMTc3ODI5NTA2NSw1NDQ0MTQ0
+MDksMjA0NzAyOTMyMSwtMTQ1Mjk3Njc1NiwxNTgxODEwMTkyLD
+EzMjUzMzkzNTUsMTMyNjI4OTcwOCwxMTY4NDQ3ODUyLC0xNjkz
+NjQxMjg3LC0xOTgxMzMyOTEsMjAzNTUzMjg2OSwtMzAwOTc4Mz
+U3LC0xMDIyMjA2NjgzLC05NjQ2Njc0MzQsMTU4OTAzNjIxMyw5
+NzM0Mjk3MzNdfQ==
 -->
