@@ -334,6 +334,12 @@ All data set is very clean and null fields are still used a case to filter for e
 
 
 **JHU CSSE COVID-19 Dataset**: will be used as a dimension table and the following fields and filters will be imported:
+
+**Filters**: NONE
+
+
+
+
  
 
 ### Step 3: Define the Data Model
@@ -409,11 +415,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDIwNDQ5MCwtMTAyMjIwNjY4MywtOT
-Y0NjY3NDM0LDE1ODkwMzYyMTMsOTczNDI5NzMzLC0xODAwOTY2
-ODEwLDczMDgwNzI2OSwtMTk3MDQyMDU5OCw5NjEwMDc5MDMsMT
-g4NjgyMjEzOSwxODg1ODE1NzY4LDExNjc4NDE4NSwxNDUwNjg2
-Mjg4LDE2OTc5NTQ2ODcsLTI1MDYyMTU4MywyMDg5NDE2NzQ2LC
-0xODYzOTc0OTg3LDEwMDYxODIzNjMsLTE2MTkxNDIxNTgsLTEz
-NDc3MTYyNTRdfQ==
+eyJoaXN0b3J5IjpbLTIxMjkyMTM5NTEsLTEwMjIyMDY2ODMsLT
+k2NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQyOTczMywtMTgwMDk2
+NjgxMCw3MzA4MDcyNjksLTE5NzA0MjA1OTgsOTYxMDA3OTAzLD
+E4ODY4MjIxMzksMTg4NTgxNTc2OCwxMTY3ODQxODUsMTQ1MDY4
+NjI4OCwxNjk3OTU0Njg3LC0yNTA2MjE1ODMsMjA4OTQxNjc0Ni
+wtMTg2Mzk3NDk4NywxMDA2MTgyMzYzLC0xNjE5MTQyMTU4LC0x
+MzQ3NzE2MjU0XX0=
 -->
