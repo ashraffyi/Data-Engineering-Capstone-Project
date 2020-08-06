@@ -152,10 +152,11 @@ Once you've entered these values, select  **Save**.
 
 ### Step 1: Scope the Project and Gather Data
 The following datasets will be used:
-1. [Global Coronavirus (COVID-19) Data (Corona Data Scraper)](https://aws.amazon.com/marketplace/pp/Global-Coronavirus-COVID-19-Data-Corona-Data-Scrap/prodview-vtnf3vvvheqzw) 
-	 - Provided By: Enigma
-	 - 
-2. [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
+#### [Global Coronavirus (COVID-19) Data (Corona Data Scraper)](https://aws.amazon.com/marketplace/pp/Global-Coronavirus-COVID-19-Data-Corona-Data-Scrap/prodview-vtnf3vvvheqzw) 
+
+Provided By: Enigma
+
+#### [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
 3. [fips-codes](https://github.com/kjhealy/fips-codes)
 
 The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people infected (new and total case), Bed Utilization Rate caused by COVID-19 for a time duration of 30-days in united states based on historical data from JHU.
@@ -188,7 +189,7 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDM1NzYxNCwxODg1ODE1NzY4LDExNj
+eyJoaXN0b3J5IjpbMTg4NjgyMjEzOSwxODg1ODE1NzY4LDExNj
 c4NDE4NSwxNDUwNjg2Mjg4LDE2OTc5NTQ2ODcsLTI1MDYyMTU4
 MywyMDg5NDE2NzQ2LC0xODYzOTc0OTg3LDEwMDYxODIzNjMsLT
 E2MTkxNDIxNTgsLTEzNDc3MTYyNTQsMTc1MzkzMjQ0MywtMTg5
