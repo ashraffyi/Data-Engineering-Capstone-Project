@@ -156,7 +156,7 @@ The following datasets will be used:
 2. [USA Hospital Beds - COVID-19 | Definitive Healthcare](https://aws.amazon.com/marketplace/pp/USA-Hospital-Beds-COVID-19-Definitive-Healthcare/prodview-yivxd2owkloha)
 3. [fips-codes](https://github.com/kjhealy/fips-codes)
 
-The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people infected (new and total case),  caused by COVID-19 for a time duration of 30-days based on historical data from JHU.
+The end case is to have the data avaliable in Redshift so that we can build on my other project [Udacity-MLEN-CapstoneProject](https://github.com/sahussain/Udacity-MLEN-CapstoneProject) to forecast number of people infected (new and total case), Bed Utilization Rate caused by COVID-19 for a time duration of 30-days in  based on historical data from JHU.
 
 
 ### Step 2: Explore and Assess the Data
@@ -186,11 +186,11 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNTU5NTQwLDE4ODU4MTU3NjgsMTE2Nz
-g0MTg1LDE0NTA2ODYyODgsMTY5Nzk1NDY4NywtMjUwNjIxNTgz
-LDIwODk0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4MjM2MywtMT
-YxOTE0MjE1OCwtMTM0NzcxNjI1NCwxNzUzOTMyNDQzLC0xODkw
-MDAwNjE0LDQzNjI3NzA3LC00MDQyMzY5OTAsLTE1MzM4NjYxMz
-UsLTU0MzA4ODg0NCw0NzkxMDgzNDMsMTk4MDU2MTQ0NSwtNTk4
-NzY3MTY4XX0=
+eyJoaXN0b3J5IjpbLTIwNzI5MjA1ODAsMTg4NTgxNTc2OCwxMT
+Y3ODQxODUsMTQ1MDY4NjI4OCwxNjk3OTU0Njg3LC0yNTA2MjE1
+ODMsMjA4OTQxNjc0NiwtMTg2Mzk3NDk4NywxMDA2MTgyMzYzLC
+0xNjE5MTQyMTU4LC0xMzQ3NzE2MjU0LDE3NTM5MzI0NDMsLTE4
+OTAwMDA2MTQsNDM2Mjc3MDcsLTQwNDIzNjk5MCwtMTUzMzg2Nj
+EzNSwtNTQzMDg4ODQ0LDQ3OTEwODM0MywxOTgwNTYxNDQ1LC01
+OTg3NjcxNjhdfQ==
 -->
