@@ -285,6 +285,10 @@ The end case is to have the data avaliable in Redshift so that we can build on m
 All data set is very clean and null fields are still used a case to filter for example in UID_ISO_FIPS_LookUp_Table a null value in Admin2 field is to donate a state level details. Since we will be only looking at US data the following filters are needed:
 
 **UID_ISO_FIPS_LookUp_Table.csv**: will be used as fact table with the following filters, which will make sure that we only have US States. 
+
+
+Redshift Table Name:
+
 **Filters**:
 - Country_Region = "US"
 - Admin2 = NULL
@@ -506,11 +510,11 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTUzMjg2OSwtMzAwOTc4MzU3LC0xMD
-IyMjA2NjgzLC05NjQ2Njc0MzQsMTU4OTAzNjIxMyw5NzM0Mjk3
-MzMsLTE4MDA5NjY4MTAsNzMwODA3MjY5LC0xOTcwNDIwNTk4LD
-k2MTAwNzkwMywxODg2ODIyMTM5LDE4ODU4MTU3NjgsMTE2Nzg0
-MTg1LDE0NTA2ODYyODgsMTY5Nzk1NDY4NywtMjUwNjIxNTgzLD
-IwODk0MTY3NDYsLTE4NjM5NzQ5ODcsMTAwNjE4MjM2MywtMTYx
-OTE0MjE1OF19
+eyJoaXN0b3J5IjpbLTUyNDIyNjc2OSwyMDM1NTMyODY5LC0zMD
+A5NzgzNTcsLTEwMjIyMDY2ODMsLTk2NDY2NzQzNCwxNTg5MDM2
+MjEzLDk3MzQyOTczMywtMTgwMDk2NjgxMCw3MzA4MDcyNjksLT
+E5NzA0MjA1OTgsOTYxMDA3OTAzLDE4ODY4MjIxMzksMTg4NTgx
+NTc2OCwxMTY3ODQxODUsMTQ1MDY4NjI4OCwxNjk3OTU0Njg3LC
+0yNTA2MjE1ODMsMjA4OTQxNjc0NiwtMTg2Mzk3NDk4NywxMDA2
+MTgyMzYzXX0=
 -->
