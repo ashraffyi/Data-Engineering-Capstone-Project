@@ -423,6 +423,7 @@ The project creates a redshift database in a AWS cluster using AWS CloudFormatio
 **ELT Pipeline**
 The project creates a star schema relational database. star schema is the simplest style of data mart schema and is the approach most widely used to develop data warehouses and dimensional data marts.[1] The star schema consists of one or more fact tables referencing any number of dimension tables. The star schema is an important special case of the snowflake schema, and is more effective for handling simpler queries.[^2]
 
+The star schema was chosen because of the end case scenario 
 
 
 Hear are the summary of the steps we will take to ETL the data into redshift:
@@ -504,7 +505,7 @@ Once you've entered these values, select  **Save**.
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTYzODQ3LDE1ODE4MTAxOTIsMTMyNT
+eyJoaXN0b3J5IjpbNDA0NjI0MTUxLDE1ODE4MTAxOTIsMTMyNT
 MzOTM1NSwxMzI2Mjg5NzA4LDExNjg0NDc4NTIsLTE2OTM2NDEy
 ODcsLTE5ODEzMzI5MSwyMDM1NTMyODY5LC0zMDA5NzgzNTcsLT
 EwMjIyMDY2ODMsLTk2NDY2NzQzNCwxNTg5MDM2MjEzLDk3MzQy
