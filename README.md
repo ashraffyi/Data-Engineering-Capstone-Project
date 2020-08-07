@@ -402,7 +402,6 @@ All data set is very clean and null fields are still used a case to filter for e
 **Redshift Table Name:** hospital
 
 **Filters**: 
-- Last_Update IsNotNULL
 - STATE_FIPS<100
 
 **Columns that will be imported**: 
@@ -588,11 +587,11 @@ Again there will be no issue we will just have to incrise the redshift nodes and
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODMxMDk0Niw3NDI5MDA2MSwtOTQ5OD
-UwMzUwLDgzOTkzODY4MSwtMTkwMDQxNzUxMCwxMTEzNjE0MDE2
-LDE4Mzk3NDE5MjIsLTE3NzgyOTUwNjUsNTQ0NDE0NDA5LDIwND
-cwMjkzMjEsLTE0NTI5NzY3NTYsMTU4MTgxMDE5MiwxMzI1MzM5
-MzU1LDEzMjYyODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0MTI4Ny
-wtMTk4MTMzMjkxLDIwMzU1MzI4NjksLTMwMDk3ODM1NywtMTAy
-MjIwNjY4M119
+eyJoaXN0b3J5IjpbLTU0MjUxNzg2OSwtMjk4MzEwOTQ2LDc0Mj
+kwMDYxLC05NDk4NTAzNTAsODM5OTM4NjgxLC0xOTAwNDE3NTEw
+LDExMTM2MTQwMTYsMTgzOTc0MTkyMiwtMTc3ODI5NTA2NSw1ND
+Q0MTQ0MDksMjA0NzAyOTMyMSwtMTQ1Mjk3Njc1NiwxNTgxODEw
+MTkyLDEzMjUzMzkzNTUsMTMyNjI4OTcwOCwxMTY4NDQ3ODUyLC
+0xNjkzNjQxMjg3LC0xOTgxMzMyOTEsMjAzNTUzMjg2OSwtMzAw
+OTc4MzU3XX0=
 -->
