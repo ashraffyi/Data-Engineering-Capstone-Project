@@ -302,8 +302,8 @@ All data set is very clean and null fields are still used a case to filter for e
 **Redshift Table Name:** MasterNode
 
 **Filters**:
-- Country_Region = "US"
-- Admin2 = NULL
+- Country_Region = 'US'
+- Admin2 IS  NULL
 - Province_State != Null
 - FIPS <=100
 
@@ -588,11 +588,11 @@ Again there will be no issue we will just have to incrise the redshift nodes and
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyOTAwNjEsLTk0OTg1MDM1MCw4Mzk5Mz
-g2ODEsLTE5MDA0MTc1MTAsMTExMzYxNDAxNiwxODM5NzQxOTIy
-LC0xNzc4Mjk1MDY1LDU0NDQxNDQwOSwyMDQ3MDI5MzIxLC0xND
-UyOTc2NzU2LDE1ODE4MTAxOTIsMTMyNTMzOTM1NSwxMzI2Mjg5
-NzA4LDExNjg0NDc4NTIsLTE2OTM2NDEyODcsLTE5ODEzMzI5MS
-wyMDM1NTMyODY5LC0zMDA5NzgzNTcsLTEwMjIyMDY2ODMsLTk2
-NDY2NzQzNF19
+eyJoaXN0b3J5IjpbLTI5ODMxMDk0Niw3NDI5MDA2MSwtOTQ5OD
+UwMzUwLDgzOTkzODY4MSwtMTkwMDQxNzUxMCwxMTEzNjE0MDE2
+LDE4Mzk3NDE5MjIsLTE3NzgyOTUwNjUsNTQ0NDE0NDA5LDIwND
+cwMjkzMjEsLTE0NTI5NzY3NTYsMTU4MTgxMDE5MiwxMzI1MzM5
+MzU1LDEzMjYyODk3MDgsMTE2ODQ0Nzg1MiwtMTY5MzY0MTI4Ny
+wtMTk4MTMzMjkxLDIwMzU1MzI4NjksLTMwMDk3ODM1NywtMTAy
+MjIwNjY4M119
 -->
