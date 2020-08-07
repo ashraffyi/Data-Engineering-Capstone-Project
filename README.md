@@ -74,12 +74,13 @@ Total time could take up 30 Minutes and could the cost could Skyrocket if left r
 1. Go to [Turbine git repo](https://github.com/villasv/aws-airflow-stack)
 2. Scroll down until you see 'Deploy the stack` and click Launch stack
 3. On the Create stack page click `Next`
-4. Name your stack airflow and set `Minimum group size` to atleast 3 and  click `Next`. You don't need to change anything on this page
-5. Don't fill any thing on `Configure stack options` and Click `Next`
-6. On Review page Scroll down to `Capabilities` and check both 
+4. Name your stack airflow and set `Minimum group size` to atleast 3 and  Maximum group size to 20 
+5. Click `Next`. You don't need to change anything on this page
+6. Don't fill any thing on `Configure stack options` and Click `Next`
+7. On Review page Scroll down to `Capabilities` and check both 
 	- I acknowledge that AWS CloudFormation might create IAM resources with custom names.
 	- I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND
-7. Click `Create stack`
+8. Click `Create stack`
 
 #### Update Airflow security group to accept HTTP:
  1. Go to EC2 Dashboard
@@ -587,7 +588,7 @@ Again there will be no issue we will just have to incrise the redshift nodes and
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[_DWH Schemas_](https://web.archive.org/web/20100716233800/http://www.dwhworld.com/dwh-schemas/), 2009, archived from [the original](http://www.dwhworld.com/dwh-schemas/) on 16 July 2010
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzA3NTg4OTAsLTU0MjUxNzg2OSwtMj
+eyJoaXN0b3J5IjpbLTEyODMwMjUzOTEsLTU0MjUxNzg2OSwtMj
 k4MzEwOTQ2LDc0MjkwMDYxLC05NDk4NTAzNTAsODM5OTM4Njgx
 LC0xOTAwNDE3NTEwLDExMTM2MTQwMTYsMTgzOTc0MTkyMiwtMT
 c3ODI5NTA2NSw1NDQ0MTQ0MDksMjA0NzAyOTMyMSwtMTQ1Mjk3
