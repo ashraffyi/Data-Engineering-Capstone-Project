@@ -1,9 +1,10 @@
-# Data Engineering Nanodegree
-## Capstone Project
-Ashraf Hussain 
-August 3, 2020
-
-Data Engineer Nanodegree: 
+<h1> Data Engineering Capstone Project
+<br />Data Engineering Nanodegree
+</h1>
+Author: Ashraf Hussain
+<br />Date: Aug 7, 2020
+<br />
+<br />
 
 ## I. Definition
 
